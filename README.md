@@ -89,3 +89,7 @@ My target audience for Muddy Paws Rescue Centre is going to be families with chi
 | Show users where the Rescue Centre is located and it's contact details |     4      |            5            | Pink   |
 | Ask users to donate to the Rescue Centre                               |     4      |            1            | Purple |
 | Total                                                                  |     20     |           16            |
+
+<br>
+
+![Scattergraph of the Objectives, Importance and Viability/Feasibility table](/assets/images/objectives-scatter-graph.PNG "Objectives, Importance and Viability/Feasibility table")
