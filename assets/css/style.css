@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+/* ----------------------------------------------------- General Styling */
+
+body {
+    font-family: 'Dosis', sans-serif;
+}
+
+/* ----------------------------------------------------- Header */
+
+.logo {
+    display: inline-block;
+    float: left;
+    height: 120px;
+    width: 120px;
+}
+
+.menu {
+    display: inline-block;
+    float: right;
+    margin-top: 40px;
+    margin-right: 600px;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-left: 250px;
+    font-size: 150%;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.fa-solid {
+    margin-left: 10px;
+}
