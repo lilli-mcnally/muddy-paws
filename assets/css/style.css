@@ -7,34 +7,34 @@
 body {
     font-family: "Dosis", sans-serif;
     color: #000;
-    background-color: rgb(173, 233, 126, 0.05);
+    background-color: rgb(173, 233, 126, 0.07);
     margin: 0;
 }
 
 /* ----------------------------------------------------- Header */
 
 #logo {
-    height: 120px;
-    width: 120px;
-    margin: 10px;
+    height: 75px;
+    width: 75px;
+    margin: 5px;
 }
 
 #menu {
     position: relative;
-    left: 150px;
-    bottom: 100px;
-    width: 100%;
+    left: 200px;
+    bottom: 75px;
+    width: 80%;
     height: 75px;
     text-align: center;
 }
 
-#menu ul {
+ul {
     list-style-type: none;
 }
 
 #menu ul li {
     display: inline-block;
-    margin-right: 200px;
+    margin-right: 150px;
     font-size: 150%;
 }
 
@@ -57,9 +57,9 @@ body {
 /* ----------------------------------------------------- Hero Image */
 
 #hero-image {
+    height: 350px;
     width: 100%;
-    height: 500px;
-    background: url("../images/couple-dog.jpg") no-repeat center center;
+    background: url("../images/dogs-bubbles.jpg") no-repeat center center;
 }
 
 #hero-outer {
@@ -67,4 +67,38 @@ body {
     height: 400px;
     position: relative;
     bottom: 90px;
+}
+
+/* ----------------------------------------------------- Dog Preview */
+
+#dog-preview {
+    text-align: center;
+}
+
+.dog-image {
+    display: inline-block;
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    margin-top: 30px;
+    padding: 5px;
+    border: 3px solid #12822A;
+    border-radius: 50%;
+}
+
+.dog-box {
+    text-align: center;
+    display: inline-block;
+}
+
+.dog-left {
+    margin-right: 8%;
+}
+
+.dog-right {
+    margin-left: 8%;
+}
+
+.dog-box div {
+    text-align: left;
 }
