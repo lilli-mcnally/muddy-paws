@@ -58,7 +58,7 @@ ul {
 }
 
 #menu a:hover {
-    border-bottom: 2px solid #12822A;
+    text-decoration: underline;
     color: #12822A;
 }
 
@@ -121,7 +121,6 @@ ul {
 }
 
 .dog-image {
-    /* display: inline-block; */
     height: 300px;
     width: 300px;
     object-fit: cover;
@@ -130,31 +129,44 @@ ul {
     border-radius: 50%;
 }
 
-.meet-dogs {
-    height: 50px;
-    width: 50%;
-    margin: auto;
-    background-color: #92C992;
-    text-align: center;
-    padding: 10px;
-    margin-top: 50px;
-    border-radius: 15px; 
+.meet-dogs-link h2 {
+    margin: 0;
 }
-
-.meet-dogs h2 {
-    margin: 10px;
-}
-
-
 
 .meet-dogs-link {
     text-decoration: none;
     color: black;
     font-weight: 800;
+    width: 40%;
+    margin: auto;
+    background-color: #CCE5CC;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 15px;
+    padding: 10px 0 10px 0;
+    display: block;
 }
 
 .meet-dogs-link:hover {
-    border-bottom: 2px solid #000
+    text-decoration: underline;
+    background-color: #92C992;
+
+}
+
+.meet-dogs {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    background-color: #CCE5CC;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: block;
+}
+
+.meet-dogs:hover {
+    text-decoration: underline;
+    background-color: #92C992;
 }
 
 
