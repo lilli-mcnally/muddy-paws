@@ -173,3 +173,34 @@ ul {
 .fa-arrow-right {
     margin-left: 15px;
 }
+
+
+/* ----------------------------------------------------- About Us */
+
+
+.about-us {
+    display: inline-block;
+    height: 250px;
+    width: 33%;
+    padding: 20px;
+    margin: 20px 5px 20px 5px;
+    background-color: #52C9EF;
+    border-radius: 25px;
+}
+
+#about-us-left {
+    float: left;
+}
+
+#about-us-right {
+    float: right;
+}
+
+.about-image {
+    display: inline-block;
+    height: 250px;
+    width: 60%;
+    padding: 20px 0 20px 0;
+    margin: 20px 5px 20px 5px;
+    border-radius: 25px;
+}
