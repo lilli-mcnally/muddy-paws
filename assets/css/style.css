@@ -180,27 +180,40 @@ ul {
 
 .about-us {
     display: inline-block;
-    height: 250px;
-    width: 33%;
+    height: 300px;
+    width: 600px;
     padding: 20px;
-    margin: 20px 5px 20px 5px;
+    margin: 20px 10px 20px 10px;
     background-color: #52C9EF;
     border-radius: 25px;
+    line-height: 25px;
 }
 
-#about-us-left {
+.about-us h3 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.about-us-left {
     float: left;
 }
 
-#about-us-right {
+.about-us-right {
     float: right;
 }
 
-.about-image {
+.about-div {
     display: inline-block;
-    height: 250px;
-    width: 60%;
-    padding: 20px 0 20px 0;
-    margin: 20px 5px 20px 5px;
+    height: 300px;
+    width: 500px;
+    padding: 20px;
+    margin: 20px 10px 20px 10px;
     border-radius: 25px;
+}
+
+.about-image {
+    width: 100%;
+    border-radius: 25px;
+    margin: 0;
+    padding: 0;
 }
