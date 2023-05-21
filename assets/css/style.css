@@ -7,6 +7,7 @@
 body {
     font-family: "Dosis", sans-serif;
     color: #000;
+    /* background-color: #fafafa; */
     background-color: #f7fff0;
     margin: 0;
     letter-spacing: 1px;
@@ -22,7 +23,6 @@ header {
     height: 90px;
     width: 90px;
     margin: 5px;
-
 }
 
 
@@ -59,7 +59,7 @@ ul {
 
 #menu a:hover {
     text-decoration: underline;
-    color: #12822A;
+    color: #0C641F;
 }
 
 /* ----------------------------------------------------- Hero Image */
@@ -125,7 +125,7 @@ ul {
     width: 300px;
     object-fit: cover;
     padding: 7px;
-    border: 3px solid #12822A;
+    border: 3px solid #0C641F;
     border-radius: 50%;
 }
 
@@ -231,8 +231,64 @@ ul {
     font-weight: 600;
 }
 
+#adoption-link:hover {
+    color: #0C641F
+}
+
 /* ----------------------------------------------------- Footer */
-/* 
+
 footer {
-    height: 98px;
-} */
+    margin-top: 75px;
+    background-color: #0C641F;
+    height: 160px;
+    padding: 50px;
+}
+
+.social-links {
+    text-align: center;
+    margin: 0;
+}
+
+.social-links li {
+    display: inline;
+}
+
+.social-links i {
+    margin: 50px 20px 50px 20px;
+    font-size: 20px;
+}
+
+.footer-links {
+    margin: 0;
+    text-align: center;
+}
+
+.footer-links a {
+    color: #fafafa;
+    font-weight: 600;
+}
+
+.footer-links li {
+    margin: 0 20px 0 20px;
+    display: inline;
+}
+
+.copyright {
+    margin: 0;
+    text-align: center;
+    color: #fafafa;
+    font-size: 15px;
+}
+
+
+.fa-brands {
+    color: #fafafa;
+}
+
+.fa-brands:hover {
+    color: #FFFC00;
+}
+
+.footer-links a:hover {
+    color: #FFFC00;
+}
