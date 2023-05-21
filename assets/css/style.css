@@ -139,6 +139,7 @@ ul {
     font-weight: 800;
     width: 40%;
     margin: auto;
+    margin-bottom: 50px;
     background-color: #CCE5CC;
     text-align: center;
     margin-top: 50px;
@@ -177,43 +178,62 @@ ul {
 
 /* ----------------------------------------------------- About Us */
 
-
 .about-us {
-    display: inline-block;
-    height: 300px;
-    width: 600px;
     padding: 20px;
-    margin: 20px 10px 20px 10px;
-    background-color: #52C9EF;
-    border-radius: 25px;
-    line-height: 25px;
+    border-radius: 15px;
+    
+    /* display: flex;
+    flex-direction: column;
+    vertical-align: middle; */
 }
 
 .about-us h3 {
     text-decoration: underline;
     text-align: center;
+
+    /* font-size: 3vh; */
 }
 
-.about-us-left {
-    float: left;
+.about-us p {
+    /* font-size: 2.5vh; */
 }
 
-.about-us-right {
-    float: right;
-}
-
-.about-div {
-    display: inline-block;
-    height: 300px;
-    width: 500px;
-    padding: 20px;
-    margin: 20px 10px 20px 10px;
-    border-radius: 25px;
+.about-span {
+    vertical-align: middle;
 }
 
 .about-image {
     width: 100%;
-    border-radius: 25px;
-    margin: 0;
+    border-radius: 15px;
     padding: 0;
+}
+
+
+#about-us-top {
+    grid-area: about-us-top;
+}
+
+#about-us-bottom {
+    grid-area: about-us-bottom;
+}
+
+#about-div-top {
+    grid-area: about-div-top;
+}
+
+#about-div-bottom {
+    grid-area: about-div-bottom;
+}
+
+
+.grid-container {
+    display: grid;
+    background-color: #52C9EF;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "about-us-top about-us-top about-us-top about-div-top about-div-top"
+        "about-div-bottom about-div-bottom about-us-bottom about-us-bottom about-us-bottom";
 }
