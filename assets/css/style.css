@@ -7,7 +7,7 @@
 body {
     font-family: "Dosis", sans-serif;
     color: #000;
-    background-color: rgb(173, 233, 126, 0.07);
+    background-color: #f7fff0;
     margin: 0;
     letter-spacing: 1px;
 }
@@ -179,33 +179,22 @@ ul {
 /* ----------------------------------------------------- About Us */
 
 .about-us {
-    padding: 20px;
+    padding: 4vh;
     border-radius: 15px;
-    
-    /* display: flex;
-    flex-direction: column;
-    vertical-align: middle; */
+    margin: auto auto;
+    max-width: 800px;
 }
 
-.about-us h3 {
+.about-us h2 {
     text-decoration: underline;
     text-align: center;
-
-    /* font-size: 3vh; */
-}
-
-.about-us p {
-    /* font-size: 2.5vh; */
-}
-
-.about-span {
-    vertical-align: middle;
 }
 
 .about-image {
     width: 100%;
     border-radius: 15px;
     padding: 0;
+    margin: auto auto;
 }
 
 
@@ -228,12 +217,22 @@ ul {
 
 .grid-container {
     display: grid;
-    background-color: #52C9EF;
     border-radius: 15px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
         "about-us-top about-us-top about-us-top about-div-top about-div-top"
         "about-div-bottom about-div-bottom about-us-bottom about-us-bottom about-us-bottom";
 }
+
+#adoption-link {
+    color: black;
+    font-weight: 600;
+}
+
+/* ----------------------------------------------------- Footer */
+/* 
+footer {
+    height: 98px;
+} */
