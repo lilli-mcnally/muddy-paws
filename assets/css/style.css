@@ -83,41 +83,35 @@ ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
-        "dog-image-left dog-image-right"
-        "dog-info-left dog-info-right";
+        "dog-image-left dog-image-right";
 }
 
-.dog-image-one {
-    grid-area: dog-image-left;
+/* .dog-image-one {
+    grid-area: dog-image-left; */
 }
 
 #dog-info-one {
-    grid-area: dog-info-left;
-    text-align: center;
+    /* grid-area: dog-info-left; */
     background-color: #92C992;
-    height: 150px;
-    width: 300px;
-    margin-top: 10px;
-    border-radius: 15px;
-    letter-spacing: 1px;
 }
 
-.dog-image-two {
-    grid-area: dog-image-right;
+/* .dog-image-two {
+    grid-area: dog-image-right; */
 }
 
 #dog-info-two {
-    grid-area: dog-info-right;
-    text-align: center;
+    /* grid-area: dog-info-right; */
     background-color: #92C992;
-    height: 150px;
-    width: 300px;
-    margin-top: 10px;
-    border-radius: 15px;
 }
 
 .dog-content {
     margin: auto;
+    height: 175px;
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 15px;
+    letter-spacing: 1px;
+    text-align: center;
 }
 
 .dog-image {
@@ -125,24 +119,33 @@ ul {
     width: 300px;
     object-fit: cover;
     padding: 7px;
-    border: 3px solid #0C641F;
     border-radius: 50%;
+    background-color: none;
 }
 
 .meet-dogs-link h2 {
     margin: 0;
 }
 
+.dog-card {
+    width: 320px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #0C641F;
+}
+
 .meet-dogs-link {
     text-decoration: none;
-    color: black;
     font-weight: 800;
-    width: 40%;
-    margin: auto;
-    margin-bottom: 50px;
-    background-color: #CCE5CC;
+    background-color: #0C641F;
+    border: 2px solid #0C641F;
+    color: #fafafa;
+    width: 20%;
     text-align: center;
-    margin-top: 50px;
+    margin: auto;
+    margin-bottom: 75px;
+    margin-top: 75px;
     border-radius: 15px;
     padding: 10px 0 10px 0;
     display: block;
@@ -150,7 +153,9 @@ ul {
 
 .meet-dogs-link:hover {
     text-decoration: underline;
-    background-color: #92C992;
+    background-color: #f7fff0;
+    color: #0C641F;
+    /* background-color: #92C992; */
 
 }
 
@@ -158,16 +163,15 @@ ul {
     text-decoration: none;
     color: black;
     font-weight: 800;
-    background-color: #CCE5CC;
+    /* background-color: #CCE5CC; */
     text-align: center;
-    margin-top: 20px;
     border-radius: 10px;
     display: block;
 }
 
 .meet-dogs:hover {
     text-decoration: underline;
-    background-color: #92C992;
+    /* background-color: #92C992; */
 }
 
 
@@ -240,7 +244,7 @@ ul {
 footer {
     margin-top: 75px;
     background-color: #0C641F;
-    height: 160px;
+    height: 140px;
     padding: 50px;
 }
 
@@ -269,7 +273,7 @@ footer {
 }
 
 .footer-links li {
-    margin: 0 20px 0 20px;
+    margin: 0 30px 0 30px;
     display: inline;
 }
 
@@ -292,3 +296,18 @@ footer {
 .footer-links a:hover {
     color: #FFFC00;
 }
+
+
+
+
+
+
+
+
+/* .test-one {
+    grid-area: dog-image-left;
+}
+
+.test-two {
+    grid-area: dog-image-right;
+} */
