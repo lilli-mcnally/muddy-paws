@@ -104,9 +104,9 @@ ul {
 .dog-card {
     padding: 2px;
     margin: auto;
-    border: 1px solid #0079AD;
-    border-radius: 18px;
-    background-color: #C2EDFF;
+    border: 1px solid #70D4FF;
+    border-radius: 12px;
+    background-color: #E5F7FF;
 }
 
 .meet-dogs-link {
@@ -230,7 +230,8 @@ footer {
 
 .social-links i {
     margin: 50px 4% 50px 4%;
-    font-size: 20px;o
+    font-size: 20px;
+    o
 }
 
 .footer-links {
@@ -278,3 +279,27 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.meet-dog-heading {
+    background-color: #00B9B8;
+    height: 80px;
+    padding: 5px;
+    margin: 5px 0 20px 0;
+}
+
+.meet-dog-heading h1 {
+    text-align: center;
+    position: relative;
+    font-size: 60px;
+    margin: 0;
+    letter-spacing: 3px;
+    border-top: 3px solid #fff;
+}
+
+.dog-content ul {
+    display: inline;
+    max-width: 10px;
+}
+
+.dog-content li {
+    /* display: inline-block; */
+}
