@@ -83,9 +83,6 @@ ul {
 }
 
 .dog-content {
-    margin: auto;
-    border-radius: 15px;
-    letter-spacing: 1px;
     text-align: center;
 }
 
@@ -231,7 +228,6 @@ footer {
 .social-links i {
     margin: 50px 4% 50px 4%;
     font-size: 20px;
-    o
 }
 
 .footer-links {
@@ -270,7 +266,7 @@ footer {
 }
 
 
-/* ----------------------------------------------------- Meet Dogs Main Section */
+/* ----------------------------------------------------- Meet Dogs Heading */
 
 
 .meet-dog-grid {
@@ -295,11 +291,39 @@ footer {
     border-top: 3px solid #fff;
 }
 
-.dog-content ul {
-    display: inline;
-    max-width: 10px;
+/* ----------------------------------------------------- Meet Dogs Main Section */
+
+.dog-info-box {
+    margin-bottom: 10px;
 }
 
-.dog-content li {
-    /* display: inline-block; */
+.dog-info-box h2 {
+    text-align: center;
+}
+
+.dog-info-box p {
+    margin: 10px 25px 0 25px;
+}
+
+.dog-info-block {
+    display: inline-block;
+    margin: 0 18px;
+}
+
+.dog-info-block ul {
+    margin: 0;
+}
+
+.dog-info-li {
+    margin-top: 10px;
+}
+
+.friends-list {
+    margin: 0;
+    text-align: center;
+}
+
+.friends-list li {
+    display: inline-block;
+    margin: 20px 5px 0 5px;
 }
