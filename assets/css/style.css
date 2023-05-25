@@ -265,6 +265,10 @@ footer {
     color: #F9F871;
 }
 
+#meet-dogs-footer {
+    margin-top: 0;
+}
+
 
 /* ----------------------------------------------------- Meet Dogs Heading */
 
@@ -326,4 +330,37 @@ footer {
 .friends-list li {
     display: inline-block;
     margin: 20px 5px 0 5px;
+}
+
+#adoption-image {
+    background: url(/assets/images/adopt-dog.jpg) no-repeat center center;
+    width: 100%;
+    height: 500px;
+    margin-top: 70px;
+}
+
+#adoption-color {
+    background-color: rgb(0, 0, 0, 0.6);
+    height: 500px;
+    width: 100%;
+}
+
+#adoption-box {
+    color: #fff;
+    width: 70%;
+    margin: auto;
+}
+
+#adoption-box h2 {
+    text-align: center;
+    font-size: 60px;
+}
+
+#adoption-box a {
+    color: #F9F871;
+    text-decoration: none;
+}
+
+#adoption-box a:hover {
+    text-decoration: underline;
 }
