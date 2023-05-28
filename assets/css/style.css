@@ -316,17 +316,30 @@ footer {
 
 .dog-info-block {
     display: inline-block;
-    margin: 0 18px;
+    /* margin: 0 18px; */
+    margin: 0;
+    width: 100%;
 }
 
 .dog-info-block ul {
-    margin: 0;
+    margin: 0 18px;
     list-style-type: none;
     padding: 0;
+    display: inline-block;
 }
 
 .dog-info-li {
-    margin-top: 10px;
+    /* margin-top: 10px; */
+}
+
+.dog-info-left {
+    float: left;
+    margin-left: 20px;
+}
+
+.dog-info-right {
+    float: right;
+    margin-right: 20px;
 }
 
 .friends-list {
@@ -373,3 +386,8 @@ footer {
     text-decoration: underline;
 }
 
+
+
+.dog-info-block-strong {
+    margin-left: 50px;
+}

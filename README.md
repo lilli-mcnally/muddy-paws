@@ -133,10 +133,34 @@ I did some research on [W3 Schools](https://www.w3schools.com/css/css_grid.asp) 
 
 ### **About Us**
 
-I added two images to my About Us section, but the full image wasn't showing unless I set the dimensions to take up the whole page. I had created two div elements and given them background images of the two images I wanted to display. 
+I added two images to my About Us section, but the full image wasn't showing unless I set the dimensions to take up the whole page. I had created two div elements and given them background images of the two images I wanted to display.
 
 ![About us div elements showing small portion of the image](/assets/images/bugs/about-us-issue-1.PNG "About us div elements showing small portion of the image")
 
 Instead, I tried removing the div element and replacing it with an img element instead. This meant the whole image could now be seen and the images were still the same size.
 
 ![About us img elements showing full image](/assets/images/bugs/about-us-solution.PNG "About us img elements showing full image")
+
+<br>
+
+### **Dog Information**
+
+I initially added the information about each dog into a paragram element, but found this only wrote the individual points as one long string of text.
+
+![Dog information showing as one long string of text](/assets/images/bugs/dog-info-issue-1.PNG "Dog information showing as one long string of text")
+
+I changed this to two paragraph elements, but had the same issue with two lines being too close together.
+
+![Dog information too close together](/assets/images/bugs/dog-info-issue-2.PNG "Dog information too close together")
+
+I tried adding a margin-left property with a value of 50px. This moved the two pieces of information away from one another. However, the two pieces of information on the right were no longer aligned, due to the varying length of each word. 
+
+![Dog information no longer aligned](/assets/images/bugs/dog-info-issue-3.PNG "Dog information no longer aligned")
+
+I decided the best way to align this information to the left, but still have the information across two lines instead of four was to change the paragraph elements to two unordered lists. I added margin to the unordered lists instead, and this pushed the information over but still kept the information aligned vertically. My final issue was that although each box looked great, the different text lengths in different dog information boxes was different.
+
+![Dog information no longer aligned](/assets/images/bugs/dog-info-issue-4.png "Dog information no longer aligned")
+
+I added the float property to both unordered lists, one with the value of left, the other with a value of right. Then I added margin to push both unordered lists of 20px from the parent div. I also gave the parent div a width 100%. This gave even spacing across all dog information boxes.
+
+![Dog information no longer aligned](/assets/images/bugs/dog-info-solution.PNG "Dog information no longer aligned")
