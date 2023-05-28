@@ -214,7 +214,6 @@ header {
 
 footer {
     margin-top: 75px;
-    /* background-color: #0C641F; */
     background-color: #0079AD;
     height: 140px;
     padding: 50px;
@@ -223,6 +222,7 @@ footer {
 .social-links {
     text-align: center;
     margin: 0;
+    padding: 0
 }
 
 .social-links li {
@@ -237,6 +237,7 @@ footer {
 .footer-links {
     margin: 0;
     text-align: center;
+    padding: 0
 }
 
 .footer-links a {
@@ -245,7 +246,7 @@ footer {
 }
 
 .footer-links li {
-    margin: 0 30px 0 30px;
+    margin: 0 3% 0 3%;
     display: inline;
 }
 
@@ -320,6 +321,8 @@ footer {
 
 .dog-info-block ul {
     margin: 0;
+    list-style-type: none;
+    padding: 0;
 }
 
 .dog-info-li {
@@ -329,6 +332,7 @@ footer {
 .friends-list {
     margin: 0;
     text-align: center;
+    padding: 0;
 }
 
 .friends-list li {
@@ -368,3 +372,4 @@ footer {
 #adoption-box a:hover {
     text-decoration: underline;
 }
+

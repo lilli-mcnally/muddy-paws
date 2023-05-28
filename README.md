@@ -121,6 +121,22 @@ I amended the width to 80%, and added a margin to the left and right of 10% to t
   
 ### **Dog Preview**
 
-The dog preview section on the home page was particularly difficult to layout. I added the images and text, giving them percentage margins so they would be more responsive, but the text and images were slightly off centre with one another.
+The dog preview section on the home page was particularly difficult to layout. I added the images and text, giving them percentage margins so they would be more responsive, but the text and images were slightly off center with one another.
+
+![Dog preview section text and images slightly off center](/assets/images/bugs/dog-preview-issue-1.png "Dog preview section text and images slightly off center")
 
 I did some research on [W3 Schools](https://www.w3schools.com/css/css_grid.asp) and found information about grids. I wrapped the text and image in a div and put these into a grid with two columns. This gave me the flexibility to space the two dog information cards easily, and will also help when I work on my media queries.
+
+![Dog preview section text and images in a grid](/assets/images/bugs/dog-preview-solution.png "Dog preview section text and images in a grid")
+
+<br>
+
+### **About Us**
+
+I added two images to my About Us section, but the full image wasn't showing unless I set the dimensions to take up the whole page. I had created two div elements and given them background images of the two images I wanted to display. 
+
+![About us div elements showing small portion of the image](/assets/images/bugs/about-us-issue-1.PNG "About us div elements showing small portion of the image")
+
+Instead, I tried removing the div element and replacing it with an img element instead. This meant the whole image could now be seen and the images were still the same size.
+
+![About us img elements showing full image](/assets/images/bugs/about-us-solution.PNG "About us img elements showing full image")
