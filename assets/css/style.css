@@ -316,7 +316,6 @@ footer {
 
 .dog-info-block {
     display: inline-block;
-    /* margin: 0 18px; */
     margin: 0;
     width: 100%;
 }
@@ -329,7 +328,7 @@ footer {
 }
 
 .dog-info-li {
-    /* margin-top: 10px; */
+    margin-top: 10px;
 }
 
 .dog-info-left {
@@ -384,10 +383,4 @@ footer {
 
 #adoption-box a:hover {
     text-decoration: underline;
-}
-
-
-
-.dog-info-block-strong {
-    margin-left: 50px;
 }
