@@ -17,22 +17,26 @@ header {
     height: 100px;
 }
 
+header {
+    height: 100px;
+}
+
 #logo {
     height: 90px;
     width: 90px;
     margin: 5px;
 }
 
-
 #menu {
     position: absolute;
     top: 0;
-    width: 100%;
+    width: 80%;
+    margin: 0 10% 0 10%;
     height: 100px;
     text-align: center;
 }
 
-ul {
+#menu ul {
     list-style-type: none;
     padding: 0;
     margin-top: 34px;
@@ -150,7 +154,7 @@ ul {
 /* ----------------------------------------------------- About Us */
 
 .about-us {
-    padding: 4vh;
+    padding: 3vw;
     border-radius: 15px;
     margin: auto auto;
     max-width: 800px;

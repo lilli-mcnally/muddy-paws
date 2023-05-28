@@ -19,7 +19,6 @@ I have assessed three different type of competitors for this project. First, [Do
   - Lots of pictures to draw the user in
   - Great use of colours - green and white makes the text clear and easy to read
 
-
 ### **Cons**
 
 - Dogs Trust
@@ -57,7 +56,7 @@ I have assessed three different type of competitors for this project. First, [Do
   <br>
   <br>
 
-Goal | What does the user need to meet their goal?                                                                                                                |
+|                                                               Goal | What does the user need to meet their goal?                                                                                                                |
 | -----------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |                                      Find a dog they want to adopt | Photos and information about the dogs currently being housed in the rescue centre. <br> Information of whether the dogs are vaccinated, neutered, chipped. |
 | Find out information about contacting / visiting the rescue centre | An address of the rescue centre so they know where to go. <br> A phone number and email address to contact the centre.                                     |
@@ -93,3 +92,35 @@ My target audience for Muddy Paws Rescue Centre is going to be families with chi
 <br>
 
 ![Scattergraph of the Objectives, Importance and Viability/Feasibility table](/assets/images/objectives-scatter-graph.PNG "Objectives, Importance and Viability/Feasibility table")
+
+---
+
+## Bugs
+
+---
+
+### **Navigation Element**
+
+I created an unordered list of my navigation elements, and changed the list items' display to “inline-block”. However, the navigation elements were sitting underneath the Logo.
+
+![Navigation element displaying underneath the logo](/assets/images/bugs/nav-bug-issue-1.PNG "Navigation element displaying underneath the logo")
+
+First, I tried adding a position of relative property to the navigation elements. I added a bottom property of 50px, half of the 100px height I had set for the header element, and removed the margin from the unordered list. However, the text didn't seem to be align vertically exactly central.
+
+![Navigation element not vertically aligned](/assets/images/bugs/nav-bug-issue-2.PNG "Navigation element not vertically aligned")
+
+I changed the navigation element position to absolute, and removed the bottom property. I added a top of 0 and width of 100%, and was able to centre the text using margin top and bottom, and changing text-align to center. However, my logo was no longer clickable. Upon opening Developer Tools, I realised the navigation element was now covering the logo and it's anchor, making it unclickable.
+
+![Navigation aligned but logo unclickable](/assets/images/bugs/nav-bug-issue-3.PNG "Navigation aligned but logo unclickable")
+
+I amended the width to 80%, and added a margin to the left and right of 10% to the navigation element, which centered the text but also gave enough space for the logo to be clickable.
+
+![Navigation aligned and logo clickable](/assets/images/bugs/nav-bug-solution.PNG "Navigation aligned and logo clickable")
+
+<br>
+  
+### **Dog Preview**
+
+The dog preview section on the home page was particularly difficult to layout. I added the images and text, giving them percentage margins so they would be more responsive, but the text and images were slightly off centre with one another.
+
+I did some research on [W3 Schools](https://www.w3schools.com/css/css_grid.asp) and found information about grids. I wrapped the text and image in a div and put these into a grid with two columns. This gave me the flexibility to space the two dog information cards easily, and will also help when I work on my media queries.
