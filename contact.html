@@ -32,51 +32,42 @@
     </section>
 
     <section>
-        <div>
-            <form method="post" action="https://formdump.codeinstitute.net/" target="_blank">
-                <label for="name">Name:</label>
-                <input type="text" name="name" id="name" required>
-
-                <br>
-
-                <label for="phone">Phone number: </label>
-                <input type="tel" name="phone" id="phone" required>
-
-                <br>
-
-                <label for="email">Email Address:</label>
-                <input type="email" name="email" id="email" required>
-
-                <br>
-
-                <p>Who would you like to see?</p>
-
-                <input type="checkbox" name="what-dog" id="benji">
-                <label for="benji">Benji</label>
-
-                <input type="checkbox" name="what-dog" id="penny">
-                <label for="penny">Penny</label>
-
-                <input type="checkbox" name="what-dog" id="hugh">
-                <label for="hugh">Hugh</label>
-
-                <input type="checkbox" name="what-dog" id="sam">
-                <label for="sam">Sam</label>
-
-                <input type="checkbox" name="what-dog" id="luna">
-                <label for="luna">Luna</label>
-
-                <input type="checkbox" name="what-dog" id="willow">
-                <label for="willow">Willow</label>
-
-                <br>
-
-                <label for="visit-date">When would you like to visit?</label>
-                <input type="date" name="visit-date" id="visit date">
-
-                <br>
-
-                <input type="submit">
+        <div class="contact-form">
+            <form class="was-validated" method="post" action="https://formdump.codeinstitute.net/" target="_blank">
+                <div class="form-div">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" required class="form-control is-invalid">
+                </div>
+                <div class="form-div">
+                    <label for="phone">Phone number: </label>
+                    <input type="tel" name="phone" id="phone" required class="form-control is-invalid">
+                </div>
+                <div class="form-div">
+                    <label for="email">Email Address:</label>
+                    <input type="email" name="email" id="email" required class="form-control is-invalid">
+                </div>
+                <div class="form-div">
+                    <label for="visit-date">When would you like to visit?</label>
+                    <input type="date" name="visit-date" id="visit date" class="visit-date-input">
+                </div>
+                <div class="form-div">
+                    <p>Who would you like to see?</p>
+                    <div class="dog-checkbox">
+                        <input type="checkbox" name="what-dog" id="benji">
+                        <label for="benji">Benji</label>
+                        <input type="checkbox" name="what-dog" id="penny">
+                        <label for="penny">Penny</label>
+                        <input type="checkbox" name="what-dog" id="hugh">
+                        <label for="hugh">Hugh</label>
+                        <input type="checkbox" name="what-dog" id="sam">
+                        <label for="sam">Sam</label>
+                        <input type="checkbox" name="what-dog" id="luna">
+                        <label for="luna">Luna</label>
+                        <input type="checkbox" name="what-dog" id="willow">
+                        <label for="willow">Willow</label>
+                    </div>
+                </div>
+                <input type="submit" id="submit">
             </form>
         </div>
     </section>

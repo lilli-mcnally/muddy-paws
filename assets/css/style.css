@@ -387,3 +387,78 @@ footer {
 #adoption-box a:hover {
     text-decoration: underline;
 }
+
+
+/* ----------------------------------------------------- Meet Dogs Main Section */
+
+.contact-form {
+    width: 50%;
+    margin: 0 25% 0 25%;
+    padding: 2vw;
+    margin: auto;
+    border: 1px solid #70D4FF;
+    border-radius: 12px;
+    background-color: #E5F7FF;
+}
+
+.form-div {
+    min-height: 40px;
+    margin: 5px;
+}
+
+.form-control {
+    width: 70%;
+    display: inline-block;
+    float: right;
+
+}
+
+.visit-date-input {
+    margin-left: 25px;
+    border: 1px solid #0079AD;
+    border-radius: 0.25rem;
+    color: #000
+}
+
+.form-control.is-invalid,
+.was-validated .form-control:invalid {
+    border-color: #0079AD;
+    background-image: none;
+    color: #000;
+}
+
+.form-control.is-invalid:focus,
+.was-validated .form-control:invalid:focus {
+    border-color: #0079AD;
+    box-shadow: 0 0 0 0.1rem #70D4FF;
+}
+
+.form-control.is-invalid:focus,
+.was-validated .form-control:valid:focus {
+    border-color: ##28a745;
+    box-shadow: 0 0 0 0.1rem rgba(40, 167, 69, .25)
+}
+
+.dog-checkbox {
+    text-align: center;
+}
+
+.dog-checkbox input {
+    margin: 0 0 0 10px;
+}
+
+.dog-checkbox label {
+    margin: 0 10px 0 0;
+}
+
+#submit {
+    border: none;
+    border-radius: 0.25rem;
+    color: #fff;
+    background-color: #0079AD;
+    margin: 5px 223px 0 223px;
+}
+
+#submit:hover {
+    color: #F9F871;
+}
