@@ -287,7 +287,7 @@ footer {
 }
 
 .meet-dog-heading {
-    background-color: #00B9B8;
+    background-color: #F9F871;
     height: 80px;
     padding: 5px;
     margin: 5px 0 20px 0;
@@ -410,7 +410,6 @@ footer {
     width: 70%;
     display: inline-block;
     float: right;
-
 }
 
 .visit-date-input {
@@ -427,6 +426,13 @@ footer {
     color: #000;
 }
 
+.form-control.is-invalid,
+.was-validated .form-control:valid {
+    border-color: #28a745;
+    background-image: none;
+    color: #000;
+}
+
 .form-control.is-invalid:focus,
 .was-validated .form-control:invalid:focus {
     border-color: #0079AD;
@@ -435,7 +441,7 @@ footer {
 
 .form-control.is-invalid:focus,
 .was-validated .form-control:valid:focus {
-    border-color: ##28a745;
+    border-color: #28a745;
     box-shadow: 0 0 0 0.1rem rgba(40, 167, 69, .25)
 }
 
