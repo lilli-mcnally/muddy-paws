@@ -73,6 +73,7 @@ header {
     width: 100%;
     height: 400px;
     bottom: 90px;
+    display: fixed;
 }
 
 /* ----------------------------------------------------- Dog Preview */
@@ -459,7 +460,7 @@ footer {
 /* ----------------------------------------------------- Contact Section */
 
 #find-us-section {
-    height: 400px;
+    height: 450px;
 }
 
 .fa-brands-contact {
@@ -474,10 +475,10 @@ footer {
 
 #find-us {
     display: inline-block;
-    width: 35%;
-    height: 330px;
+    width: 28%;
+    height: 400px;
     float: right;
-    margin: 0 6% 0 0;
+    margin: 0 9% 0 0;
 }
 
 #opening-hours {
@@ -503,10 +504,14 @@ footer {
 
 #map {
     width: 50%;
-    height: 330px;
-    margin: 0 0 0 6%;
+    height: 400px;
+    margin: 0 0 0 9%;
 }
 
 #map-div {
     display: inline-block;
+}
+
+#find-us-line {
+    border-top: 1px solid #c4c4c4;
 }
