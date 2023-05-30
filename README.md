@@ -169,12 +169,20 @@ I added the float property to both unordered lists, one with the value of left, 
 
 I decided to use Bootstrap to format my form, particularly so that when users input information to the "Name", "Phone number" and "Email Address" input boxes, the form would feedback that the box was complete by outlining green while that box is being written in.
 
+![Bootstrap styling showing green border and shadow](/assets/images/bugs/bootstrap-input-issue-1.PNG "Bootstrap showing green border and shadow")
 
-The issue with calling this Bootstrap was that while the box is in focus, but not completed, it's outlined red. I wanted this to be blue instead, and for the blue and green borders to be more subtle while the box was clicked in. I also wanted to remove the red cross and green tick icons. I tried to adding a border colour to the form-control class but I could only change the border width. Next, I opened Developer Tools and found the properties I needed to edit were under ".form-control.is-invalid, .was-validated .form-control:invalid". I was able to delete the background image property, which removed the cross, and change the border colour. This changed the border colour for when the box was clicked but not yet completed from red to blue. However, it only changed the red border for after you had clicked in and out of it. I still needed to change the colour of the border when the box was clicked.
+The issue with calling this Bootstrap was that while the box is in focus, but not completed, it's outlined red. I wanted this to be blue instead, and for the blue and green borders to be more subtle while the box was clicked in. I also wanted to remove the red cross and green tick icons. 
 
+![Bootstrap styling showing red borders with red cross](/assets/images/bugs/bootstrap-input-issue-2.PNG "Bootstrap styling showing red borders with red cross")
+
+I tried to adding a border colour to the form-control class but I could only change the border width. Next, I opened Developer Tools and found the properties I needed to edit were under ".form-control.is-invalid, .was-validated .form-control:invalid". I was able to delete the background image property, which removed the cross, and change the border colour. This changed the border colour for when the box was clicked but not yet completed from red to blue. However, it only changed the red border for after you had clicked in and out of it. I still needed to change the colour of the border when the box was clicked.
+
+![Blue border added, but focus box still red](/assets/images/bugs/bootstrap-input-issue-3.PNG "Blue border added, but focus box still red")
 
 Back in Developer Tools, I clicked on the :hov tab and tried clicking :focus. This brought up another style called ".form-control.is-invalid:focus, .was-validated .form-control:invalid:focus", and here I was able to amend the border colour and border shadow colour to a 1px blue, instead of the 2px red.
 
+![Incomplete focus box now showing with blue border and shadow](/assets/images/bugs/bootstrap-input-solution-1.PNG "Incomplete focus box now showing with blue border and shadow")
 
 Finally, I created two more styles but with "valid" instead of "invalid" which amended the green border width and border shadow width to a 1px. I was also able to remove the green tick.
 
+![Completed boxs showing green border and shadow on focus box](/assets/images/bugs/bootstrap-input-solution-2.PNG "Completed boxs showing green border and shadow on focus box")

@@ -188,8 +188,7 @@ header {
 .grid-container {
     display: grid;
     border-radius: 15px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin: 0 30px 50px 30px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
         "about-us-top about-us-top about-us-top about-div-top about-div-top"
@@ -208,25 +207,23 @@ header {
 /* ----------------------------------------------------- Footer */
 
 footer {
-    margin-top: 75px;
     background-color: #0079AD;
     height: 140px;
     padding: 50px;
     box-sizing: content-box;
 }
 
-.social-links {
+.social-links-footer {
     text-align: center;
     margin: 0;
     padding: 0
 }
 
-
-.social-links li {
+.social-links-footer li {
     display: inline;
 }
 
-.social-links i {
+.social-links-footer i {
     margin: 50px 4% 50px 4%;
     font-size: 24px;
 }
@@ -256,7 +253,7 @@ footer {
 }
 
 
-.fa-brands {
+.fa-brands-footer {
     color: #fafafa;
 }
 
@@ -267,11 +264,6 @@ footer {
 .footer-links a:hover {
     color: #F9F871;
 }
-
-#meet-dogs-footer {
-    margin-top: 0;
-}
-
 
 /* ----------------------------------------------------- Meet Dogs Heading */
 
@@ -385,13 +377,12 @@ footer {
 }
 
 
-/* ----------------------------------------------------- Meet Dogs Main Section */
+/* ----------------------------------------------------- Contact Form */
 
 .contact-form {
     width: 50%;
-    margin: 0 25% 0 25%;
+    margin: 0 25% 50px 25%;
     padding: 2vw;
-    margin: auto;
     border: 1px solid #70D4FF;
     border-radius: 12px;
     background-color: #E5F7FF;
@@ -463,4 +454,59 @@ footer {
 
 #submit:hover {
     color: #F9F871;
+}
+
+/* ----------------------------------------------------- Contact Section */
+
+#find-us-section {
+    height: 400px;
+}
+
+.fa-brands-contact {
+    margin: 0 10px 0 10px;
+    font-size: 20px;
+    color: #0079AD;
+}
+
+.fa-brands-contact:hover {
+    color: #004F70;
+}
+
+#find-us {
+    display: inline-block;
+    width: 35%;
+    height: 330px;
+    float: right;
+    margin: 0 6% 0 0;
+}
+
+#opening-hours {
+    display: inline-block;
+}
+
+#opening-hours table {
+    margin-bottom: 16px;
+}
+
+.tr-border {
+    border-bottom: 1px solid #0079AD;
+    padding: 10px;
+}
+
+.td-border {
+    border-right: 1px solid #0079AD;
+}
+
+.td-space {
+    padding: 5px;
+}
+
+#map {
+    width: 50%;
+    height: 330px;
+    margin: 0 0 0 6%;
+}
+
+#map-div {
+    display: inline-block;
 }
