@@ -164,3 +164,17 @@ I decided the best way to align this information to the left, but still have the
 I added the float property to both unordered lists, one with the value of left, the other with a value of right. Then I added margin to push both unordered lists of 20px from the parent div. I also gave the parent div a width 100%. This gave even spacing across all dog information boxes.
 
 ![Dog information no longer aligned](/assets/images/bugs/dog-info-solution.PNG "Dog information no longer aligned")
+
+### **Bootstrap Input box**
+
+I decided to use Bootstrap to format my form, particularly so that when users input information to the "Name", "Phone number" and "Email Address" input boxes, the form would feedback that the box was complete by outlining green while that box is being written in.
+
+
+The issue with calling this Bootstrap was that while the box is in focus, but not completed, it's outlined red. I wanted this to be blue instead, and for the blue and green borders to be more subtle while the box was clicked in. I also wanted to remove the red cross and green tick icons. I tried to adding a border colour to the form-control class but I could only change the border width. Next, I opened Developer Tools and found the properties I needed to edit were under ".form-control.is-invalid, .was-validated .form-control:invalid". I was able to delete the background image property, which removed the cross, and change the border colour. This changed the border colour for when the box was clicked but not yet completed from red to blue. However, it only changed the red border for after you had clicked in and out of it. I still needed to change the colour of the border when the box was clicked.
+
+
+Back in Developer Tools, I clicked on the :hov tab and tried clicking :focus. This brought up another style called ".form-control.is-invalid:focus, .was-validated .form-control:invalid:focus", and here I was able to amend the border colour and border shadow colour to a 1px blue, instead of the 2px red.
+
+
+Finally, I created two more styles but with "valid" instead of "invalid" which amended the green border width and border shadow width to a 1px. I was also able to remove the green tick.
+

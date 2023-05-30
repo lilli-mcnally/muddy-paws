@@ -14,16 +14,12 @@ body {
 /* ----------------------------------------------------- Header */
 
 header {
-    height: 100px;
-}
-
-header {
-    height: 100px;
+    height: 110px;
 }
 
 #logo {
-    height: 90px;
-    width: 90px;
+    height: 100px;
+    width: 100px;
     margin: 5px;
 }
 
@@ -39,13 +35,13 @@ header {
 #menu ul {
     list-style-type: none;
     padding: 0;
-    margin-top: 26px;
-    margin-bottom: 26px;
+    margin-top: 34px;
+    margin-bottom: 34px;
 }
 
 #menu ul li {
     display: inline-block;
-    font-size: 30px;
+    font-size: 28px;
 }
 
 #meet-the-dogs {
