@@ -95,7 +95,7 @@ My target audience for Muddy Paws Rescue Centre is going to be families with chi
 
 ---
 
-## Bugs
+## Fixed Bugs
 
 ---
 
@@ -186,3 +186,14 @@ Back in Developer Tools, I clicked on the :hov tab and tried clicking :focus. Th
 Finally, I created two more styles but with "valid" instead of "invalid" which amended the green border width and border shadow width to a 1px. I was also able to remove the green tick.
 
 ![Completed boxs showing green border and shadow on focus box](/assets/images/bugs/bootstrap-input-solution-2.PNG "Completed boxs showing green border and shadow on focus box")
+
+
+## Unfixed Bugs
+
+### **Submit**
+
+On my contact page, I would have liked to have had a message that displayed to let the user know the form has been submitted.
+
+My initial idea was to create a seperate page called "submit.html" where everything would be the same as the contact page, except for the form would be deleted and instead a message read "Thank you for submitting, someone will be in touch with you soon". I've done a lot of research about the Visibility property,and Onclick event but there doesn't seem to be a way to toggle either of these without using Javascript.
+
+I attempted to add the Javascript described in [this example](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onclick) by W3 Schools. I only wanted to use the button to display this message this would be easy to implement. However, asking the Submit button to both post to the Code Institute Form Dump and change a message visability seems to be an impossible task. 

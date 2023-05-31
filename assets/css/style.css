@@ -457,6 +457,14 @@ footer {
     color: #F9F871;
 }
 
+#submit-message {
+    visibility: hidden;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
 /* ----------------------------------------------------- Contact Section */
 
 #find-us-section {
@@ -515,3 +523,4 @@ footer {
 #find-us-line {
     border-top: 1px solid #c4c4c4;
 }
+
