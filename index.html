@@ -5,23 +5,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muddy Paws Rescue Centre</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css">
     <script src="https://kit.fontawesome.com/1c3a2196db.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <title>Muddy Paws Rescue Centre</title>
 </head>
 
 <body>
     <header>
-        <a href="index.html" id="#logo-anchor"><img src="/assets/images/logo-muddy-paws.png"
-                alt="Muddy Paws Rescue Centre logo" id="logo"></a>
+
+        <div class="row no-gutters fixed-top navbar-expand-lg navbar-light">
+            <a href="index.html" id="#logo-anchor"><img src="/assets/images/logo-muddy-paws.png"
+                    alt="Muddy Paws Rescue Centre logo" id="logo"></a>
+
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <!-- div for all the links -->
+                <div class="col-md-8 page-links">
+                    <nav class="navbar">
+                        <ul class="list-inline navbar-nav">
+                            <li>
+                                <a class="nav-item" href="index.html"><span>Home <i
+                                            class="fa-solid fa-house"></i></span></a>
+                            </li>
+                            <li id="meet-the-dogs" class="nav-item"><a href="dogs.html">Meet the Dogs <i
+                                        class="fa-solid fa-paw"></i></a>
+                            </li>
+                            <li>
+                                <a href="contact.html" class="nav-item">Contact <i class="fa-solid fa-phone"></i></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <!-- 
+
         <nav id="menu">
             <ul>
                 <li><a href="index.html">Home <i class="fa-solid fa-house"></i></a></li>
                 <li id="meet-the-dogs"><a href="dogs.html">Meet the Dogs <i class="fa-solid fa-paw"></i></a></li>
                 <li><a href="contact.html">Contact <i class="fa-solid fa-phone"></i></a></li>
             </ul>
-        </nav>
+        </nav>-->
     </header>
 
     <section id="hero-outer">
@@ -65,8 +98,10 @@
         <div class="grid-container">
             <div class="about-us about-left" id="about-us-top">
                 <h2>Who are we?</h2>
-                <p>Muddy Paws Rescue Centre was founded in 2020, following the large number of dogs that were abandoned
-                    during the pandemic. We started with a small room in a house with only a couple of cages, and now
+                <p>Muddy Paws Rescue Centre was founded in 2020, following the large number of dogs that were
+                    abandoned
+                    during the pandemic. We started with a small room in a house with only a couple of cages, and
+                    now
                     have
                     been able to make space for six dogs on our farm. We also have a small field for the dogs to
                     socialise
@@ -81,11 +116,13 @@
                 <p>All dogs we rescue are nursed back to health, groomed and well fed before they're ready to be
                     adopted. We
                     also neuter / spay, vaccinated and microchip all rescue dogs.</p>
-                <p>Our on-call vet will give an age and basic medical history about the dogs shortly after they arrive.
+                <p>Our on-call vet will give an age and basic medical history about the dogs shortly after they
+                    arrive.
                     If
                     we have
                     information about the dog, we
-                    will be able to discuss this with you when you visit, and can give you a copy of their records when
+                    will be able to discuss this with you when you visit, and can give you a copy of their records
+                    when
                     you
                     adopt.</p>
                 <a href="#" id="adoption-link">
@@ -106,15 +143,22 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
         <ul class="social-links-footer">
-            <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook fa-brands-footer"></i></a></li>
-            <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-brands-footer"></i></a></li>
-            <li><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube fa-brands-footer"></i></a></li>
-            <li><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter fa-brands-footer"></i></a></li>
+            <li><a href="https://www.facebook.com/" target="_blank"><i
+                        class="fa-brands fa-facebook fa-brands-footer"></i></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank"><i
+                        class="fa-brands fa-instagram fa-brands-footer"></i></a></li>
+            <li><a href="https://www.youtube.com/" target="_blank"><i
+                        class="fa-brands fa-youtube fa-brands-footer"></i></a></li>
+            <li><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter fa-brands-footer"></i></a>
+            </li>
         </ul>
 
         <p class="copyright">Copyright © 2023 Muddy Paws Rescue Centre</p>
     </footer>
 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

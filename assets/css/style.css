@@ -14,7 +14,7 @@ body {
 /* ----------------------------------------------------- Header */
 
 header {
-    height: 110px;
+    /* height: 110px; */
 }
 
 #logo {
@@ -524,3 +524,9 @@ footer {
     border-top: 1px solid #c4c4c4;
 }
 
+
+/* ----------------------------------------------------- Media Queries */
+
+@media screen and (max-width: 768px;) {
+    
+}
