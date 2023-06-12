@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css">
@@ -15,10 +16,33 @@
 
 <body>
     <header>
+        <a href="index.html" id="#logo-anchor"><img src="/assets/images/logo-muddy-paws.png"
+                alt="Muddy Paws Rescue Centre logo" id="logo"></a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-        <div class="row no-gutters fixed-top navbar-expand-lg navbar-light">
-            <a href="index.html" id="#logo-anchor"><img src="/assets/images/logo-muddy-paws.png"
-                    alt="Muddy Paws Rescue Centre logo" id="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" id="navbar-links" href="#">Home <i class="fa-solid fa-house"></i><span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="navbar-links" href="#">Meet the Dogs <i
+                                class="fa-solid fa-paw"></i></a></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="navbar-links" href="#">Contact <i class="fa-solid fa-phone"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- <div class="row no-gutters fixed-top navbar-expand-lg navbar-light">
+            
 
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Toggle navigation">
@@ -26,7 +50,7 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <!-- div for all the links -->
+                
                 <div class="col-md-8 page-links">
                     <nav class="navbar">
                         <ul class="list-inline navbar-nav">
@@ -44,7 +68,7 @@
                     </nav>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <!-- 
 
@@ -156,8 +180,14 @@
         <p class="copyright">Copyright © 2023 Muddy Paws Rescue Centre</p>
     </footer>
 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
 </body>
 

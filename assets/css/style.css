@@ -14,13 +14,15 @@ body {
 /* ----------------------------------------------------- Header */
 
 header {
-    /* height: 110px; */
+    height: 120px;
 }
 
 #logo {
     height: 100px;
     width: 100px;
-    margin: 5px;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: unset;
 }
 
 #menu {
@@ -44,11 +46,6 @@ header {
     font-size: 28px;
 }
 
-#meet-the-dogs {
-    margin-left: 8%;
-    margin-right: 8%;
-}
-
 #menu a {
     text-decoration: none;
     color: black;
@@ -58,6 +55,34 @@ header {
 #menu a:hover {
     text-decoration: underline;
     color: #0079AD;
+}
+
+
+/*------------------------------------------------------ Navbar */
+
+.navbar-nav {
+    align-items: flex-end;
+}
+
+#navbar-links {
+    color: #000;
+}
+
+#navbar-links:hover {
+    text-decoration: underline;
+    color: #0079AD;
+}
+
+.navbar {
+    display: inline-block;
+    float: right;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    z-index: 1;
+}
+
+.navbar-toggler {
+    float: right;
 }
 
 /* ----------------------------------------------------- Hero Image */
@@ -527,6 +552,33 @@ footer {
 
 /* ----------------------------------------------------- Media Queries */
 
-@media screen and (max-width: 768px;) {
-    
+@media screen and (max-width: 768px) {
+    .navbar-nav {
+        margin-top: 70px;
+    }
+
+    .navbar {
+        height: auto;
+    }
+
+    .navbar:focus-visible {
+        background-color: #fff;
+    }
+}
+
+
+
+@media (min-width: 992px) {
+
+    .navbar-expand-lg,
+    .navbar-collapse {
+        /* justify-content: space-evenly; */
+    }
+
+    .nav-link {
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 25px;
+        font-weight: 600;
+    }
 }
