@@ -198,7 +198,7 @@ header {
 
 footer {
     background-color: #0079AD;
-    height: 140px;
+    height: auto;
     padding: 50px;
     box-sizing: content-box;
 }
@@ -514,38 +514,23 @@ footer {
 
 /* ----------------------------------------------------- Media Queries */
 
-/* --------------------------- Home Page */
+/* --------------------------- Home Page Desktop*/
+
+
+@media (min-width: 992px) {
+
+
+    .nav-link {
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 25px;
+        font-weight: 600;
+    }
+}
+
+/* --------------------------- Home Page Tablet*/
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .navbar-nav {
-        margin-top: 50px;
-        width: 200px;
-        font-size: 1.1rem;
-        background-color: #E5F7FF;
-        border: 1px solid #70D4FF;
-        border-radius: 5px;
-    }
-
-    .navbar {
-        height: auto;
-        justify-content: flex-end;
-    }
-
-    #navbarNav {
-        justify-content: flex-end;
-    }
-
-    .navbar:focus-visible {
-        background-color: #fff;
-    }
-
-    .navbar-toggler {
-        justify-content: flex-end;
-        position: absolute;
-        right: 20px;
-        top: 15px;
-    }
-
     .meet-dogs-link {
         margin-top: 50px;
         margin-bottom: 50px;
@@ -580,7 +565,48 @@ footer {
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 950px) {
+    .navbar-nav {
+        margin-top: 50px;
+        width: 200px;
+        font-size: 1.1rem;
+        background-color: #E5F7FF;
+        border: 1px solid #70D4FF;
+        border-radius: 5px;
+    }
+
+    .navbar {
+        height: auto;
+        justify-content: flex-end;
+    }
+
+    #navbarNav {
+        justify-content: flex-end;
+    }
+
+    .navbar:focus-visible {
+        background-color: #fff;
+    }
+
+    .navbar-toggler {
+        justify-content: flex-end;
+        position: absolute;
+        right: 20px;
+        top: 15px;
+    }
+}
+
+/* --------------------------- Home Page Phone*/
+
+
+@media (max-width: 767px) {
+
+    .navbar {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
     #dog-preview {
         grid-template-columns: 1fr;
     }
@@ -588,15 +614,72 @@ footer {
     .dog-card {
         margin-bottom: 25px;
     }
-}
 
-@media (min-width: 992px) {
+    .meet-dogs-link {
+        width: 70%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .grid-container {
+        display: grid;
+        border-radius: 15px;
+        margin: 0 30px 50px 30px;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "about-us-top"
+            "about-div-top"
+            "about-us-bottom"
+            "about-div-bottom";
+    }
+
+    .about-image {
+        width: 100%;
+    }
+
+    .about-us h2 {
+        font-size: 22px;
+    }
+
+    .about-us p {
+        font-size: 18px;
+    }
+
+    #about-div-top {
+        margin-bottom: 25px;
+    }
+
+    .footer-links {
+        text-align: left;
+    }
+
+    .footer-links {
+        display: inline-block;
+    }
+
+    .social-links-footer {
+        display: inline-block;
+        float: right;
+    }
+
+    .fa-brands-footer {
+        display: block;
+
+    }
+
+    .social-links-footer i {
+        margin: 0;
+        margin-bottom: 20px;
+    }
 
 
-    .nav-link {
-        margin-left: 50px;
-        margin-right: 50px;
-        font-size: 25px;
-        font-weight: 600;
+    .footer-links li {
+        display: block;
+        margin: 0;
+        line-height: 40px;
+    }
+
+    .copyright {
+        margin-top: 40px;
     }
 }
