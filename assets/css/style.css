@@ -342,7 +342,7 @@ footer {
 }
 
 #adoption-color {
-    background-color: rgb(0, 0, 0, 0.6);
+    background-color: rgb(0, 0, 0, 0.7);
     height: 500px;
     width: 100%;
 }
@@ -520,7 +520,6 @@ footer {
 
 @media (min-width: 992px) {
 
-
     .nav-link {
         margin-left: 50px;
         margin-right: 50px;
@@ -532,6 +531,7 @@ footer {
 /* --------------------------- Home Page Tablet*/
 
 @media (min-width: 768px) and (max-width: 991px) {
+
     .meet-dogs-link {
         margin-top: 50px;
         margin-bottom: 50px;
@@ -554,49 +554,6 @@ footer {
         width: 70%;
     }
 
-    .about-us h2 {
-        font-size: 22px;
-    }
-
-    .about-us p {
-        font-size: 18px;
-    }
-
-    #about-div-top {
-        margin-bottom: 25px;
-    }
-}
-
-@media (max-width: 950px) {
-
-    .navbar-nav {
-        margin-top: 50px;
-        width: 200px;
-        font-size: 1.1rem;
-        background-color: #E5F7FF;
-        border: 1px solid #70D4FF;
-        border-radius: 5px;
-    }
-
-    .navbar {
-        height: auto;
-        justify-content: flex-end;
-    }
-
-    #navbarNav {
-        justify-content: flex-end;
-    }
-
-    .navbar:focus-visible {
-        background-color: #fff;
-    }
-
-    .navbar-toggler {
-        justify-content: flex-end;
-        position: absolute;
-        right: 20px;
-        top: 15px;
-    }
 }
 
 /* --------------------------- Home Page Phone*/
@@ -645,18 +602,6 @@ footer {
         width: 100%;
     }
 
-    .about-us h2 {
-        font-size: 22px;
-    }
-
-    .about-us p {
-        font-size: 18px;
-    }
-
-    #about-div-top {
-        margin-bottom: 25px;
-    }
-
     .footer-links {
         text-align: left;
     }
@@ -691,3 +636,50 @@ footer {
         margin-top: 40px;
     }
 }
+
+/* --------------------------- Home Page Tablet and Phone */
+
+@media (max-width: 950px) {
+
+    .navbar-nav {
+        margin-top: 50px;
+        width: 200px;
+        font-size: 1.1rem;
+        background-color: #E5F7FF;
+        border: 1px solid #70D4FF;
+        border-radius: 5px;
+    }
+
+    .navbar {
+        height: auto;
+        justify-content: flex-end;
+    }
+
+    #navbarNav {
+        justify-content: flex-end;
+    }
+
+    .navbar:focus-visible {
+        background-color: #fff;
+    }
+
+    .navbar-toggler {
+        justify-content: flex-end;
+        position: absolute;
+        right: 20px;
+        top: 15px;
+    }
+
+    .about-us h2 {
+        font-size: 22px;
+    }
+
+    .about-us p {
+        font-size: 18px;
+    }
+
+    #about-div-top {
+        margin-bottom: 25px;
+    }
+}
+
