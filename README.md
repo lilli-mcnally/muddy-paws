@@ -196,4 +196,28 @@ On my contact page, I would have liked to have had a message that displayed to l
 
 My initial idea was to create a seperate page called "submit.html" where everything would be the same as the contact page, except for the form would be deleted and instead a message read "Thank you for submitting, someone will be in touch with you soon". I've done a lot of research about the Visibility property,and Onclick event but there doesn't seem to be a way to toggle either of these without using Javascript.
 
-I attempted to add the Javascript described in [this example](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onclick) by W3 Schools. I only wanted to use the button to display this message this would be easy to implement. However, asking the Submit button to both post to the Code Institute Form Dump and change a message visability seems to be an impossible task. 
+I attempted to add the Javascript described in [this example](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onclick) by W3 Schools. I wanted to use the button to display this message, however asking the Submit button to both post to the Code Institute Form Dump and change a message visability doesn't seem to be possible. 
+
+
+### **Navigation Toggler**
+
+I added a Boostrap Navigation bar to my website, which included a Hamburger Toggler menu for tablet and mobile. However, I had an issue with the toggler and the position of the Navigation drop-down menu. When closed, the Toggler was aligned to the right.
+
+![Toggler aligned right](/assets/images/bugs/nav-toggler-issue-1.PNG "Toggler aligned right")
+
+
+However, when opened the Navigation menu, the Toggler would swap to the left side.
+
+![Toggler aligned left](/assets/images/bugs/nav-toggler-issue-2.PNG "Toggler aligned left")
+
+I used Developer Tools to find the Toggler had a display of "flex" and used Flexbox Editor to find that "justify-content: flex-end" would change the Toggler to sit on the right side. I wanted to move the Navigation Menu a bit closer to the Toggler, as there was quite a gap between them.
+
+![Toggler and Navigation Menu gap](/assets/images/bugs/nav-toggler-issue-3.PNG "Toggler and Navigation Menu gap")
+
+I changed the position to absolute, which brought the Navigation menu higher but move the Toggler lower, so they now overlapped.
+
+![Toggler and Navigation Menu overlap](/assets/images/bugs/nav-toggler-issue-4.PNG "Toggler and Navigation Menu overlap")
+
+I fixed this issue by giving the Toggler a top property of 15px, and a right property of 20px. This put the Toggler in the top right of the Navigation menu.
+
+![Toggler at top right of Navigation Menu](/assets/images/bugs/nav-toggler-solution-1.PNG "Toggler at top right of Navigation Menu")
