@@ -52,9 +52,9 @@ header {
 /* ----------------------------------------------------- Hero Image */
 
 #hero-image {
-    height: 350px;
+    height: 400px;
     width: 100%;
-    background: url("../images/dogs-bubbles.jpg") no-repeat center center;
+    background: url("../images/dog-bubbles-desktop.jpg") no-repeat center center;
     position: relative;
 }
 
@@ -91,6 +91,7 @@ header {
 .dog-card {
     padding: 2px;
     margin: auto;
+    margin-top: 25px;
     border: 1px solid #70D4FF;
     border-radius: 12px;
     background-color: #E5F7FF;
@@ -101,7 +102,7 @@ header {
     background-color: #0079AD;
     border: 2px solid #0079AD;
     color: #fafafa;
-    width: 30%;
+    width: 25%;
     text-align: center;
     margin: auto;
     margin-bottom: 75px;
@@ -534,6 +535,7 @@ footer {
     .meet-dogs-link {
         margin-top: 50px;
         margin-bottom: 50px;
+        width: 30%;
     }
 
     .grid-container {
@@ -566,6 +568,7 @@ footer {
 }
 
 @media (max-width: 950px) {
+
     .navbar-nav {
         margin-top: 50px;
         width: 200px;
@@ -601,6 +604,15 @@ footer {
 
 @media (max-width: 767px) {
 
+    #hero-image {
+        height: 250px;
+        background: url("../images/dog-bubbles-tablet.jpg") no-repeat center center;
+    }
+
+    #hero-outer {
+        height: 250px;
+    }
+
     .navbar {
         position: absolute;
         top: 0;
@@ -609,10 +621,6 @@ footer {
 
     #dog-preview {
         grid-template-columns: 1fr;
-    }
-
-    .dog-card {
-        margin-bottom: 25px;
     }
 
     .meet-dogs-link {
