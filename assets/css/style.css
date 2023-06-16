@@ -376,8 +376,8 @@ footer {
 /* ----------------------------------------------------- Contact Form */
 
 .contact-form {
-    width: 44%;
-    margin: 0 28% 50px 28%;
+    width: 50%;
+    margin: 0 25% 50px 25%;
     padding: 2vw;
     border: 1px solid #70D4FF;
     border-radius: 12px;
@@ -433,7 +433,10 @@ footer {
 
 .checkbox {
     display: inline-block;
+}
 
+#checkbox-willow {
+    margin: 0;
 }
 
 #submit {
@@ -475,12 +478,6 @@ footer {
     color: #004F70;
 }
 
-#find-us {
-    width: 28%;
-    height: 400px;
-    float: right;
-    margin: 0 9% 0 0;
-}
 
 #opening-hours {
     display: inline-block;
@@ -509,9 +506,6 @@ footer {
     margin: 0 0 0 9%;
 }
 
-#map-div {
-    display: inline-block;
-}
 
 #find-us-line {
     border-top: 1px solid #c4c4c4;
@@ -743,11 +737,70 @@ footer {
 
 /* ----------------------------------------------------- Media Queries - Contact Page */
 
+
+/* --------------------------- Home Page Desktop*/
+
+
+@media (min-width: 992px) {
+
+    #find-us {
+        width: 28%;
+        height: 400px;
+        float: right;
+        margin: 0 9% 0 0;
+    }
+}
+
+
+
+
 /* --------------------------- Contact Page Tablet */
 
 @media (min-width: 768px) and (max-width: 991px) {
 
     .contact-form {
         height: 70%;
+    }
+}
+
+/* --------------------------- Contact Page Tablet and Phone */
+
+@media (max-width: 991px) {
+
+    .contact-form {
+        width: 70%;
+        margin: 0 15% 50px 15%;
+    }
+
+    #map {
+        width: 80%;
+        margin: 30px 10%;
+
+    }
+
+    #find-us-section {
+        height: 700px;
+        padding-left: 10%;
+        padding-right: 10%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #find-us {
+        display: flex;
+    }
+
+    #find-us hr {
+        /* visibility: hidden; */
+    }
+
+    #find-us-contact,
+    #find-us-hours {
+        /* width: 40%; */
+        padding: 0 5%;
+    }
+
+    #find-us-contact {
+        /* border-right: 1px solid #000; */
     }
 }
