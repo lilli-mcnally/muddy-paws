@@ -69,11 +69,10 @@ header {
 #hero-border {
     height: auto;
     width: 25%;
-    border: 4px solid rgb(0, 121, 173, 0.8);
-    padding: 3px;
+    border: 3px solid rgb(0, 121, 173, 0.8);
+    padding: 2px;
     border-radius: 10px;
     float: right;
-    /* margin: 200px 200px 0 0; */
     margin: 15% 20% 0 0;
 }
 
@@ -548,6 +547,7 @@ footer {
         font-size: 25px;
         font-weight: 600;
     }
+
 }
 
 /* --------------------------- Home Page Tablet*/
@@ -575,6 +575,15 @@ footer {
     .about-image {
         width: 70%;
     }
+
+    #hero-color h3 {
+        font-size: 22px;
+    }
+
+    #hero-border {
+        margin: 25% 20% 0 0;
+    }
+
 
 }
 
@@ -656,11 +665,27 @@ footer {
     .copyright {
         margin-top: 40px;
     }
+
+    #hero-color h3 {
+        font-size: 18px;
+    }
+
+    #hero-border {
+        width: 90%;
+        margin: 170px 5% 0 5%;
+    }
+
+    #hero-color {
+        height: 40px;
+        padding: 5px;
+        height: auto;
+    }
+
 }
 
 /* --------------------------- Home Page Tablet and Phone */
 
-@media (max-width: 950px) {
+@media (max-width: 991px) {
 
     .navbar-nav {
         margin-top: 50px;
@@ -697,7 +722,6 @@ footer {
         background-color: #E5F7FF;
     }
 
-
     .about-us h2 {
         font-size: 22px;
     }
@@ -709,13 +733,15 @@ footer {
     #about-div-top {
         margin-bottom: 25px;
     }
+
+
 }
 
 /* ----------------------------------------------------- Media Queries - Dogs Page */
 
 /* --------------------------- Dogs Page Tablet */
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 1023px) {
     .meet-dog-grid {
         grid-row-gap: 50px;
         grid-template-columns: 1fr 1fr;
@@ -771,7 +797,7 @@ footer {
 /* --------------------------- Home Page Desktop*/
 
 
-@media (min-width: 992px) {
+@media (min-width: 1023px) {
 
     #find-us {
         width: 28%;
@@ -786,7 +812,7 @@ footer {
 
 /* --------------------------- Contact Page Tablet */
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 1023px) {
 
     .contact-form {
         width: 70%;
@@ -839,7 +865,7 @@ footer {
 
 /* --------------------------- Contact Page Tablet and Phone */
 
-@media (max-width: 991px) {
+@media (max-width: 1023px) {
 
     #find-us-section {
         height: 700px;
