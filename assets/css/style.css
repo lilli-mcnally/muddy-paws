@@ -397,6 +397,13 @@ footer {
     text-decoration: underline;
 }
 
+/* ----------------------------------------------------- Contact Page */
+
+#contact-text {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
 /* ----------------------------------------------------- Contact Form */
 
@@ -407,6 +414,7 @@ footer {
     border: 1px solid #70D4FF;
     border-radius: 12px;
     background-color: #E5F7FF;
+    text-align: center;
 }
 
 .form-div label,
@@ -821,11 +829,29 @@ footer {
 
     #find-us {
         display: flex;
+        justify-content: center;
     }
 
     #find-us-section {
         padding-left: 10%;
         padding-right: 10%;
+    }
+
+    #find-us-hours {
+        text-align: left;
+        padding-left: 6%;
+        border-left: 1px solid #c4c4c4;
+        min-width: 45%;
+    }
+
+    #find-us-contact {
+        text-align: right;
+        padding-right: 6%;
+        min-width: 45%;
+    }
+
+    #find-us-line {
+        display: none;
     }
 
     #map {
