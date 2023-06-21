@@ -57,6 +57,7 @@ header {
     width: 100%;
     background: url("../images/dog-bubbles-desktop.jpg") no-repeat center center;
     position: relative;
+    padding: 290px 0 0 600px;
 }
 
 #hero-outer {
@@ -68,12 +69,10 @@ header {
 
 #hero-border {
     height: auto;
-    width: 25%;
+    width: auto;
     border: 3px solid rgb(0, 121, 173, 0.8);
     padding: 2px;
     border-radius: 10px;
-    float: right;
-    margin: 15% 20% 0 0;
 }
 
 #hero-color {
@@ -580,8 +579,8 @@ footer {
         font-size: 22px;
     }
 
-    #hero-border {
-        margin: 25% 20% 0 0;
+    #hero-image {
+        padding: 250px 0 0 500px;
     }
 
 
@@ -595,6 +594,7 @@ footer {
     #hero-image {
         height: 250px;
         background: url("../images/dog-bubbles-tablet.jpg") no-repeat center center;
+        padding: 170px 0 0 0;
     }
 
     #hero-outer {
@@ -672,7 +672,7 @@ footer {
 
     #hero-border {
         width: 90%;
-        margin: 170px 5% 0 5%;
+        margin: 0 5% 0 5%;
     }
 
     #hero-color {
