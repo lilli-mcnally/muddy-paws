@@ -658,25 +658,12 @@ footer {
         width: 100%;
     }
 
-    .footer-links {
-        text-align: left;
-    }
-
-    .footer-links {
-        display: inline-block;
-    }
-
-    .social-links-footer {
-        display: inline-block;
-        float: right;
-    }
-
     .fa-brands-footer {
-        display: block;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .social-links-footer i {
-        margin: 0;
         margin-bottom: 20px;
     }
 
