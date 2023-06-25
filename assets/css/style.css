@@ -181,6 +181,7 @@ header {
     border-radius: 15px;
     padding: 0;
     margin: auto auto;
+    max-width: 600px;
 }
 
 
@@ -591,6 +592,9 @@ footer {
         padding: 250px 0 0 500px;
     }
 
+    .navbar-toggler {
+        top: 15px;
+    }
 
 }
 
@@ -598,6 +602,19 @@ footer {
 
 
 @media (max-width: 767px) {
+
+    header {
+        height: 100px;
+    }
+
+    #logo {
+        height: 80px;
+        width: 80px;
+    }
+
+    .navbar-toggler {
+        top: 5px;
+    }
 
     #hero-image {
         height: 250px;
@@ -721,7 +738,6 @@ footer {
         justify-content: flex-end;
         position: absolute;
         right: 20px;
-        top: 15px;
     }
 
 
