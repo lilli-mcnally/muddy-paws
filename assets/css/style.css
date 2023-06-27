@@ -542,7 +542,7 @@ footer {
 }
 
 
-/* ----------------------------------------------------- Media Queries - Home Page */
+/* ----------------------------------------------------- Media Queries - Home Page (inc header & footer) */
 
 /* --------------------------- Home Page Desktop*/
 
@@ -596,6 +596,22 @@ footer {
         top: 15px;
     }
 
+    .footer-links {
+        column-count: 2;
+        margin: 0 30%;
+    }
+
+    .footer-one {
+        text-align: left;
+    }
+
+    .footer-two {
+        text-align: right;
+    }
+
+    .footer-links li {
+        margin: 0;
+    }
 }
 
 /* --------------------------- Home Page Phone*/
@@ -658,26 +674,6 @@ footer {
         width: 100%;
     }
 
-    .fa-brands-footer {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
-    .social-links-footer i {
-        margin-bottom: 20px;
-    }
-
-
-    .footer-links li {
-        display: block;
-        margin: 0;
-        line-height: 40px;
-    }
-
-    .copyright {
-        margin-top: 40px;
-    }
-
     #hero-color h3 {
         font-size: 18px;
     }
@@ -691,6 +687,11 @@ footer {
         height: 40px;
         padding: 5px;
         height: auto;
+    }
+
+
+    .footer-links li {
+        display: block;
     }
 
 }
@@ -745,6 +746,10 @@ footer {
         margin-bottom: 25px;
     }
 
+    .footer-links li {
+        display: block;
+        line-height: 40px;
+    }
 
 }
 
