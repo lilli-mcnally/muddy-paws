@@ -558,6 +558,17 @@ footer {
 
 }
 
+
+@media (min-width: 1023px) {
+
+    #find-us {
+        width: 28%;
+        height: 400px;
+        float: right;
+        margin: 0 9% 0 0;
+    }
+}
+
 /* --------------------------- Home Page Tablet*/
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -696,6 +707,19 @@ footer {
 
 }
 
+@media (max-width: 450px) {
+
+    .about-us {
+        padding: 0vw;
+    }
+
+    .grid-container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+}
+
 /* --------------------------- Home Page Tablet and Phone */
 
 @media (max-width: 991px) {
@@ -775,7 +799,7 @@ footer {
     }
 
     .meet-dog-heading h1 {
-        font-size: 9vw;
+        font-size: 40px;
     }
 
     #adoption-box {
@@ -806,25 +830,16 @@ footer {
     }
 }
 
+@media (max-width: 450px) {
 
-/* ----------------------------------------------------- Media Queries - Contact Page */
-
-
-/* --------------------------- Home Page Desktop*/
-
-
-@media (min-width: 1023px) {
-
-    #find-us {
-        width: 28%;
-        height: 400px;
-        float: right;
-        margin: 0 9% 0 0;
+    #adoption-box {
+        width: 90%;
     }
+
 }
 
 
-
+/* ----------------------------------------------------- Media Queries - Contact Page */
 
 /* --------------------------- Contact Page Tablet */
 
@@ -856,10 +871,6 @@ footer {
         text-align: right;
         padding-right: 6%;
         min-width: 45%;
-    }
-
-    #find-us-line {
-        display: none;
     }
 
     #map {
