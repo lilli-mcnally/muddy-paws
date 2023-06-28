@@ -10,12 +10,13 @@ body {
     letter-spacing: 1px;
 }
 
-/* ------------------------------------------------------------- General Styling - Header */
+/* ---------------------------------------------------------------------------------- HEADER */
 
 header {
     height: 130px;
 }
 
+/* ------------------------------------------------------------- Header - Logo */
 #logo {
     height: 110px;
     width: 110px;
@@ -23,6 +24,8 @@ header {
     margin: 10px;
     vertical-align: unset;
 }
+
+/* ------------------------------------------------------------- Header - Navigation Menu */
 
 .navbar-nav {
     align-items: center;
@@ -49,7 +52,7 @@ header {
 }
 
 
-/* ------------------------------------------------------------- General Styling - Footer */
+/* ---------------------------------------------------------------------------------- FOOTER */
 
 footer {
     background-color: #0079AD;
@@ -58,21 +61,7 @@ footer {
     box-sizing: content-box;
 }
 
-.social-links-footer {
-    text-align: center;
-    margin: 0;
-    padding: 0
-}
-
-.social-links-footer li {
-    display: inline;
-}
-
-.social-links-footer i {
-    margin: 50px 4% 50px 4%;
-    font-size: 24px;
-}
-
+/* ------------------------------------------------------------- Header - Webpage Links */
 .footer-links {
     margin: 0;
     text-align: center;
@@ -90,13 +79,26 @@ footer {
     display: inline;
 }
 
-.copyright {
-    margin: 0;
-    text-align: center;
-    color: #fafafa;
-    font-size: 15px;
+.footer-links a:hover {
+    color: #F9F871;
 }
 
+/* ------------------------------------------------------------- Header - Social Media Links */
+
+.social-links-footer {
+    text-align: center;
+    margin: 0;
+    padding: 0
+}
+
+.social-links-footer li {
+    display: inline;
+}
+
+.social-links-footer i {
+    margin: 50px 4% 50px 4%;
+    font-size: 24px;
+}
 
 .fa-brands-footer {
     color: #fafafa;
@@ -106,8 +108,13 @@ footer {
     color: #F9F871;
 }
 
-.footer-links a:hover {
-    color: #F9F871;
+/* ------------------------------------------------------------- Header - Copywrite */
+
+.copyright {
+    margin: 0;
+    text-align: center;
+    color: #fafafa;
+    font-size: 15px;
 }
 
 /* ---------------------------------------------------------------------------------- HOME PAGE */
@@ -592,9 +599,9 @@ footer {
 
 /* --------------------------------------------------------------------------------------------------- MEDIA QUERIES */
 
-/* ---------------------------------------------------------------------------------- MQ - General Styling */
+/* ---------------------------------------------------------------------------------- MQ - GENERAL STYLING */
 
-/* ------------------------------------------------------------- MQ - General Styling - Header */
+/* ---------------------------------------------------- MQ - General Styling - Header - Desktop */
 
 @media screen and (min-width: 992px) {
 
@@ -607,29 +614,7 @@ footer {
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
-
-    .navbar-toggler {
-        top: 15px;
-    }
-
-}
-
-@media screen and (max-width: 767px) {
-
-    header {
-        height: 100px;
-    }
-
-    #logo {
-        height: 80px;
-        width: 80px;
-    }
-
-    .navbar-toggler {
-        top: 5px;
-    }
-}
+/* ---------------------------------------------------- MQ - General Styling - Header - Tablet and Phone */
 
 @media screen and (max-width: 991px) {
 
@@ -665,7 +650,46 @@ footer {
     }
 }
 
-/* ------------------------------------------------------------- MQ - General Styling - Footer */
+/* ---------------------------------------------------- MQ - General Styling - Header - Tablet */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .navbar-toggler {
+        top: 15px;
+    }
+
+}
+
+/* ---------------------------------------------------- MQ - General Styling - Header - Phone */
+
+@media screen and (max-width: 767px) {
+
+    header {
+        height: 100px;
+    }
+
+    #logo {
+        height: 80px;
+        width: 80px;
+    }
+
+    .navbar-toggler {
+        top: 5px;
+    }
+}
+
+/* ---------------------------------------------------- MQ - General Styling - Footer - Tablet and Phone */
+
+@media screen and (max-width: 991px) {
+
+    .footer-links li {
+        display: block;
+        line-height: 40px;
+    }
+
+}
+
+/* ---------------------------------------------------- MQ - General Styling - Footer - Tablet */
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
@@ -687,6 +711,8 @@ footer {
     }
 }
 
+/* ---------------------------------------------------- MQ - General Styling - Footer - Phone */
+
 @media screen and (max-width: 767px) {
 
     .footer-links li {
@@ -694,16 +720,26 @@ footer {
     }
 }
 
+
+/* ---------------------------------------------------------------------------------- MQ - HOME PAGE */
+
+/* ------------------------------------------------------------- MQ - Home Page - Tablet and Phone */
+
 @media screen and (max-width: 991px) {
 
-    .footer-links li {
-        display: block;
-        line-height: 40px;
+    .about-us h2 {
+        font-size: 22px;
+    }
+
+    .about-us p {
+        font-size: 18px;
+    }
+
+    #about-div-top {
+        margin-bottom: 25px;
     }
 
 }
-
-/* ---------------------------------------------------------------------------------- MQ - Home Page Styling */
 
 /* ------------------------------------------------------------- MQ - Home Page - Tablet */
 
@@ -746,51 +782,11 @@ footer {
     }
 }
 
-
-/* ----------------------------------------------------- Media Queries - Home Page (inc header & footer) */
-
-/* --------------------------- Home Page Tablet*/
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-
-    .meet-dogs-link {
-        margin-top: 50px;
-        margin-bottom: 50px;
-        width: 30%;
-    }
-
-    .grid-container {
-        display: grid;
-        border-radius: 15px;
-        margin: 0 30px 50px 30px;
-        grid-template-columns: 1fr;
-        grid-template-areas:
-            "about-us-top"
-            "about-div-top"
-            "about-us-bottom"
-            "about-div-bottom";
-    }
-
-    .about-image {
-        width: 70%;
-    }
-
-    #hero-color h3 {
-        font-size: 22px;
-    }
-
-    #hero-image {
-        padding: 250px 0 0 500px;
-    }
-
-}
-
-/* --------------------------- Home Page Phone*/
-
+/* ------------------------------------------------------------- MQ - Home Page - Phone */
 
 @media screen and (max-width: 767px) {
 
-
+    /* ------------------------------------ Hero Image */
     #hero-image {
         height: 250px;
         background: url("../images/dog-bubbles-tablet.jpg") no-repeat center center;
@@ -801,6 +797,25 @@ footer {
         height: 250px;
     }
 
+    /* ------------------------------------ Hero Text Box */
+
+    #hero-color h3 {
+        font-size: 18px;
+    }
+
+    #hero-border {
+        width: 90%;
+        margin: 0 5% 0 5%;
+    }
+
+    #hero-color {
+        height: 40px;
+        padding: 5px;
+        height: auto;
+    }
+
+    /* ------------------------------------ Dog Preview Section */
+
     #dog-preview {
         grid-template-columns: 1fr;
     }
@@ -810,6 +825,8 @@ footer {
         margin-top: 50px;
         margin-bottom: 50px;
     }
+
+    /* ------------------------------------ About Us Section */
 
     .grid-container {
         display: grid;
@@ -827,21 +844,10 @@ footer {
         width: 100%;
     }
 
-    #hero-color h3 {
-        font-size: 18px;
-    }
 
-    #hero-border {
-        width: 90%;
-        margin: 0 5% 0 5%;
-    }
-
-    #hero-color {
-        height: 40px;
-        padding: 5px;
-        height: auto;
-    }
 }
+
+/* ------------------------------------------------------------- MQ - Home Page - Smallest Phones */
 
 @media screen and (max-width: 450px) {
 
@@ -856,90 +862,13 @@ footer {
 
 }
 
-/* --------------------------- Home Page Tablet and Phone */
+
+/* ---------------------------------------------------------------------------------- MQ - DOGS PAGE */
+
+/* ------------------------------------------------------------- MQ - Dogs Page - Tablet and Phone */
 
 @media screen and (max-width: 991px) {
 
-    .about-us h2 {
-        font-size: 22px;
-    }
-
-    .about-us p {
-        font-size: 18px;
-    }
-
-    #about-div-top {
-        margin-bottom: 25px;
-    }
-
-}
-
-/* ----------------------------------------------------- Media Queries - Dogs Page */
-
-/* --------------------------- Dogs Page Tablet */
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-    .meet-dog-grid {
-        grid-row-gap: 50px;
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-
-
-/* --------------------------- Dogs Page Phone */
-
-@media screen and (max-width: 767px) {
-    .meet-dog-grid {
-        grid-row-gap: 30px;
-        grid-template-columns: 1fr;
-    }
-
-    .meet-dog-heading h1 {
-        font-size: 40px;
-    }
-
-    #adoption-box {
-        width: 80%;
-    }
-
-    #adoption-box h2 {
-        font-size: 32px;
-    }
-
-    #adoption-box h4 {
-        font-size: 24px;
-    }
-
-
-    #adoption-image {
-        background: url(/assets/images/dog-paw-prints.jpg) no-repeat center center;
-        margin-top: 50px;
-    }
-
-    #adoption-color {
-        background-color: rgb(0, 0, 0, 0.6);
-    }
-
-
-    #adoption-box {
-        padding-top: 20px;
-    }
-}
-
-/* --------------------------- Dogs Page Smallest Phone */
-
-@media screen and (max-width: 450px) {
-
-    #adoption-box {
-        width: 90%;
-    }
-
-}
-
-/* --------------------------- Dogs Page Tablet and Phone */
-
-@media screen and (max-width: 991px) {
     #back-to-top {
         visibility: visible;
         margin: 20px;
@@ -956,10 +885,91 @@ footer {
     }
 }
 
+/* ------------------------------------------------------------- MQ - Dogs Page - Tablet */
 
-/* ----------------------------------------------------- Media Queries - Contact Page */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .meet-dog-grid {
+        grid-row-gap: 50px;
+        grid-template-columns: 1fr 1fr;
+    }
+}
 
-/* --------------------------- Contact Page Tablet */
+/* ------------------------------------------------------------- MQ - Dogs Page - Phone */
+
+@media screen and (max-width: 767px) {
+    .meet-dog-heading h1 {
+        font-size: 40px;
+    }
+
+    .meet-dog-grid {
+        grid-row-gap: 30px;
+        grid-template-columns: 1fr;
+    }
+
+    /* ------------------------------------ Adoption Section */
+
+    #adoption-box {
+        width: 80%;
+    }
+
+    #adoption-box h2 {
+        font-size: 32px;
+    }
+
+    #adoption-box h4 {
+        font-size: 24px;
+    }
+
+    #adoption-image {
+        background: url(/assets/images/dog-paw-prints.jpg) no-repeat center center;
+        margin-top: 50px;
+    }
+
+    #adoption-color {
+        background-color: rgb(0, 0, 0, 0.6);
+    }
+
+    #adoption-box {
+        padding-top: 20px;
+    }
+}
+
+/* ------------------------------------------------------------- MQ - Dogs Page - Smallest Phones */
+
+@media screen and (max-width: 450px) {
+
+    #adoption-box {
+        width: 90%;
+    }
+
+}
+
+
+/* ---------------------------------------------------------------------------------- MQ - CONTACT PAGE */
+
+
+/* ------------------------------------------------------------- MQ - Contact Page - Tablet and Phone */
+
+@media screen and (max-width: 991px) {
+
+    #find-us-section {
+        height: 700px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #find-us {
+        width: auto;
+        margin: 0;
+    }
+
+    #map {
+        width: 100%;
+    }
+}
+
+
+/* ------------------------------------------------------------- MQ - Contact Page - Tablet */
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
@@ -968,6 +978,7 @@ footer {
         margin: 0 15% 50px 15%;
     }
 
+    /* ------------------------------------ Find Us Layout */
     #find-us {
         display: flex;
         justify-content: center;
@@ -978,6 +989,12 @@ footer {
         padding-left: 10%;
         padding-right: 10%;
     }
+
+    #map {
+        margin: 30px 0;
+    }
+
+    /* ------------------------------------ Find Us Content */
 
     #find-us-hours {
         text-align: left;
@@ -992,15 +1009,13 @@ footer {
         min-width: 45%;
     }
 
-    #map {
-        margin: 30px 0;
-    }
 }
 
-/* --------------------------- Contact Page Phone */
+/* ------------------------------------------------------------- MQ - Contact Page - Phone */
 
 @media screen and (max-width: 767px) {
 
+    /* ------------------------------------ Contact Us Form */
     .contact-form {
         width: 86%;
         margin: 0 7% 50px 7%;
@@ -1009,6 +1024,8 @@ footer {
     #submit {
         width: 22%;
     }
+
+    /* ------------------------------------ Find Us Section */
 
     #find-us {
         align-items: center;
@@ -1022,25 +1039,4 @@ footer {
     #map {
         margin: 30px 0 0 0;
     }
-}
-
-/* --------------------------- Contact Page Tablet and Phone */
-
-@media screen and (max-width: 991px) {
-
-    #find-us-section {
-        height: 700px;
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    #map {
-        width: 100%;
-    }
-
-    #find-us {
-        width: auto;
-        margin: 0;
-    }
-
 }
