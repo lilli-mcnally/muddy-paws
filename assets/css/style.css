@@ -361,6 +361,13 @@ footer {
     margin: 10px 5px 0 5px;
 }
 
+#back-to-top {
+    visibility: hidden;
+}
+
+
+/* ----------------------------------------------------- Meet Dogs Adoption Section */
+
 #adoption-image {
     background: url(/assets/images/adopt-dog.jpg) no-repeat center center;
     width: 100%;
@@ -649,12 +656,6 @@ footer {
         height: 250px;
     }
 
-    .navbar {
-        position: absolute;
-        top: 0;
-        right: 0;
-    }
-
     #dog-preview {
         grid-template-columns: 1fr;
     }
@@ -731,11 +732,13 @@ footer {
 
     .navbar {
         height: auto;
-        justify-content: flex-end;
+        position: absolute;
+        top: 0;
+        right: 0;
     }
 
     #navbarNav {
-        justify-content: flex-end;
+        /* justify-content: flex-end; */
     }
 
     .navbar:focus-visible {
@@ -743,7 +746,6 @@ footer {
     }
 
     .navbar-toggler {
-        justify-content: flex-end;
         position: absolute;
         right: 20px;
     }
@@ -834,6 +836,23 @@ footer {
 
 }
 
+@media screen and (max-width: 1023px) {
+    #back-to-top {
+        visibility: visible;
+        margin: 20px;
+        text-align: right;
+    }
+
+    #back-to-top a {
+        color: #000;
+        text-decoration: none;
+    }
+
+    #back-to-top a:hover {
+        text-decoration: underline;
+    }
+}
+
 
 /* ----------------------------------------------------- Media Queries - Contact Page */
 
@@ -871,8 +890,7 @@ footer {
     }
 
     #map {
-        width: 80%;
-        margin: 30px 10%;
+        margin: 30px 0;
     }
 }
 
@@ -899,7 +917,6 @@ footer {
     }
 
     #map {
-        width: 100%;
         margin: 30px 0 0 0;
     }
 }
@@ -916,7 +933,6 @@ footer {
 
     #map {
         width: 100%;
-        margin: 30px 0 0 0;
     }
 
     #find-us {
