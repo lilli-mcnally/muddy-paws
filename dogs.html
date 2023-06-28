@@ -14,21 +14,25 @@
 
 <body>
     <header>
+        <!------------------------------------------------------------------------------- Logo -->
         <a href="index.html" id="#logo-anchor"><img src="/assets/images/logo-muddy-paws.png"
                 alt="Muddy Paws Rescue Centre logo" id="logo"></a>
         <nav class="navbar navbar-expand-lg navbar-light">
 
+            <!------------------------------------------------------------------------------- Hamburger Menu -->
             <button class="navbar-toggler" id="toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
+            <!------------------------------------------------------------------------------- Navigation Menu -->
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" id="navbar-links" href="/index.html">Home <i
                                 class="fa-solid fa-house"></i><span class="sr-only"></span></a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" id="navbar-links" href="/dogs.html">Meet the Dogs <i
                                 class="fa-solid fa-paw"></i></a></a>
                     </li>
@@ -41,14 +45,17 @@
         </nav>
     </header>
 
+    <!------------------------------------------------------------------------------- Dogs Page Heading -->
     <section>
         <div class="meet-dog-heading">
             <h1>Looking for your next best friend?</h1>
         </div>
     </section>
 
+    <!------------------------------------------------------------------------------- Dogs Information Cards Section -->
     <section>
         <div class="meet-dog-grid">
+            <!---------------------------------------------------- Dogs Information Card One - Benji -->
             <div class="dog-card">
                 <img src="/assets/images/border-collie.jpg" alt="" class="dog-image">
                 <div class="dog-info-box">
@@ -71,6 +78,7 @@
                     </ul>
                 </div>
             </div>
+            <!---------------------------------------------------- Dogs Information Card Two - Penny -->
             <div class="dog-card">
                 <img src="/assets/images/beagle.jpg" alt="" class="dog-image">
                 <div class="dog-info-box">
@@ -92,6 +100,7 @@
                     </ul>
                 </div>
             </div>
+            <!---------------------------------------------------- Dogs Information Card Three - Hugh -->
             <div class="dog-card">
                 <img src="/assets/images/pug.jpg" alt="" class="dog-image">
                 <div class="dog-info-box">
@@ -113,6 +122,7 @@
                     </ul>
                 </div>
             </div>
+            <!---------------------------------------------------- Dogs Information Card Four - Sam -->
             <div class="dog-card">
                 <img src="/assets/images/golden-retriever.jpg" alt="" class="dog-image">
                 <div class="dog-info-box">
@@ -134,6 +144,7 @@
                     </ul>
                 </div>
             </div>
+            <!---------------------------------------------------- Dogs Information Card Five - Luna -->
             <div class="dog-card">
                 <img src="/assets/images/husky.jpg" alt="" class="dog-image">
                 <div class="dog-info-box">
@@ -155,6 +166,7 @@
                     </ul>
                 </div>
             </div>
+            <!---------------------------------------------------- Dogs Information Card Six - Willow -->
             <div class="dog-card">
                 <img src="/assets/images/corgi.jpg" alt="" class="dog-image">
                 <div class="dog-info-box">
@@ -177,10 +189,11 @@
                 </div>
             </div>
         </div>
+        <!---------------------------------------------------- Back to top button for Tablet and Mobile -->
         <div id="back-to-top"><a href="#"><i class="fa-solid fa-arrow-up-long"></i> Back to top</a></div>
     </section>
 
-
+    <!------------------------------------------------------------------------------- How to Adopt Section -->
     <section>
         <div id="adoption-image">
             <div id="adoption-color">
@@ -208,12 +221,13 @@
         </div>
     </section>
 
+    <!------------------------------------------------------------------------------- Footer -->
     <footer>
         <ul class="footer-links">
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Meet the Dogs</a></li>
-            <li><a href="#">How to Adopt</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li class="footer-one"><a href="#">About us</a></li>
+            <li class="footer-one"><a href="#">Meet the Dogs</a></li>
+            <li class="footer-two"><a href="#">How to Adopt</a></li>
+            <li class="footer-two"><a href="contact.html">Contact</a></li>
         </ul>
         <ul class="social-links-footer">
             <li><a href="https://www.facebook.com/" target="_blank"><i
@@ -221,7 +235,8 @@
             <li><a href="https://www.instagram.com/" target="_blank"><i
                         class="fa-brands fa-instagram fa-brands-footer"></i></a></li>
             <li><a href="https://www.youtube.com/" target="_blank"><i
-                        class="fa-brands fa-youtube fa-brands-footer"></i></a></li>
+                        class="fa-brands fa-youtube fa-brands-footer"></i></a>
+            </li>
             <li><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter fa-brands-footer"></i></a>
             </li>
         </ul>
@@ -229,6 +244,7 @@
         <p class="copyright">Copyright © 2023 Muddy Paws Rescue Centre</p>
     </footer>
 
+    <!------------------------------------------------------------------------------- Code from Bootstrap website to make the Toggler work -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
