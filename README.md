@@ -95,6 +95,19 @@ My target audience for Muddy Paws Rescue Centre is going to be families with chi
 
 ---
 
+## Wireframes
+
+---
+
+I've created Wireframes for the four webpages in my project.
+
+- [Home Page](/assets/images/wireframes/home-page.PNG)
+- [Meet the Dogs Page](/assets/images/wireframes/meet-dogs-page.PNG)
+- [Contact Page](/assets/images/wireframes/contact-page.PNG)
+- [Submit Page](/assets/images/wireframes/submit-page.PNG)
+
+---
+
 ## Fixed Bugs
 
 ---
