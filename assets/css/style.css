@@ -883,6 +883,10 @@ footer {
     #back-to-top a:hover {
         text-decoration: underline;
     }
+
+    #adoption-image {
+        margin-top: 25px;
+    }
 }
 
 /* ------------------------------------------------------------- MQ - Dogs Page - Tablet */
@@ -922,7 +926,6 @@ footer {
 
     #adoption-image {
         background: url(/assets/images/dog-paw-prints.jpg) no-repeat center center;
-        margin-top: 50px;
     }
 
     #adoption-color {
