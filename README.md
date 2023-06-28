@@ -111,7 +111,7 @@ My target audience for Muddy Paws Rescue Centre is going to be families with chi
   - [Submit Page](/assets/images/submit-page.PNG)
 
 - Finally, I created a prototype of the Home Page using [Figma](https://www.figma.com/)
-  - [Submit Page](/assets/images/submit-page.PNG)
+  - [Prototype Home Page](/assets/images/prototype.PNG)
 
 ---
 
