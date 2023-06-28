@@ -95,16 +95,23 @@ My target audience for Muddy Paws Rescue Centre is going to be families with chi
 
 ---
 
-## Wireframes
+## Wireframes and Prototypes
 
 ---
 
-I've created Wireframes for the four webpages in my project.
+- I started by drafting the idea on [Figma](https://www.figma.com/) in the form of a mind map
 
-- [Home Page](/assets/images/wireframes/home-page.PNG)
-- [Meet the Dogs Page](/assets/images/wireframes/meet-dogs-page.PNG)
-- [Contact Page](/assets/images/wireframes/contact-page.PNG)
-- [Submit Page](/assets/images/wireframes/submit-page.PNG)
+  - [Figma Mind Map](/assets/images/mind-map.PNG)
+
+- Next, I created Wireframes using [Balsamiq](https://balsamiq.com/)
+
+  - [Home Page](/assets/images/home-page.PNG)
+  - [Meet the Dogs Page](/assets/images/meet-dogs-page.PNG)
+  - [Contact Page](/assets/images/contact-page.PNG)
+  - [Submit Page](/assets/images/submit-page.PNG)
+
+- Finally, I created a prototype of the Home Page using [Figma](https://www.figma.com/)
+  - [Submit Page](/assets/images/submit-page.PNG)
 
 ---
 
@@ -166,7 +173,7 @@ I changed this to two paragraph elements, but had the same issue with two lines 
 
 ![Dog information too close together](/assets/images/bugs/dog-info-issue-2.PNG "Dog information too close together")
 
-I tried adding a margin-left property with a value of 50px. This moved the two pieces of information away from one another. However, the two pieces of information on the right were no longer aligned, due to the varying length of each word. 
+I tried adding a margin-left property with a value of 50px. This moved the two pieces of information away from one another. However, the two pieces of information on the right were no longer aligned, due to the varying length of each word.
 
 ![Dog information no longer aligned](/assets/images/bugs/dog-info-issue-3.PNG "Dog information no longer aligned")
 
@@ -184,7 +191,7 @@ I decided to use Bootstrap to format my form, particularly so that when users in
 
 ![Bootstrap styling showing green border and shadow](/assets/images/bugs/bootstrap-input-issue-1.PNG "Bootstrap showing green border and shadow")
 
-The issue with calling this Bootstrap was that while the box is in focus, but not completed, it's outlined red. I wanted this to be blue instead, and for the blue and green borders to be more subtle while the box was clicked in. I also wanted to remove the red cross and green tick icons. 
+The issue with calling this Bootstrap was that while the box is in focus, but not completed, it's outlined red. I wanted this to be blue instead, and for the blue and green borders to be more subtle while the box was clicked in. I also wanted to remove the red cross and green tick icons.
 
 ![Bootstrap styling showing red borders with red cross](/assets/images/bugs/bootstrap-input-issue-2.PNG "Bootstrap styling showing red borders with red cross")
 
@@ -200,7 +207,6 @@ Finally, I created two more styles but with "valid" instead of "invalid" which a
 
 ![Completed boxs showing green border and shadow on focus box](/assets/images/bugs/bootstrap-input-solution-2.PNG "Completed boxs showing green border and shadow on focus box")
 
-
 ## Unfixed Bugs
 
 ### **Submit**
@@ -209,15 +215,13 @@ On my contact page, I would have liked to have had a message that displayed to l
 
 My initial idea was to create a seperate page called "submit.html" where everything would be the same as the contact page, except for the form would be deleted and instead a message read "Thank you for submitting, someone will be in touch with you soon". I've done a lot of research about the Visibility property,and Onclick event but there doesn't seem to be a way to toggle either of these without using Javascript.
 
-I attempted to add the Javascript described in [this example](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onclick) by W3 Schools. I wanted to use the button to display this message, however asking the Submit button to both post to the Code Institute Form Dump and change a message visability doesn't seem to be possible. 
-
+I attempted to add the Javascript described in [this example](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onclick) by W3 Schools. I wanted to use the button to display this message, however asking the Submit button to both post to the Code Institute Form Dump and change a message visability doesn't seem to be possible.
 
 ### **Navigation Toggler**
 
 I added a Boostrap Navigation bar to my website, which included a Hamburger Toggler menu for tablet and mobile. However, I had an issue with the toggler and the position of the Navigation drop-down menu. When closed, the Toggler was aligned to the right.
 
 ![Toggler aligned right](/assets/images/bugs/nav-toggler-issue-1.PNG "Toggler aligned right")
-
 
 However, when opened the Navigation menu, the Toggler would swap to the left side.
 
