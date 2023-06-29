@@ -31,13 +31,13 @@ header {
     align-items: center;
 }
 
-#navbar-links {
-    color: #000;
+.navbar-links {
+    color: #000 !important;
 }
 
-#navbar-links:hover {
-    text-decoration: underline;
-    color: #0079AD;
+.navbar-links:hover {
+    text-decoration: underline !important;
+    color: #0079AD !important;
 }
 
 .navbar {
@@ -133,7 +133,6 @@ footer {
     width: 100%;
     height: 400px;
     bottom: 90px;
-    display: fixed;
 }
 
 #hero-border {
@@ -396,7 +395,7 @@ footer {
 
 /* --------------------------------------- Adoption Background Image */
 #adoption-image {
-    background: url(assets/images/adopt-dog.jpg) no-repeat center center;
+    background: url("../images/adopt-dog.jpg") no-repeat center center;
     width: 100%;
     height: auto;
     margin-top: 70px;
@@ -887,7 +886,7 @@ footer {
     }
 
     #adoption-image {
-        background: url(assets/images/dog-paw-prints.jpg) no-repeat center center;
+        background: url("../images/dog-paw-prints.jpg") no-repeat center center;
     }
 
     #adoption-color {

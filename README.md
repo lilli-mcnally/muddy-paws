@@ -238,3 +238,28 @@ I changed the position to absolute, which brought the Navigation menu higher but
 I fixed this issue by giving the Toggler a top property of 15px, and a right property of 20px. This put the Toggler in the top right of the Navigation menu.
 
 ![Toggler at top right of Navigation Menu](/assets/images/bugs/nav-toggler-solution-1.PNG "Toggler at top right of Navigation Menu")
+
+---
+
+## Manual Testing
+
+---
+
+---
+
+## Digital Testing
+
+---
+
+| Validators                                                         | Results |
+| ------------------------------------------------------------------ | :-----: |
+| [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) |    ✓    |
+| [W3C Markup Validation Service](https://validator.w3.org/)         |    ✓    |
+
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+</p>
