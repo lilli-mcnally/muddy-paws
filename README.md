@@ -1,10 +1,8 @@
 # Muddy Paws Rescue Centre
 
----
+_Muddy Paws Rescue Centre is a small organisation that rescues and rehomes dogs of various breeds. This website has been designed to showcase the dogs currently needing a home, as well as inform families and couples of the centres location, contact details and adoption process._
 
 ## Competitor Review
-
----
 
 I have assessed three different type of competitors for this project. First, [Dogs Trust](https://www.dogstrust.org.uk/) which is a large organisation with several rescue centres around the country. The second is [Birmingham Dogs Home](https://birminghamdogshome.org.uk/), a medium sized local dogs home in Birmingham with two centres. Lastly is the [Freedom of Spirit Trust for Border Collies (FOSTBC)](https://www.fostbc.org.uk/) which is an independent dogs home specifically for Border Collies based in Leeds.
 
@@ -33,8 +31,6 @@ I have assessed three different type of competitors for this project. First, [Do
 ---
 
 ## Purpose and Value
-
----
 
 ### **User goals**
 
@@ -66,8 +62,6 @@ I have assessed three different type of competitors for this project. First, [Do
 
 ## User Stories
 
----
-
 My target audience for Muddy Paws Rescue Centre is going to be families with children, and couples.
 
 ### **Families with Kids**
@@ -97,8 +91,6 @@ My target audience for Muddy Paws Rescue Centre is going to be families with chi
 
 ## Wireframes and Prototypes
 
----
-
 - I started by drafting the idea on [Figma](https://www.figma.com/) in the form of a mind map
 
   - [Figma Mind Map](/assets/images/mind-map.PNG)
@@ -116,8 +108,6 @@ My target audience for Muddy Paws Rescue Centre is going to be families with chi
 ---
 
 ## Fixed Bugs
-
----
 
 ### **Navigation Element**
 
@@ -207,8 +197,6 @@ Finally, I created two more styles but with "valid" instead of "invalid" which a
 
 ![Completed boxs showing green border and shadow on focus box](/assets/images/bugs/bootstrap-input-solution-2.PNG "Completed boxs showing green border and shadow on focus box")
 
-## Unfixed Bugs
-
 ### **Submit**
 
 On my contact page, I would have liked to have had a message that displayed to let the user know the form has been submitted.
@@ -216,6 +204,16 @@ On my contact page, I would have liked to have had a message that displayed to l
 My initial idea was to create a seperate page called "submit.html" where everything would be the same as the contact page, except for the form would be deleted and instead a message read "Thank you for submitting, someone will be in touch with you soon". I've done a lot of research about the Visibility property,and Onclick event but there doesn't seem to be a way to toggle either of these without using Javascript.
 
 I attempted to add the Javascript described in [this example](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onclick) by W3 Schools. I wanted to use the button to display this message, however asking the Submit button to both post to the Code Institute Form Dump and change a message visability doesn't seem to be possible.
+
+I spoke to Mitko, my mentor, about this issue and he suggested I change:
+
+`<form class="was-validated" method="post" action="https://formdump.codeinstitute.net/" target="_blank">`
+
+to:
+
+`<form class="was-validated" method="GET" action="thank-you.html">`
+
+This gave the ability to display the thank you page to the user once they've submitted the contact form, but unfortunately doesn't post the form's information anywhere.
 
 ### **Navigation Toggler**
 
@@ -239,17 +237,17 @@ I fixed this issue by giving the Toggler a top property of 15px, and a right pro
 
 ![Toggler at top right of Navigation Menu](/assets/images/bugs/nav-toggler-solution-1.PNG "Toggler at top right of Navigation Menu")
 
+## Unfixed Bugs
+
+There are no unfixed bugs to my knowledge
+
 ---
 
 ## Manual Testing
 
 ---
 
----
-
 ## Digital Testing
-
----
 
 | Validators                                                         | Results |
 | ------------------------------------------------------------------ | :-----: |
