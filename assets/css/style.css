@@ -396,7 +396,7 @@ footer {
 
 /* --------------------------------------- Adoption Background Image */
 #adoption-image {
-    background: url(/assets/images/adopt-dog.jpg) no-repeat center center;
+    background: url(assets/images/adopt-dog.jpg) no-repeat center center;
     width: 100%;
     height: auto;
     margin-top: 70px;
@@ -887,7 +887,7 @@ footer {
     }
 
     #adoption-image {
-        background: url(/assets/images/dog-paw-prints.jpg) no-repeat center center;
+        background: url(assets/images/dog-paw-prints.jpg) no-repeat center center;
     }
 
     #adoption-color {
