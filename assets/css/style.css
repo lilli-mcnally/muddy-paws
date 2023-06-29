@@ -533,6 +533,16 @@ footer {
     color: #F9F871;
 }
 
+#thanks-box {
+    margin-top: 50px;
+    padding: 20px 10px;
+}
+
+#thanks-box a:hover {
+    color: #0079AD;
+}
+
+
 /* ------------------------------------------------------------- Contact Page - Find Us Section */
 
 #find-us-section {
@@ -1025,4 +1035,9 @@ footer {
         margin-right: 38%;
     }
 
+    #thanks-box {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
