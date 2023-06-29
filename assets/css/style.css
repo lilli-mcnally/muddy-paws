@@ -61,7 +61,7 @@ footer {
     box-sizing: content-box;
 }
 
-/* ------------------------------------------------------------- Header - Webpage Links */
+/* ------------------------------------------------------------- Footer - Webpage Links */
 .footer-links {
     margin: 0;
     text-align: center;
@@ -83,7 +83,7 @@ footer {
     color: #F9F871;
 }
 
-/* ------------------------------------------------------------- Header - Social Media Links */
+/* ------------------------------------------------------------- Footer - Social Media Links */
 
 .social-links-footer {
     text-align: center;
@@ -108,7 +108,7 @@ footer {
     color: #F9F871;
 }
 
-/* ------------------------------------------------------------- Header - Copywrite */
+/* ------------------------------------------------------------- Footer - Copywrite */
 
 .copyright {
     margin: 0;
@@ -211,7 +211,7 @@ footer {
     margin-left: 10px;
 }
 
-/* --------------------------------------- See more Dogs buttom */
+/* --------------------------------------- See more Dogs button */
 
 .meet-dogs-link {
     text-decoration: none;
@@ -294,9 +294,6 @@ footer {
 #adoption-link:hover {
     color: #0079AD
 }
-
-
-
 
 
 /* ---------------------------------------------------------------------------------- DOGS PAGE */
@@ -528,8 +525,8 @@ footer {
     color: #fff;
     background-color: #0079AD;
     text-align: center;
-    width: 15%;
-    margin: 20px 41% 0 41%;
+    width: 14%;
+    margin: 20px 43% 0 43%;
 
 }
 
@@ -711,21 +708,20 @@ footer {
     }
 }
 
-/* ---------------------------------------------------- MQ - General Styling - Footer - Phone */
-
-@media screen and (max-width: 767px) {
-
-    .footer-links li {
-        display: block;
-    }
-}
-
-
 /* ---------------------------------------------------------------------------------- MQ - HOME PAGE */
 
 /* ------------------------------------------------------------- MQ - Home Page - Tablet and Phone */
 
 @media screen and (max-width: 991px) {
+
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "about-us-top"
+            "about-div-top"
+            "about-us-bottom"
+            "about-div-bottom";
+    }
 
     .about-us h2 {
         font-size: 22px;
@@ -738,7 +734,6 @@ footer {
     #about-div-top {
         margin-bottom: 25px;
     }
-
 }
 
 /* ------------------------------------------------------------- MQ - Home Page - Tablet */
@@ -755,19 +750,7 @@ footer {
         padding: 250px 0 0 500px;
     }
 
-    /* ------------------------------------ Dog Preview Section */
-
-    .grid-container {
-        display: grid;
-        border-radius: 15px;
-        margin: 0 30px 50px 30px;
-        grid-template-columns: 1fr;
-        grid-template-areas:
-            "about-us-top"
-            "about-div-top"
-            "about-us-bottom"
-            "about-div-bottom";
-    }
+    /* ------------------------------------ See more Dogs button */
 
     .meet-dogs-link {
         margin-top: 50px;
@@ -797,21 +780,20 @@ footer {
         height: 250px;
     }
 
-    /* ------------------------------------ Hero Text Box */
-
-    #hero-color h3 {
-        font-size: 18px;
-    }
-
     #hero-border {
         width: 90%;
         margin: 0 5% 0 5%;
     }
 
     #hero-color {
-        height: 40px;
         padding: 5px;
         height: auto;
+    }
+
+    /* ------------------------------------ Hero Text Box */
+
+    #hero-color h3 {
+        font-size: 18px;
     }
 
     /* ------------------------------------ Dog Preview Section */
@@ -825,26 +807,6 @@ footer {
         margin-top: 50px;
         margin-bottom: 50px;
     }
-
-    /* ------------------------------------ About Us Section */
-
-    .grid-container {
-        display: grid;
-        border-radius: 15px;
-        margin: 0 30px 50px 30px;
-        grid-template-columns: 1fr;
-        grid-template-areas:
-            "about-us-top"
-            "about-div-top"
-            "about-us-bottom"
-            "about-div-bottom";
-    }
-
-    .about-image {
-        width: 100%;
-    }
-
-
 }
 
 /* ------------------------------------------------------------- MQ - Home Page - Smallest Phones */
@@ -932,9 +894,6 @@ footer {
         background-color: rgb(0, 0, 0, 0.6);
     }
 
-    #adoption-box {
-        padding-top: 20px;
-    }
 }
 
 /* ------------------------------------------------------------- MQ - Dogs Page - Smallest Phones */
@@ -969,6 +928,12 @@ footer {
     #map {
         width: 100%;
     }
+
+    /* #submit {
+        width: 18%;
+        margin-left: 41%;
+        margin-right: 41%;
+    } */
 }
 
 
@@ -1025,7 +990,9 @@ footer {
     }
 
     #submit {
-        width: 22%;
+        width: 16%;
+        margin-left: 42%;
+        margin-right: 42%;
     }
 
     /* ------------------------------------ Find Us Section */
@@ -1036,10 +1003,21 @@ footer {
 
     #find-us-section {
         align-items: center;
-        padding: 0;
     }
 
     #map {
         margin: 30px 0 0 0;
     }
+}
+
+/* ------------------------------------------------------------- MQ - Contact Page - Smallest Phones */
+
+@media screen and (max-width: 450px) {
+
+    #submit {
+        width: 24%;
+        margin-left: 38%;
+        margin-right: 38%;
+    }
+
 }
