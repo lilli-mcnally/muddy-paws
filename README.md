@@ -72,7 +72,15 @@ My target audience for Muddy Paws Rescue Centre is going to be families with chi
 
 > A couple in their mid-30s are looking for an active dog. They have a caravan and enjoy travelling the country, so need a dog that likes lots of exercise and isn't likely to run away when nervous. They have plenty of room and would prefer a medium or large sized dog. They live in the countryside, the centre is a 40 minute drive from them. Because of this, they want to be sure there is a dog they'd like to see before making the drive.
 
-<br>
+---
+
+## Objectives
+
+**Using the table and scatter graph below, I have decided that the Muddy Paws Rescue Centre's website will focus on the following three objectives:**
+
+- _Advertise the dogs so users can view before the visit_
+- _Give information about the adoption process_
+- _Show users where the Rescue Centre is located and it’s contact details_
 
 | Objective                                                              | Importance | Viability / Feasibility | Colour |
 | ---------------------------------------------------------------------- | :--------: | :---------------------: | :----- |
@@ -89,21 +97,38 @@ My target audience for Muddy Paws Rescue Centre is going to be families with chi
 
 ---
 
+## Structure
+
+Structure
+In order to structure this information in the most user-friendly way, the website will consist of four pages:
+
+- Homepage
+- “Meet the dogs” page
+- Contact page
+- Submit page (this will mirror the contact page but will display a message that says “Thank you for submitting” instead of the contact form)
+
+---
+
 ## Wireframes and Prototypes
 
-- I started by drafting the idea on [Figma](https://www.figma.com/) in the form of a mind map
+I started by creating a basic site map on [Figma](https://www.figma.com/), to get an idea of what pages I wanted to include:
 
-  - [Figma Mind Map](/assets/images/mind-map.PNG)
+- [Figma Site Map](/assets/images/site-map.png)
 
-- Next, I created Wireframes using [Balsamiq](https://balsamiq.com/)
+Next, I started drafting an idea on [Figma](https://www.figma.com/) of what I wanted on my pages to achieve the [three objectives](#objectives) in the form of a mind map
 
-  - [Home Page](/assets/images/home-page.PNG)
-  - [Meet the Dogs Page](/assets/images/meet-dogs-page.PNG)
-  - [Contact Page](/assets/images/contact-page.PNG)
-  - [Submit Page](/assets/images/submit-page.PNG)
+- [Figma Mind Map](/assets/images/mind-map.PNG)
 
-- Finally, I created a prototype of the Home Page using [Figma](https://www.figma.com/)
-  - [Prototype Home Page](/assets/images/prototype.PNG)
+I created Wireframes using [Balsamiq](https://balsamiq.com/) to get an idea of the best layout for all screen sizes
+
+- [Home Page](/assets/images/home-page.PNG)
+- [Meet the Dogs Page](/assets/images/meet-dogs-page.PNG)
+- [Contact Page](/assets/images/contact-page.PNG)
+- [Submit Page](/assets/images/submit-page.PNG)
+
+Finally, I created a prototype of the Home Page using [Figma](https://www.figma.com/)
+
+- [Prototype Home Page](/assets/images/prototype.PNG)
 
 ---
 
@@ -252,7 +277,7 @@ There are no unfixed bugs to my knowledge
 | Validators                                                         | Results |
 | ------------------------------------------------------------------ | :-----: |
 | [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) |    ✓    |
-| [W3C Markup Validation Service](https://validator.w3.org/)         |    ✓    |
+| [W3C Markup Validation Service](https://validator.w3.org/)         |         |
 
 <p>
 <a href="http://jigsaw.w3.org/css-validator/check/referer">
