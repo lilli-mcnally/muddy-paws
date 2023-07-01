@@ -305,6 +305,10 @@ The final image is a background to the "How do I Adopt" section, which is either
 
 #### Styling
 
+With a lot of images and information about the dogs across the site, I chose to make the website quite spacious.
+
+Each dog has it's own "Card" to clearly group the image and information about that dog together. I wanted to make sure the dog cards had plenty of space around them, so I designed the Dogs Page to be in a grid which changes for different screen sizes. At Desktop size, there are two rows with three dogs on. At Tablet size screen, this changes to three columns, with two dogs. Once below Tablet size, the dog cards change to six rows, with one dog per row. I kept the sizing of the dog cards consistent, because being able to see the dog is really important to the user. I did feel that having 6 rows in the grid for mobile made the webpage a lot longer. I went back to my [competitors websites](#competitor-review) and used Developer Tools to see how they adjusted their webpages. I found that all three had also made enough room for one dog to be shown on screen at a time.
+
 #### Backgrounds
 
 ---
