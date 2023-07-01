@@ -436,8 +436,7 @@ footer {
 
 #contact-text {
     text-align: center;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 30px 5%;
 }
 
 /* ------------------------------------------------------------- Contact Page - Contact Form */
@@ -925,6 +924,25 @@ footer {
 
 /* ---------------------------------------------------------------------------------- MQ - CONTACT PAGE */
 
+/* ---------------------------------------------------- MQ - General Styling - Header - Large Desktop */
+
+@media screen and (min-width: 1450px) {
+
+    #find-us {
+        width: 21%;
+        margin-right: 11%;
+    }
+
+    #map {
+        margin-left: 11%;
+    }
+
+    .contact-form {
+        width: 40%;
+        margin: 0 30% 50px 30%;
+
+    }
+}
 
 /* ------------------------------------------------------------- MQ - Contact Page - Tablet and Phone */
 
@@ -944,12 +962,6 @@ footer {
     #map {
         width: 100%;
     }
-
-    /* #submit {
-        width: 18%;
-        margin-left: 41%;
-        margin-right: 41%;
-    } */
 }
 
 
