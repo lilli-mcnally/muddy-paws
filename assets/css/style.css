@@ -10,6 +10,14 @@ body {
     letter-spacing: 1px;
 }
 
+:root {
+    --blue: #0079AD;
+    --border: #70D4FF;
+    --background: #E5F7FF;
+    --yellow: #F9F871;
+
+}
+
 /* ---------------------------------------------------------------------------------- HEADER */
 
 header {
@@ -37,7 +45,7 @@ header {
 
 .navbar-links:hover {
     text-decoration: underline !important;
-    color: #0079AD !important;
+    color: var(--blue) !important;
 }
 
 .navbar {
@@ -55,7 +63,7 @@ header {
 /* ---------------------------------------------------------------------------------- FOOTER */
 
 footer {
-    background-color: #0079AD;
+    background-color: var(--blue);
     height: auto;
     padding: 50px;
     box-sizing: content-box;
@@ -80,7 +88,7 @@ footer {
 }
 
 .footer-links a:hover {
-    color: #F9F871;
+    color: var(--yellow);
 }
 
 /* ------------------------------------------------------------- Footer - Social Media Links */
@@ -105,7 +113,7 @@ footer {
 }
 
 .fa-brands:hover {
-    color: #F9F871;
+    color: var(--yellow);
 }
 
 /* ------------------------------------------------------------- Footer - Copywrite */
@@ -186,9 +194,9 @@ footer {
     padding: 2px;
     margin: auto;
     margin-top: 25px;
-    border: 1px solid #70D4FF;
+    border: 1px solid var(--border);
     border-radius: 12px;
-    background-color: #E5F7FF;
+    background-color: var(--background);
 }
 
 .meet-dogs-home {
@@ -214,8 +222,8 @@ footer {
 
 .meet-dogs-link {
     text-decoration: none;
-    background-color: #0079AD;
-    border: 2px solid #0079AD;
+    background-color: var(--blue);
+    border: 2px solid var(--blue);
     color: #fafafa;
     width: 25%;
     text-align: center;
@@ -230,7 +238,7 @@ footer {
 .meet-dogs-link:hover {
     text-decoration: underline;
     background-color: #fafafa;
-    color: #0079AD;
+    color: var(--blue);
 }
 
 
@@ -291,7 +299,7 @@ footer {
 }
 
 #adoption-link:hover {
-    color: #0079AD
+    color: var(--blue)
 }
 
 
@@ -301,7 +309,7 @@ footer {
 
 
 .meet-dog-heading {
-    background-color: #F9F871;
+    background-color: var(--yellow);
     height: auto;
     padding: 5px;
     margin: 0 0 20px 0;
@@ -424,7 +432,7 @@ footer {
 }
 
 #adoption-box a {
-    color: #F9F871;
+    color: var(--yellow);
     text-decoration: none;
 }
 
@@ -445,9 +453,9 @@ footer {
     width: 50%;
     margin: 0 25% 50px 25%;
     padding: 2vw;
-    border: 1px solid #70D4FF;
+    border: 1px solid var(--border);
     border-radius: 12px;
-    background-color: #E5F7FF;
+    background-color: var(--background);
     text-align: center;
 }
 
@@ -465,7 +473,7 @@ footer {
 
 .form-control.is-invalid,
 .was-validated .form-control:invalid {
-    border-color: #0079AD;
+    border-color: var(--blue);
     background-image: none;
     color: #000;
 }
@@ -479,8 +487,8 @@ footer {
 
 .form-control.is-invalid:focus,
 .was-validated .form-control:invalid:focus {
-    border-color: #0079AD;
-    box-shadow: 0 0 0 0.1rem #70D4FF;
+    border-color: var(--blue);
+    box-shadow: 0 0 0 0.1rem var(--border);
 }
 
 .form-control.is-invalid:focus,
@@ -492,7 +500,7 @@ footer {
 /* --------------------------------------- Date Input */
 
 .visit-date-input {
-    border: 1px solid #0079AD;
+    border: 1px solid var(--blue);
     border-radius: 0.25rem;
     color: #000;
 }
@@ -521,7 +529,7 @@ footer {
     border: none;
     border-radius: 0.25rem;
     color: #fff;
-    background-color: #0079AD;
+    background-color: var(--blue);
     text-align: center;
     width: 14%;
     margin: 20px 43% 0 43%;
@@ -529,7 +537,7 @@ footer {
 }
 
 #submit:hover {
-    color: #F9F871;
+    color: var(--yellow);
 }
 
 #thanks-box {
@@ -539,7 +547,7 @@ footer {
 }
 
 #thanks-box a:hover {
-    color: #0079AD;
+    color: var(--blue);
 }
 
 
@@ -561,7 +569,7 @@ footer {
 .fa-brands-contact {
     margin: 0 10px 0 10px;
     font-size: 20px;
-    color: #0079AD;
+    color: var(--blue);
 }
 
 .fa-brands-contact:hover {
@@ -583,12 +591,12 @@ footer {
 }
 
 .tr-border {
-    border-bottom: 1px solid #0079AD;
+    border-bottom: 1px solid var(--blue);
     padding: 10px;
 }
 
 .td-border {
-    border-right: 1px solid #0079AD;
+    border-right: 1px solid var(--blue);
 }
 
 .td-space {
@@ -628,8 +636,8 @@ footer {
         margin-top: 50px;
         width: 200px;
         font-size: 1.1rem;
-        background-color: #E5F7FF;
-        border: 1px solid #70D4FF;
+        background-color: var(--background);
+        border: 1px solid var(--border);
         border-radius: 5px;
     }
 
@@ -651,8 +659,8 @@ footer {
 
 
     #toggler {
-        border: 1px solid #0079AD;
-        background-color: #E5F7FF;
+        border: 1px solid var(--blue);
+        background-color: var(--background);
     }
 }
 
@@ -718,6 +726,37 @@ footer {
 }
 
 /* ---------------------------------------------------------------------------------- MQ - HOME PAGE */
+
+/* ------------------------------------------------------------- MQ - Home Page - Large Desktop */
+@media screen and (min-width: 1450px) {
+
+    .dog-card {
+        padding: 5px;
+    }
+
+
+    .dog-image {
+        height: 350px;
+        width: 350px;
+    }
+
+    .dog-content h2 {
+        font-size: 2.1rem;
+    }
+
+    .dog-content p {
+        font-size: 18px;
+    }
+
+    #dog-preview {
+        margin: 0 10%;
+    }
+
+    .about-us p {
+        font-size: 18px;
+    }
+
+}
 
 /* ------------------------------------------------------------- MQ - Home Page - Tablet and Phone */
 
@@ -842,6 +881,18 @@ footer {
 
 /* ---------------------------------------------------------------------------------- MQ - DOGS PAGE */
 
+/* ------------------------------------------------------------- MQ - Dogs Page - Large Desktop */
+@media screen and (min-width: 1450px) {
+
+    .dog-info-box h2 {
+        font-size: 2.1rem;
+    }
+
+    .dog-info-box {
+        font-size: 18px;
+    }
+}
+
 /* ------------------------------------------------------------- MQ - Dogs Page - Tablet and Phone */
 
 @media screen and (max-width: 991px) {
@@ -924,7 +975,7 @@ footer {
 
 /* ---------------------------------------------------------------------------------- MQ - CONTACT PAGE */
 
-/* ---------------------------------------------------- MQ - General Styling - Header - Large Desktop */
+/* ---------------------------------------------------- MQ - Contact Page - Large Desktop */
 
 @media screen and (min-width: 1450px) {
 
