@@ -2,32 +2,6 @@
 
 _Muddy Paws Rescue Centre is a small organisation that rescues and rehomes dogs of various breeds. This website has been designed to showcase the dogs currently needing a home, as well as inform families and couples of the centres location, contact details and adoption process._
 
-## Competitor Review
-
-I have assessed three different type of competitors for this project. First, [Dogs Trust](https://www.dogstrust.org.uk/) which is a large organisation with several rescue centres around the country. The second is [Birmingham Dogs Home](https://birminghamdogshome.org.uk/), a medium sized local dogs home in Birmingham with two centres. Lastly is the [Freedom of Spirit Trust for Border Collies (FOSTBC)](https://www.fostbc.org.uk/) which is an independent dogs home specifically for Border Collies based in Leeds.
-
-### **Pros**
-
-- Dogs Trust
-  - Great use of spacing with text and images. Video on landing page draws the user in
-- Birmingham Dogs home
-  - Consistent use of circles and handwriting-like fonts to create a more “fun” feeling to the website and adoption process
-  - “Find a dog” search fixed to the top of every page
-- FOSTBC
-  - Lots of pictures to draw the user in
-  - Great use of colours - green and white makes the text clear and easy to read
-
-### **Cons**
-
-- Dogs Trust
-  - Contact us page - user has to scroll to nearly to bottom for contact information
-  - Breadcrumb feature inconsistent - House icon used for Home, but then text used for the rest of the breadcrumb
-- FOSTBC
-  - Hero image and logo too large - the landing page has no immediate information when opened, but you can't see any images either
-  - There is a lot of text and content on each page, users may find this an overload
-- Birmingham Dogs home
-  - Large pictures and text on homepage make the website look a little crowded
-
 ---
 
 ## Purpose and Value
@@ -73,6 +47,32 @@ My target audience for Muddy Paws Rescue Centre is going to be families with chi
 > A couple in their mid-30s are looking for an active dog. They have a caravan and enjoy travelling the country, so need a dog that likes lots of exercise and isn't likely to run away when nervous. They have plenty of room and would prefer a medium or large sized dog. They live in the countryside, the centre is a 40 minute drive from them. Because of this, they want to be sure there is a dog they'd like to see before making the drive.
 
 ---
+
+## Competitor Review
+
+I have assessed three different type of competitors for this project. First, [Dogs Trust](https://www.dogstrust.org.uk/) which is a large organisation with several rescue centres around the country. The second is [Birmingham Dogs Home](https://birminghamdogshome.org.uk/), a medium sized local dogs home in Birmingham with two centres. Lastly is the [Freedom of Spirit Trust for Border Collies (FOSTBC)](https://www.fostbc.org.uk/) which is an independent dogs home specifically for Border Collies based in Leeds.
+
+### **Pros**
+
+- Dogs Trust
+  - Great use of spacing with text and images. Video on landing page draws the user in
+- Birmingham Dogs home
+  - Consistent use of circles and handwriting-like fonts to create a more “fun” feeling to the website and adoption process
+  - “Find a dog” search fixed to the top of every page
+- FOSTBC
+  - Lots of pictures to draw the user in
+  - Great use of colours - green and white makes the text clear and easy to read
+
+### **Cons**
+
+- Dogs Trust
+  - Contact us page - user has to scroll to nearly to bottom for contact information
+  - Breadcrumb feature inconsistent - House icon used for Home, but then text used for the rest of the breadcrumb
+- FOSTBC
+  - Hero image and logo too large - the landing page has no immediate information when opened, but you can't see any images either
+  - There is a lot of text and content on each page, users may find this an overload
+- Birmingham Dogs home
+  - Large pictures and text on homepage make the website look a little crowded
 
 ## Objectives
 
@@ -262,9 +262,60 @@ I fixed this issue by giving the Toggler a top property of 15px, and a right pro
 
 ![Toggler at top right of Navigation Menu](/assets/images/bugs/nav-toggler-solution-1.PNG "Toggler at top right of Navigation Menu")
 
+---
+
 ## Unfixed Bugs
 
 There are no unfixed bugs to my knowledge
+
+---
+
+## Features
+
+I chose to have colourful "card" for the dog images and information, to draw the users attention, and to easily define what information related to which dog.
+
+---
+
+## Design
+
+#### Colours
+
+I decided to keep the colouring for this website quite simple. I knew there would be a lot of images of the dogs, and I wanted to make sure the user wasn't overloaded with content and colour, as well as the large images.
+
+The main two colours used are blue and yellow.
+
+I liked the idea of using green at first to represent grass, for all the walks a user would have with their new pet. However, looking further into the psychology of colours I noticed on [Colour Psychology](https://www.colorpsychology.org/blue/), [The Good Trade](https://www.thegoodtrade.com/features/clothing-color-psychology/#:~:text=For%20this%20reason%2C%20wearing%20blue,for%20work%20or%20school%20presentations.) and [Medium](https://medium.com/@bloominari/color-psychology-in-web-design-f60656b8f313#:~:text=Blue,security%2C%20intelligence%2C%20and%20reliability.) that blue may be a more effective colour. These websites say blue is a colour for calmness, but also for loyalty, stability and safety. I liked the connotation of loyalty, to tie in with the natural loyalty most dogs have. I also liked the idea of the user providing the stability and safety a rescue dog needs after a difficult life.
+
+[Colour Psychology](https://www.colorpsychology.org/yellow/) and [The Good Trade](https://www.thegoodtrade.com/features/clothing-color-psychology/#:~:text=For%20this%20reason%2C%20wearing%20blue,for%20work%20or%20school%20presentations.)
+also said yellow provokes feelings of hope, positivity and energy. These all fit with the experience of getting a dog, and also ties to the dogs hope of finding a forever home. I also found the happiness from yellow ties well to the happiness we experience when doing something good, such as rescuing an animal.
+
+#### Typography
+
+I decided I wanted to pick a sans-serif font for the typography. I found "Dosis" on [Google Fonts](https://fonts.google.com/) and felt this was a great choice. The font itself is playful and friendly, like a dog, but not unreadable or unprofessional.
+
+#### Imagery
+
+A large amount of the images used on the site were purely to showcase the dogs. However, I chose very specific images of the dogs, where they were happy and on grass or sitting in the sun. I chose these to present an idea that getting one of these dogs would be a pleasant experience, and to show the happiness that they could bring to the dog if they were to adopt.
+
+I chose the Hero Image of puppies running on a field to tie in with the happiness from the yellow colour.
+
+In the "About Us" section, I chose two images for this section; one of a woman walking several dogs in a grassy field, and the other of two vets looking at a dog to see how they could help. I wanted images that showed we've really looked after the dogs up to this point, and that we intend for the user to be the same by making sure the dog they adopt is both healthy and happy.
+
+The final image is a background to the "How do I Adopt" section, which is either a puppy lay on grass, or sandy paw prints depending on the screen width. I partly wanted a background image here to break up the page from the dog information section. But I also wanted the dog image to provoke sympathy for the dogs the user has just seen, and for the footprints to symbolise a potential future for the user with their new best friend.
+
+#### Styling
+
+#### Backgrounds
+
+---
+
+## Deployment
+
+This site was built on Codeanywhere. I've used git add, commit and push to publish it on Github.
+
+To deploy the site, I firstly went logged into Github and opened the Repository. I clicked "Settings" and then selected "Pages" on the left side of the screen.
+
+Then, under "Branch" I chose "Main", and clicked Save.
 
 ---
 
@@ -286,3 +337,7 @@ There are no unfixed bugs to my knowledge
         alt="Valid CSS!" />
     </a>
 </p>
+
+---
+
+## Credits
