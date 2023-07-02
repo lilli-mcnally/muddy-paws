@@ -40,11 +40,11 @@ My target audience for Muddy Paws Rescue Centre is going to be families with chi
 
 ### **Families with Kids**
 
-> A family of four is looking to adopt a dog that is good with young children. To do this, they will need to look at the different types and breeds of dogs available on the website before they visit. They will have to bring the children to the Rescue Centre, so they will need to make sure there is a dog they want to see before they go. They also want to look at what age the dogs are, as they want one that is quite young, but doesn't need long walks in the week.
+> A family of four is looking to adopt a dog that is good with young children. To do this, they will need to look at the different types and breeds of dogs available on the website before they visit. They will have to bring the children to the Rescue Centre, so they want to make sure there is a dog they want to see before they go. They'd like to find out how to adopt, and what age the dogs are, as they want one that is quite young, but doesn't need long walks in the week.
 
 ### **Couples**
 
-> A couple in their mid-30s are looking for an active dog. They have a caravan and enjoy travelling the country, so need a dog that likes lots of exercise and isn't likely to run away when nervous. They have plenty of room and would prefer a medium or large sized dog. They live in the countryside, the centre is a 40 minute drive from them. Because of this, they want to be sure there is a dog they'd like to see before making the drive.
+> A couple in their mid-30s are looking for an active dog. They have a caravan and enjoy travelling the country, so need a dog that likes lots of exercise and isn't likely to run away when nervous. They have plenty of room and would prefer a medium or large sized dog. They live in the countryside and the centre is a 40 minute drive from them, so they want to secure an appointment before making the journey. Because of distance, they also want to be sure there is a dog they'd like to see before making the drive, and will need to check directions and the centre's exact location.
 
 ---
 
@@ -266,19 +266,118 @@ I fixed this issue by giving the Toggler a top property of 15px, and a right pro
 
 ## Unfixed Bugs
 
-There are no unfixed bugs to my knowledge
+There are no unfixed bugs to my knowledge.
 
 ---
 
 ## Features
 
-I chose to have colourful "card" for the dog images and information, to draw the users attention, and to easily define what information related to which dog.
+As planned in my [structure](#structure) section, I kept the website to four pages:
+
+- Home Page
+- Meet the Dogs page
+- Contact Page
+- Thank You page (previously called the Submit page)
+
+### **Header and Footer**
+
+The Header consists of the Muddy Paws logo, and links to the three pages. On smaller screen, I added and adapted the [Bootstrap Navigation](https://getbootstrap.com/docs/4.1/components/card/#navigation) feature. This gives an easy to use Hamburger menu for the user. I also added the [Font Awesome](https://fontawesome.com/) icons to each of the menu items:
+
+- A house icon for the "Home Page"
+- A pawprint icon for the "Meet the Dogs page"
+- A phone icon for the "Contact page"
+
+![Header](/assets/images/features/features-header.PNG "Header")
+
+The Footer has useful links, including the Meet the Dogs page and Contact Page. It also has links to the "About Us" section on the Home Page, and another to the "How to Adopt" section on the Dogs page. I added links to each of the four social media websites, and a copyright notice at the bottom.
+
+![Footer](/assets/images/features/features-footer.PNG "Footer")
+
+### **Home Page**
+
+This page is divided into several sections: the Hero image, the Dog preview, and the About us Section.
+
+The Hero image sets the tone for the website from when the user clicks on to the website: it's about dogs. I also added a text box to give the user some context that the Rescue Centre is for rehoming all types of dogs.
+
+![Hero Image](/assets/images/features/features-hero-image.PNG "Hero Image")
+
+The Dog Preview has two "Dog Cards" with an image of each dog and some basic information about them. There's also a link to the "Meet the Dogs" page on each card, and underneath the two cards. I wanted this to be near the top of the webpage as this will likely be the first thing people are looking for when they access the website.
+
+![Dog Preview](/assets/images/features/features-dog-preview.PNG "Dog Preview")
+
+The final section is the About Us section. This gives the user information about how the dogs have been looked after since they got to the centre, and about the centre itself.
+
+![About Us](/assets/images/features/features-about-us.PNG "About Us")
+
+### **Meet the Dogs Page**
+
+The "Meet the Dogs page" is seperated into the Dog Card section, and the Adoption section.
+
+The Dog Card section was created to showcase all the dogs currently available for adoption. Each card has well-sized photograph, the dog's name, their basic information such as age and breed, and a tickbox of whether they're suitable for home that already have children, other dogs, or cats. This section also meets the needs of both [user stories](#user-stories):
+
+**Families with Kids**
+
+> ...They will have to bring the children to the Rescue Centre, so they want to make sure there is a dog they want to see before they go...
+
+**Couples**
+
+> ...Because of distance, they also want to be sure there is a dog they'd like to see before making the drive...
+
+The section also achieves the first of my three [objectives](#objectives)
+
+- _Advertise the dogs so users can view before the visit_
+
+![Dog Cards](/assets/images/features/features-dog-card.PNG "Dog Cards")
+
+The second half of the Meet the Dogs page gives information about how the user can adopt a dog, and how the process works. There's a link to the Contact page once a user is happy to start the process, and information about support following adoption. This meets needs of the [user story](#user-stories) for Families with Kids.
+
+**Families with Kids**
+
+> ...They'd like to find out how to adopt...
+
+It also meets my second [objective](#objectives)
+
+- _Give information about the adoption process_
+
+![Adoption](/assets/images/features/features-adoption.PNG "Adoption")
+
+### **Contact Page**
+
+The third page is split into the "Contact form" section and the "Find us" section.
+
+The "Contact form" is an opportunity for users to get in contact with the centre outside of opening hours. It gives the user the chance to give a date that suits them to visit, but also a tickbox section so they can inform the centre of which dogs they'd be interested in meeting. This will be particularly useful to the user story for Couples, so they can check the dog is still available before they make the long drive.
+
+**Couples**
+
+> ...the centre is a 40 minute drive from them...
+
+I've made the "Name", "Phone Number" and "Email Address" boxes mandatory to help the centre get it touch with the user. To make this easier to use for the user, I've added a blue shadow around the box for when it's clicked on, and a green shadow and border once the box is completed. The "Submit" button is a link to the "Thank You Page"
+
+![Contact Form](/assets/images/features/features-contact-form.PNG "Contact Form")
+
+The "Find Us" section contains a Google Maps iframe, so users can see the exact location of the Rescue Centre. There's also the address, phone number, email address, social media links and opening hours. The phone number and email address are anchor elements so the user doesn't have to copy and paste this information. This section meets the [user story](#user-stories) needs for Couples:
+
+**Couples**
+
+> ...and will need to check directions and the centre's exact location.
+
+This section meets my third and final [objective](#objectives)
+
+- _Show users where the Rescue Centre is located and it's contact details_
+
+![Find Us](/assets/images/features/features-find-us.PNG "Find Us")
+
+### **Thank You Page**
+
+The Submit button from the "Contact Page" sends the user through to the "Thank You Page". This page isn't accessible any other way from the website, and it has a small box with feedback that the completed form has been sent to the Rescue Centre. It also has a link back to the Home Page.
+
+![Thank You Page](/assets/images/features/features-thank-you.png "Thank You Page")
 
 ---
 
 ## Design
 
-#### Colours
+### **Colours**
 
 I decided to keep the colouring for this website quite simple. I knew there would be a lot of images of the dogs, and I wanted to make sure the user wasn't overloaded with content and colour, as well as the large images.
 
@@ -289,21 +388,17 @@ I liked the idea of using green at first to represent grass, for all the walks a
 [Colour Psychology](https://www.colorpsychology.org/yellow/) and [The Good Trade](https://www.thegoodtrade.com/features/clothing-color-psychology/#:~:text=For%20this%20reason%2C%20wearing%20blue,for%20work%20or%20school%20presentations.)
 also said yellow provokes feelings of hope, positivity and energy. These all fit with the experience of getting a dog, and also ties to the dogs hope of finding a forever home. I also found the happiness from yellow ties well to the happiness we experience when doing something good, such as rescuing an animal.
 
-#### Typography
+### **Typography**
 
-I decided I wanted to pick a sans-serif font for the typography. I found "Dosis" on [Google Fonts](https://fonts.google.com/) and felt this was a great choice. The font itself is playful and friendly, like a dog, but not unreadable or unprofessional.
+I decided I wanted to pick a sans-serif font for the typography. I found "Dosis" on [Google Fonts](https://fonts.google.com/) and felt this was a great choice as it's friendly and welcoming to the user.
 
-#### Imagery
+### **Imagery**
 
-A large amount of the images used on the site were purely to showcase the dogs. However, I chose very specific images of the dogs, where they were happy and on grass or sitting in the sun. I chose these to present an idea that getting one of these dogs would be a pleasant experience, and to show the happiness that they could bring to the dog if they were to adopt.
+The Dogs page and Home page both have information about the dogs currently homed at the Rescue Centre, so I added images of each dog happy and sitting in the sun to go with the information.
 
-I chose the Hero Image of puppies running on a field to tie in with the happiness from the yellow colour.
+For my Hero Image, I decided to use an image of puppies running on a field.In the "About Us" section, I chose two images for this section; one of a woman walking several dogs in a grassy field, and the other of two vets looking at a dog to see how they could help. I wanted images that showed we've really looked after the dogs up to this point, and that we intend for the user to be the same by making sure the dog they adopt is both healthy and happy.
 
-In the "About Us" section, I chose two images for this section; one of a woman walking several dogs in a grassy field, and the other of two vets looking at a dog to see how they could help. I wanted images that showed we've really looked after the dogs up to this point, and that we intend for the user to be the same by making sure the dog they adopt is both healthy and happy.
-
-The final image is a background to the "How do I Adopt" section, which is either a puppy lay on grass, or sandy paw prints depending on the screen width. I partly wanted a background image here to break up the page from the dog information section. But I also wanted the dog image to provoke sympathy for the dogs the user has just seen, and for the footprints to symbolise a potential future for the user with their new best friend.
-
-#### Styling
+### **Styling**
 
 With a lot of images and information about the dogs across the site, I chose to make the website quite spacious.
 
@@ -311,7 +406,13 @@ Each dog has it's own "Card" to clearly group the image and information about th
 
 On the contact page, I created the contact form with plenty of spacing around it, and added a background colour and border to contain the form questions and submit button. On the second half of the page, I styled the map to take up a large percentage of the screen to give the user as much room as possible to check where the Farm is located, as it's out in the countryside. I gave lots of line spacing to the "How to find us" section, whilst making sure all the information in the box can be seen at once so they don't have to go looking for parts of it, no matter what screen size the user is using.
 
-#### Backgrounds
+I kept the bordering on the text box on the Hero Image consistent with the Contact and Dogs page Headings with a gap inbetween, and which also ties to the logo. Throughout the website I've also added a small border radius to most elements to make the site more welcoming to users.
+
+### **Backgrounds**
+
+Most of the website background is an off-white colour. Each of the dog cards have a slight blue colour, not only to group the information together, but also to tie the dogs to the connotations of the blue: loyalty, stability, safety.
+
+I chose to use an image for the background of the "How do I Adopt" section, which is either a puppy lay on grass, or sandy paw prints depending on the screen width. I partly wanted a background image here to break up the page from the dog card section, and wanted to keep the imagery around dogs. However, I also wanted the footprints to symbolise a potential future for the user with their new best friend.
 
 ---
 
