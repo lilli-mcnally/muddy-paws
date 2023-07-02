@@ -505,6 +505,10 @@ footer {
     color: #000;
 }
 
+#visit-date {
+    cursor: pointer;
+}
+
 /* --------------------------------------- Checkbox Input */
 
 .dog-checkbox {
@@ -521,6 +525,10 @@ footer {
 
 #checkbox-willow {
     margin: 0;
+}
+
+.checkbox input {
+    cursor: pointer;
 }
 
 /* --------------------------------------- Submit Input */

@@ -281,11 +281,7 @@ As planned in my [structure](#structure) section, I kept the website to four pag
 
 ### **Header and Footer**
 
-The Header consists of the Muddy Paws logo, and links to the three pages.
-
-![Header](/assets/images/features/features-header.PNG "Header")
-
-On smaller screen, I added and adapted the [Bootstrap Navigation](https://getbootstrap.com/docs/4.1/components/card/#navigation) feature. This gives an easy to use Hamburger menu for the user. I also added the [Font Awesome](https://fontawesome.com/) icons to each of the menu items:
+The Header consists of the Muddy Paws logo, and links to the three pages. I also added the [Font Awesome](https://fontawesome.com/) icons to each of the menu items:
 
 - A house icon for the "Home Page"
 - A pawprint icon for the "Meet the Dogs page"
