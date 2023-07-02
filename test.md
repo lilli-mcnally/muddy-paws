@@ -142,7 +142,7 @@
 
 For this section, I asked 3 people for their feedback on how easy they felt the website was to use.
 
-On a scale of 1 to 5, where 1 is very easy, and 5 is very difficult, how easy did you find the following tasks:
+On a scale of 1 to 5, where 1 is very difficult, and 5 is very easy, how easy did you find the following tasks:
 
 | Task                                                                   | User 1 | User 2 | User 3 |
 | ---------------------------------------------------------------------- | :----: | :----: | :----: |
@@ -151,6 +151,6 @@ On a scale of 1 to 5, where 1 is very easy, and 5 is very difficult, how easy di
 | Find the phone number for Muddy Paws                                   |        |        |        |
 | Find out what time Muddy Paws is open on Sundays                       |        |        |        |
 | Find out whether Luna is suitable for a home with other dogs           |        |        |        |
-| Find the a link to Youtube.com                                         |        |        |        |
+| Find a link to Youtube.com                                             |        |        |        |
 | Find out whether the dogs are microchipped                             |        |        |        |
 | Find out whether Muddy Paws offer support after adoption for 3 years   |        |        |        |

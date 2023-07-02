@@ -549,11 +549,13 @@ All manual testing has been completed and can be accessed using the link below:
 ### **Research**
 
 - [Dogs Trust](https://www.dogstrust.org.uk/)
-  - Researched for competitor review
+  - Researched for competitor review.
 - [Birmingham Dogs Home](https://birminghamdogshome.org.uk/)
-  - Researched for competitor review
+  - Researched for competitor review.
 - [Freedom of Spirit Trust for Border Collies (FOSTBC)](https://www.fostbc.org.uk/)
-  - Researched for competitor review
+  - Researched for competitor review.
+- [Medium](https://medium.com/), [The Good Trade](https://www.thegoodtrade.com/) and [Color Psychology](https://www.colorpsychology.org/)
+  - I used Medium, The Good Trade and Color Psychology to research the connotations around the colours blue and yellow.
 
 ### **Frameworks, Libraries & Programs**
 
@@ -566,7 +568,26 @@ All manual testing has been completed and can be accessed using the link below:
 - [Codeanywhere](https://codeanywhere.com/)
   - I used Codeanywhere as my IDE for this project. I used the terminal to commit and push to [Github](https://github.com/)
 - [Bootstrap](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
-  - I used Bootstrap version 4.1 for my Navigation element, and for border shadows on my contact form.
+  - I used Bootstrap version 4.1 for my Navigation menu, and for border shadows on my contact form.
+- [Font Awesome](https://fontawesome.com/)
+  - I used Font Awesome for the Navigation menu items.
+- [Canva](https://www.canva.com/)
+  - I used basic shapes on Canva to make the Muddy Paws Rescue Centre logo.
+- [Google Fonts](https://fonts.google.com/)
+  - I used Google Fonts to choose Dosis, and imported the font into my CSS.
+- [ColorSpace](https://mycolor.space/)
+  - I used ColorSpace to find a blue and yellow that suited the website.
+- [Adobe Express](https://www.adobe.com/express/feature/image/remove-background)
+  - I used Adobe Express to remove the background on my logo.
+- [How To Wordpress Tips](https://howto-wordpress-tips.com/split-list-into-columns-using-css/)
+  - I used How To Wordpress Tips to change a list into two columns for Footer for tablet devices.
+- [W3 Schools](https://www.w3schools.com/)
+  - I used W3 Schools to learn how to add grids to my project, for the Dog Cards and the About Us section.
+  - I also learned about Variables, and used these to call my four colours across my CSS.
+- [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk)
+  - I used Lighthouse to validate my code
+- [WebAIM](https://webaim.org/resources/contrastchecker/)
+  - I used WebAIM to ensure the contrasts of my colours were readable and valid.
 -
 
 ### **Media**
