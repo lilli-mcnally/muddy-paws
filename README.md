@@ -559,49 +559,75 @@ All manual testing has been completed and can be accessed using the link below:
 
 ### **Frameworks, Libraries & Programs**
 
+#### Planning and Development
+
 - [Figma](https://www.figma.com/)
   - I used Figma to create my site map, my mind map and my prototype
 - [Balsamiq](https://balsamiq.com/)
   - I used Balsamiq to create my Wireframes
+- [Lorem Ipsum](https://loremipsum.io/)
+  - I used Lorem Ipsem to generate paragraphs to use in my prototype, to get a feel for how the text would sit on the page.
 - [Github](https://github.com/)
   - I used Github to store my project
 - [Codeanywhere](https://codeanywhere.com/)
   - I used Codeanywhere as my IDE for this project. I used the terminal to commit and push to [Github](https://github.com/)
+
+#### Styling and Code
+
 - [Bootstrap](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
   - I used Bootstrap version 4.1 for my Navigation menu, and for border shadows on my contact form.
 - [Font Awesome](https://fontawesome.com/)
   - I used Font Awesome for the Navigation menu items.
-- [Canva](https://www.canva.com/)
-  - I used basic shapes on Canva to make the Muddy Paws Rescue Centre logo.
 - [Google Fonts](https://fonts.google.com/)
   - I used Google Fonts to choose Dosis, and imported the font into my CSS.
-- [ColorSpace](https://mycolor.space/)
-  - I used ColorSpace to find a blue and yellow that suited the website.
-- [Adobe Express](https://www.adobe.com/express/feature/image/remove-background)
-  - I used Adobe Express to remove the background on my logo.
 - [How To Wordpress Tips](https://howto-wordpress-tips.com/split-list-into-columns-using-css/)
   - I used How To Wordpress Tips to change a list into two columns for Footer for tablet devices.
 - [W3 Schools](https://www.w3schools.com/)
   - I used W3 Schools to learn how to add grids to my project, for the Dog Cards and the About Us section.
   - I also learned about Variables, and used these to call my four colours across my CSS.
   - I was able to learn how to add the tel: and mailto: attributes to an anchor, so that these open directly into the users phone or mail app.
-- [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk)
-  - I used Lighthouse to validate my code
-- [WebAIM](https://webaim.org/resources/contrastchecker/)
-  - I used WebAIM to ensure the contrasts of my colours were readable and valid.
+
+#### Colours
+
+- [ColorSpace](https://mycolor.space/)
+  - I used ColorSpace to find a blue and yellow that suited the website.
+- [Canva](https://www.canva.com/)
+  - I used basic shapes on Canva to make the Muddy Paws Rescue Centre logo.
+- [Adobe Express](https://www.adobe.com/express/feature/image/remove-background)
+  - I used Adobe Express to remove the background on my logo.
+
+#### Images
+
 - [Pexels](https://www.pexels.com/)
   - I used Pexels to find all my images for my website
 - [Simple Image Resizer](https://www.simpleimageresizer.com/upload#)
   - I used Simple Image Resizer to make the Hero Image and other images smaller, so my webpage loaded faster.
 - [TinyPNG](https://tinypng.com/)
   - I used TinyPNG to compress my images before uploading them to my website, so the pages would run faster.
-- [Convertio](https://convertio.co/) 
+- [Convertio](https://convertio.co/)
   - I used Convertio to change some of my larger images, such as the two About Us images, into .WEBP files, to ensure my site would run as fast as possible.
 - [XConvert](https://www.xconvert.com/compress-webp)
   - I used XConvert to compress my images before uploading them to my website, so the pages would run faster.
-- [Lorem Ipsum](https://loremipsum.io/)
-  - I used Lorem Ipsem to generate paragraphs to use in my prototype, to get a feel for how the text would sit on the page. 
+
+#### Validators
+
+- [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk)
+  - I used Lighthouse to validate my code
+- [WebAIM](https://webaim.org/resources/contrastchecker/)
+  - I used WebAIM to ensure the contrasts of my colours were readable and valid.
 
 ### **Media**
+
+- [Julissa Helmuth](https://www.pexels.com/@jhelmuth/) - "dog-bubbles"
+- [Mikhail Nilov](https://www.pexels.com/@mikhail-nilov/) - "dog-vet"
+- [Blue Bird](https://www.pexels.com/@blue-bird/) - "dog-walk-group"
+- [TheOtherKev](https://www.pexels.com/@theotherkev/) - "border-collie"
+- [Valeria Boltneva](https://www.pexels.com/@valeriya/) - "beagle"
+- [Mithul Varshan](https://www.pexels.com/@mithulvarshan/) - "golden-retriever"
+- [Jan Kopczyński](https://www.pexels.com/@jan-kopczynski-358682506/) - "husky"
+- [Steshka Willems](https://www.pexels.com/@steshkawillems/) - "pug"
+- [Tatiana LM](https://www.pexels.com/@tatiana-lm-360892/) - "corgi"
+- [Magda Ehlers](https://www.pexels.com/@magda-ehlers-pexels/) - "adopt-dog"
+- [Helen](https://www.pexels.com/@helen-50264342/) - "dog-paw-prints"
 
 ### **Acknowledgements**
