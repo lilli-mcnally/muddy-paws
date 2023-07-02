@@ -584,11 +584,23 @@ All manual testing has been completed and can be accessed using the link below:
 - [W3 Schools](https://www.w3schools.com/)
   - I used W3 Schools to learn how to add grids to my project, for the Dog Cards and the About Us section.
   - I also learned about Variables, and used these to call my four colours across my CSS.
+  - I was able to learn how to add the tel: and mailto: attributes to an anchor, so that these open directly into the users phone or mail app.
 - [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk)
   - I used Lighthouse to validate my code
 - [WebAIM](https://webaim.org/resources/contrastchecker/)
   - I used WebAIM to ensure the contrasts of my colours were readable and valid.
--
+- [Pexels](https://www.pexels.com/)
+  - I used Pexels to find all my images for my website
+- [Simple Image Resizer](https://www.simpleimageresizer.com/upload#)
+  - I used Simple Image Resizer to make the Hero Image and other images smaller, so my webpage loaded faster.
+- [TinyPNG](https://tinypng.com/)
+  - I used TinyPNG to compress my images before uploading them to my website, so the pages would run faster.
+- [Convertio](https://convertio.co/) 
+  - I used Convertio to change some of my larger images, such as the two About Us images, into .WEBP files, to ensure my site would run as fast as possible.
+- [XConvert](https://www.xconvert.com/compress-webp)
+  - I used XConvert to compress my images before uploading them to my website, so the pages would run faster.
+- [Lorem Ipsum](https://loremipsum.io/)
+  - I used Lorem Ipsem to generate paragraphs to use in my prototype, to get a feel for how the text would sit on the page. 
 
 ### **Media**
 
