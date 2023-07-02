@@ -281,13 +281,13 @@ As planned in my [structure](#structure) section, I kept the website to four pag
 
 ### **Header and Footer**
 
-The Header consists of the Muddy Paws logo, and links to the three pages. I also added the [Font Awesome](https://fontawesome.com/) icons to each of the menu items:
+The Header consists of the Muddy Paws logo, and links to the three pages.This gives an easy to use Hamburger menu for the user. I also added the [Font Awesome](https://fontawesome.com/) icons to each of the menu items:
 
 - A house icon for the "Home Page"
 - A pawprint icon for the "Meet the Dogs page"
 - A phone icon for the "Contact page"
 
-![Responsive Header](/assets/images/features/features-header-responsive.png "Responsive Header")
+![Header](/assets/images/features/features-header.png "Header")
 
 The Footer has useful links, including the Meet the Dogs page and Contact Page. It also has links to the "About Us" section on the Home Page, and another to the "How to Adopt" section on the Dogs page. I added links to each of the four social media websites, and a copyright notice at the bottom.
 
@@ -405,7 +405,7 @@ I decided to use the darkest blue for the boldest features: the Footer, the "See
 
 I used the middle blue and lightest blue to create boxes around parts of the website, such as the dog cards, contact form and thank you box.
 
-![See More Dogs button](/assets/images/features/features-thank-you.png "See More Dogs button")
+![Thank you box](/assets/images/features/features-thank-you.png "Thank you box")
 
 I chose the yellow colour the heading of the Dogs Page and Contact Page. I also used it for the hover selected in the footer.
 
@@ -434,23 +434,15 @@ For my Hero Image, I decided to use an image of puppies running on a field. In t
 
 With a lot of images and information about the dogs across the site, I chose to make the website quite spacious.
 
-As the "About Us" section on the Home Page is quite large, the layout of this changes for tablet and mobile screen size. The text and image become stacked on top of each other instead of next to one another.
+As the "About Us" section on the Home Page is quite large, the layout of this changes for tablet and mobile screen size. The text also has smaller margins on small mobiles, so it can take up more of the phone screen.
 
-![About Us](/assets/images/features/features-about-mobile.png "About Us")
-
-I wanted to make sure the dog cards had plenty of space around them, so I designed the Dogs Page to be in a grid which changes for different screen sizes. At Desktop size, there are two rows with three dogs on. At Tablet size screen, this changes to three columns, with two dogs. Once below Tablet size, the dog cards change to six rows, with one dog per row. I kept the sizing of the dog cards consistent, because being able to see the dog is really important to the user. I did feel that having 6 rows in the grid for mobile made the webpage a lot longer. I went back to my [competitors websites](#competitor-review) and used Developer Tools to see how they adjusted their webpages. I found that all three had also made enough room for one dog to be shown on screen at a time.
-
-![Responsive dog cards](/assets/images/design/design-responsive-cards.PNG "Responsive dog cards")
+I wanted to make sure the dog cards had plenty of space around them, so I designed the Dogs Page to be in a grid which changes for different screen sizes.
 
 On the contact page, I created the contact form with plenty of spacing around it, and added a background colour and border to contain the form questions and submit button.
 
 ![Contact form spacing](/assets/images/design/design-contact-form.PNG "Contact form spacing")
 
-On the second half of the page, I styled the map to take up a large percentage of the screen to give the user as much room as possible to check where the Farm is located, as it's out in the countryside. I gave lots of line spacing to the "How to find us" section, whilst making sure all the information in the box can be seen at once so they don't have to go looking for parts of it, no matter what screen size the user is using:
-
-![Find us Desktop](/assets/images/features/features-find-us.PNG "Find us Desktop")
-![Find us Tablet](/assets/images/design/design-find-us-tablet.PNG "Find us Tablet")
-![Find us Mobile](/assets/images/design/design-find-us-mobile.png "Find us Mobile")
+On the second half of the page, I styled the map to take up a large percentage of the screen to give the user as much room as possible to check where the Farm is located, as it's out in the countryside. I gave lots of line spacing to the "How to find us" section, whilst making sure all the information in the box can be seen at once.
 
 I kept the bordering on the text box on the Hero Image consistent with the Contact and Dogs page Headings with a gap inbetween, and which also ties to the logo. Throughout the website I've also added a small border radius to most elements to make the site more welcoming to users.
 
@@ -466,6 +458,57 @@ I chose to use an image for the background of the "How do I Adopt" section, whic
 
 ---
 
+## **Responsiveness**
+
+### **Header and Footer**
+
+- In the Header, I added and adapted the [Bootstrap Navigation](https://getbootstrap.com/docs/4.1/components/card/#navigation) feature for tablet and mobile devices. This gives an easy to use Hamburger menu for the user.
+- For the Footer, I had the four internal links change to two columns on tablet sized screen, and one column for mobile.
+
+![Header for tablet and mobile devices](/assets/images/responsiveness/header-tablet-mobile.png "Header for tablet and mobile devices")
+
+![Footer for mobile devices](/assets/images/responsiveness/footer-mobile.PNG "Footer on  mobile devices")
+
+### **Home Page**
+
+- The Hero Image width adjusts to the width of the screen for Desktop and tablet, and on mobile there's a smaller image so more of the puppies are showing.
+- The Hero Text div adjusts in width for Desktop and tablet, and for mobile takes up most of the width of the screen so the wording is across two or less lines.
+- The Dog Cards stack on top of one another at mobile screen size to give plenty of space for each dog's picture and information
+- The About Us section changes to stacked for tablet and mobile. At smallest mobile size, I made the text margins smaller to give the wording more screen space.
+
+![About us on mobile devices](/assets/images/responsiveness/about-mobile.PNG "About us on mobile devices")
+
+### **Dogs Page**
+
+- The Heading adjusts to screen size, with the font size set to 5vw, but at mobile size becomes set at 40px in width to maintain a good size.
+- At Desktop size, there are two rows with three dogs on. At tablet size screen, this changes to three columns, with two dogs. Once below tablet size, the dog cards change to six rows, with one dog per row.
+  - I kept the sizing of the dog cards consistent, because being able to see the dog is really important to the user. I did feel that having 6 rows in the grid for mobile made the webpage a lot longer. I went back to my [competitors websites](#competitor-review) and used Developer Tools to see how they adjusted their webpages. I found that for mobile devices, all three only showed one dog at a time
+- In the "How to Adopt" section, the image for Desktop was quite wide horizontally, so I changed the background image to pawprint in the sand for mobile devices.
+
+![Dog cards on tablet devices](/assets/images/responsiveness/cards-tablet.PNG "Dog cards on tablet devices")
+
+### **Contact Page**
+
+- The Contact Heading adjusts for smaller screens in the exact same way as the Dogs Page heading, as they're both part of the same class.
+- The sentence at the top stays central and adjusts in width as screen size becomes smaller.
+- The Contact form adjusts width to suit the screen size.
+  - Each checkbox and label stays together. Once the screen is smaller than 549px, each dog name and their corresponding checkbox move to the line below as the screen gets smaller.
+  - I listed the submit button width as a percentage so it gets smaller with the screen size, but I adjusted the percentage for mobile in comparison to tablet and desktop.
+  - I also amended the percentage width of the form itself for largest screens over 1450px as 50% width was excessively big.
+- For the Find Us section, I kept the address and contact details together with the opening hours, so that smaller screens didn't lose the ability to have these two important sections together.
+
+![Find us on desktop devices](/assets/images/responsiveness/find-us-desktop.PNG "Find us on desktop devices")
+![Find us on tablet devices](/assets/images/responsiveness/find-us-tablet.PNG "Find us on tablet devices")
+![Find us on mobile devices](/assets/images/responsiveness/find-us-mobile.png "Find us on mobile devices")
+
+### **Thank You Page**
+
+- The Thank You box is a percentage width that adjusts to the screen width, and the text inside stays centrally aligned whilst also adjusting.
+
+![Thank you message on mobile devices](/assets/images/responsiveness/thank-you-mobile.png "Thank you message on mobile devices")
+
+---
+
 ## Deployment
 
 This site was built on Codeanywhere. I've used git add, commit and push to publish it on Github.
@@ -477,6 +520,10 @@ Then, under "Branch" I chose "Main", and clicked Save.
 ---
 
 ## Manual Testing
+
+All manual testing has been completed and can be accessed using the link below:
+
+- [Manual Testing](test.md)
 
 ---
 

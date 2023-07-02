@@ -154,24 +154,3 @@ On a scale of 1 to 5, where 1 is very easy, and 5 is very difficult, how easy di
 | Find the a link to Youtube.com                                         |        |        |        |
 | Find out whether the dogs are microchipped                             |        |        |        |
 | Find out whether Muddy Paws offer support after adoption for 3 years   |        |        |        |
-
----
-
-## **Responsiveness**
-
-### **Header and Footer**
-
-- In the Header, I added and adapted the [Bootstrap Navigation](https://getbootstrap.com/docs/4.1/components/card/#navigation) feature for Tablet and Mobile devices. This gives an easy to use Hamburger menu for the user.
-- For the Footer, I had the four internal links change to two columns on Tablet sized screen, and one column for mobile.
-
-### **Home Page**
-
-- The Hero Image width adjusts to the width of the screen for Desktop and Tablet, and on Mobile there's a smaller image so more of the puppies are showing.
-- The Hero Text div adjusts in width for Desktop and Tablet, and for Mobile takes up most of the width of the screen so the wording is across two or less lines.
-- The Dog Cards stack on top of one another at Mobile screen size to give plenty of space for each dog's picture and information
-- The About Us section changes to stacked for Tablet and Mobile. At smallest mobile size, I made the text margins smaller to give the wording more screen space.
-
-### **Dogs Page**
-
-- The Heading adjusts to screen size, with the font size set to 5vw, but at Mobile size becomes set at 40px in width to maintain a good size.
-- The Dog Cards on the Dogs Page also stack
