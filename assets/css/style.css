@@ -580,6 +580,14 @@ footer {
     border-top: 1px solid #c4c4c4;
 }
 
+.contact-link {
+    color: var(--blue);
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
 /* --------------------------------------- Opening Hours */
 
 #opening-hours {
@@ -764,8 +772,7 @@ footer {
 
     .grid-container {
         grid-template-columns: 1fr;
-        grid-template-areas:
-            "about-us-top"
+        grid-template-areas: "about-us-top"
             "about-div-top"
             "about-us-bottom"
             "about-div-bottom";

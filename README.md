@@ -80,7 +80,7 @@ I have assessed three different type of competitors for this project. First, [Do
 
 - _Advertise the dogs so users can view before the visit_
 - _Give information about the adoption process_
-- _Show users where the Rescue Centre is located and it’s contact details_
+- _Show users where the Rescue Centre is located and it's contact details_
 
 | Objective                                                              | Importance | Viability / Feasibility | Colour |
 | ---------------------------------------------------------------------- | :--------: | :---------------------: | :----- |
@@ -308,6 +308,8 @@ The final image is a background to the "How do I Adopt" section, which is either
 With a lot of images and information about the dogs across the site, I chose to make the website quite spacious.
 
 Each dog has it's own "Card" to clearly group the image and information about that dog together. I wanted to make sure the dog cards had plenty of space around them, so I designed the Dogs Page to be in a grid which changes for different screen sizes. At Desktop size, there are two rows with three dogs on. At Tablet size screen, this changes to three columns, with two dogs. Once below Tablet size, the dog cards change to six rows, with one dog per row. I kept the sizing of the dog cards consistent, because being able to see the dog is really important to the user. I did feel that having 6 rows in the grid for mobile made the webpage a lot longer. I went back to my [competitors websites](#competitor-review) and used Developer Tools to see how they adjusted their webpages. I found that all three had also made enough room for one dog to be shown on screen at a time.
+
+On the contact page, I created the contact form with plenty of spacing around it, and added a background colour and border to contain the form questions and submit button. On the second half of the page, I styled the map to take up a large percentage of the screen to give the user as much room as possible to check where the Farm is located, as it's out in the countryside. I gave lots of line spacing to the "How to find us" section, whilst making sure all the information in the box can be seen at once so they don't have to go looking for parts of it, no matter what screen size the user is using.
 
 #### Backgrounds
 
