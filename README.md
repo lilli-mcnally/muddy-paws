@@ -545,3 +545,30 @@ All manual testing has been completed and can be accessed using the link below:
 ---
 
 ## Credits
+
+### **Research**
+
+- [Dogs Trust](https://www.dogstrust.org.uk/)
+  - Researched for competitor review
+- [Birmingham Dogs Home](https://birminghamdogshome.org.uk/)
+  - Researched for competitor review
+- [Freedom of Spirit Trust for Border Collies (FOSTBC)](https://www.fostbc.org.uk/)
+  - Researched for competitor review
+
+### **Frameworks, Libraries & Programs**
+
+- [Figma](https://www.figma.com/)
+  - I used Figma to create my site map, my mind map and my prototype
+- [Balsamiq](https://balsamiq.com/)
+  - I used Balsamiq to create my Wireframes
+- [Github](https://github.com/)
+  - I used Github to store my project
+- [Codeanywhere](https://codeanywhere.com/)
+  - I used Codeanywhere as my IDE for this project. I used the terminal to commit and push to [Github](https://github.com/)
+- [Bootstrap](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
+  - I used Bootstrap version 4.1 for my Navigation element, and for border shadows on my contact form.
+-
+
+### **Media**
+
+### **Acknowledgements**
