@@ -738,6 +738,11 @@ footer {
     #logo {
         height: 90px;
         width: 90px;
+        margin-left: 30px;
+    }
+
+    .navbar {
+        margin-right: 30px;
     }
 
     .navbar-toggler {
@@ -750,14 +755,13 @@ footer {
 @media screen and (max-width: 450px) {
 
     #logo {
-        margin-left: 30px;
+        margin-left: 20px;
     }
 
     .navbar {
-        margin-right: 30px;
+        margin-right: 20px;
     }
 }
-
 
 /* ---------------------------------------------------- MQ - General Styling - Footer - Tablet and Phone */
 
@@ -850,12 +854,19 @@ footer {
 
     /* ------------------------------------ About Us */
 
+    #hero-message-border {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
     .grid-container {
         grid-template-columns: 1fr;
         grid-template-areas: "about-us-top"
             "about-div-top"
             "about-us-bottom"
             "about-div-bottom";
+        margin-right: 50px;
+        margin-left: 50px;
     }
 
     #about-div-top {
@@ -917,6 +928,11 @@ footer {
         font-size: 20px;
     }
 
+    #hero-message-border {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
     /* ------------------------------------ Dog Preview Section */
 
     .meet-dogs-link {
@@ -940,11 +956,20 @@ footer {
 
 @media screen and (max-width: 450px) {
 
+    #hero-message h3 {
+        font-size: 18px;
+    }
+
     .about-us {
         padding: 0vw;
     }
 
     .grid-container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #hero-message-border {
         margin-left: 20px;
         margin-right: 20px;
     }

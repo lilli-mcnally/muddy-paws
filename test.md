@@ -12,6 +12,7 @@
 | Contact Page link in Header          | Directed to Contact Page                          |  Pass  |
 | Find out more about Benji            | Directed to Dogs Page                             |  Pass  |
 | Find out more about Penny            | Directed to Dogs Page                             |  Pass  |
+| Find out more about Hugh             | Directed to Dogs Page                             |  Pass  |
 | See more dogs                        | Directed to Dogs Page                             |  Pass  |
 | Find out more about Adoption process | Directed to the Adoption section of the Dogs Page |  Pass  |
 | About Us in Footer                   | Directed to About us section of Home Page         |  Pass  |
@@ -31,6 +32,7 @@
 | Contact Page link in Header          | Cursor:pointer, underline, change colour to blue   |  Pass  |
 | Find out more about Benji            | Cursor:pointer, underline                          |  Pass  |
 | Find out more about Penny            | Cursor:pointer, underline                          |  Pass  |
+| Find out more about Hugh             | Cursor:pointer, underline                          |  Pass  |
 | See more dogs                        | Cursor:pointer, inverted colours, underline        |  Pass  |
 | Find out more about Adoption process | Cursor:pointer, underline, change colour to blue   |  Pass  |
 | About Us in Footer                   | Cursor:pointer, underline, change colour to yellow |  Pass  |
@@ -106,33 +108,33 @@
 | Youtube logo in Footer            | Directed to Youtube Website in new tab            |  Pass  |
 | Twitter logo in Footer            | Directed to Twitter Website in new tab            |  Pass  |
 
-| Element Hovered                   | Expected Result                                    |                             Result                             |
-| --------------------------------- | -------------------------------------------------- | :------------------------------------------------------------: |
-| Muddy Paws Logo                   | Cursor:pointer                                     |                              Pass                              |
-| Home Page link in Header          | Cursor:pointer, underline, change colour to blue   |                              Pass                              |
-| Meet the Dogs Page link in Header | Cursor:pointer, underline, change colour to blue   |                              Pass                              |
-| Contact Page link in Header       | Cursor:pointer, change colour to blue              |                              Pass                              |
-| Name input                        | Cursor:text                                        |                              Pass                              |
-| Phone input                       | Cursor:text                                        |                              Pass                              |
-| Email input                       | Cursor:text                                        |                              Pass                              |
-| Date input                        | Cursor:pointer                                     | Fail - Pointer only showing for some of the input box, not all |
-| Checkbox input                    | Cursor:pointer, change border colour to dark grey  |      Fail - Pointer only showing for checkbox, not label       |
-| Submit input                      | Cursor:pointer, change colour to yellow            |                              Pass                              |
-| Map                               | Cursor: Google Maps own grab hand                  |                              Pass                              |
-| Find us phone number              | Cursor:pointer, underline                          |    Fail - Bootstrap is changing the colour slightly as well    |
-| Find us email address             | Cursor:pointer, underline                          |    Fail - Bootstrap is changing the colour slightly as well    |
-| Facebook logo in Find Us section  | Cursor:pointer, change colour to dark blue         |                              Pass                              |
-| Instagram logo in Find Us section | Cursor:pointer, change colour to dark blue         |                              Pass                              |
-| Youtube logo in Find Us section   | Cursor:pointer, change colour to dark blue         |                              Pass                              |
-| Twitter logo in Find Us section   | Cursor:pointer, change colour to dark blue         |                              Pass                              |
-| About Us in Footer                | Cursor:pointer, underline, change colour to yellow |                              Pass                              |
-| Meet the Dogs in Footer           | Cursor:pointer, underline, change colour to yellow |                              Pass                              |
-| How to Adopt in Footer            | Cursor:pointer, underline, change colour to yellow |                              Pass                              |
-| Contact in Footer                 | Cursor:pointer, underline, change colour to yellow |                              Pass                              |
-| Facebook logo in Footer           | Cursor:pointer, change colour to yellow            |                              Pass                              |
-| Instagram logo in Footer          | Cursor:pointer, change colour to yellow            |                              Pass                              |
-| Youtube logo in Footer            | Cursor:pointer, change colour to yellow            |                              Pass                              |
-| Twitter logo in Footer            | Cursor:pointer, change colour to yellow            |                              Pass                              |
+| Element Hovered                   | Expected Result                                    | Result |
+| --------------------------------- | -------------------------------------------------- | :----: |
+| Muddy Paws Logo                   | Cursor:pointer                                     |  Pass  |
+| Home Page link in Header          | Cursor:pointer, underline, change colour to blue   |  Pass  |
+| Meet the Dogs Page link in Header | Cursor:pointer, underline, change colour to blue   |  Pass  |
+| Contact Page link in Header       | Cursor:pointer, change colour to blue              |  Pass  |
+| Name input                        | Cursor:text                                        |  Pass  |
+| Phone input                       | Cursor:text                                        |  Pass  |
+| Email input                       | Cursor:text                                        |  Pass  |
+| Date input                        | Cursor:pointer                                     |  Fail  |
+| Checkbox input                    | Cursor:pointer, change border colour to dark grey  |  Fail  |
+| Submit input                      | Cursor:pointer, change colour to yellow            |  Pass  |
+| Map                               | Cursor: Google Maps own grab hand                  |  Pass  |
+| Find us phone number              | Cursor:pointer, underline                          |  Fail  |
+| Find us email address             | Cursor:pointer, underline                          |  Fail  |
+| Facebook logo in Find Us section  | Cursor:pointer, change colour to dark blue         |  Pass  |
+| Instagram logo in Find Us section | Cursor:pointer, change colour to dark blue         |  Pass  |
+| Youtube logo in Find Us section   | Cursor:pointer, change colour to dark blue         |  Pass  |
+| Twitter logo in Find Us section   | Cursor:pointer, change colour to dark blue         |  Pass  |
+| About Us in Footer                | Cursor:pointer, underline, change colour to yellow |  Pass  |
+| Meet the Dogs in Footer           | Cursor:pointer, underline, change colour to yellow |  Pass  |
+| How to Adopt in Footer            | Cursor:pointer, underline, change colour to yellow |  Pass  |
+| Contact in Footer                 | Cursor:pointer, underline, change colour to yellow |  Pass  |
+| Facebook logo in Footer           | Cursor:pointer, change colour to yellow            |  Pass  |
+| Instagram logo in Footer          | Cursor:pointer, change colour to yellow            |  Pass  |
+| Youtube logo in Footer            | Cursor:pointer, change colour to yellow            |  Pass  |
+| Twitter logo in Footer            | Cursor:pointer, change colour to yellow            |  Pass  |
 
 ### **Thank You Page**
 
@@ -143,6 +145,15 @@
 | Element Hovered      |                 Expected Result                  | Result |
 | -------------------- | :----------------------------------------------: | :----: |
 | Return to Muddy Paws | Cursor:pointer, underline, change colour to blue |  Pass  |
+
+### **Failed Tests**
+
+| What was the test?    | What was the expected result?                     | What was the actual results?                            | What actions have been carried out to fix it? |
+| --------------------- | ------------------------------------------------- | ------------------------------------------------------- | --------------------------------------------- |
+| Date input            | Cursor:pointer                                    | Pointer only showing for some of the input box, not all |                                               |
+| Checkbox input        | Cursor:pointer, change border colour to dark grey | Pointer only showing for checkbox, not label            |                                               |
+| Find us phone number  | Cursor:pointer, underline                         | Bootstrap is changing the colour slightly as well       |
+| Find us email address | Cursor:pointer, underline                         | Bootstrap is changing the colour slightly as well       |
 
 ---
 
