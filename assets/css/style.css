@@ -29,7 +29,7 @@ header {
     height: 110px;
     width: 110px;
     display: inline-block;
-    margin: 10px;
+    margin: 10px 10px 10px 100px;
     vertical-align: unset;
 }
 
@@ -41,6 +41,7 @@ header {
 
 .navbar-links {
     color: #000 !important;
+    font-size: 23px !important;
 }
 
 .navbar-links:hover {
@@ -50,8 +51,7 @@ header {
 
 .navbar {
     float: right;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 32px 100px 32px 0;
     z-index: 1;
 }
 
@@ -134,7 +134,7 @@ footer {
     width: 100%;
     background: url("../images/dog-bubbles-desktop.jpg") no-repeat center center;
     position: relative;
-    padding: 290px 0 0 600px;
+    padding-top: 300px;
 }
 
 #hero-outer {
@@ -143,26 +143,24 @@ footer {
     bottom: 90px;
 }
 
-#hero-border {
+#hero-message-border {
     height: auto;
     width: auto;
+    max-width: 700px;
     border: 3px solid rgb(0, 121, 173, 0.8);
     padding: 2px;
     border-radius: 10px;
+    margin: auto;
 }
 
-#hero-color {
+#hero-message {
     background-color: rgb(0, 121, 173, 0.8);
     color: #fff;
     height: auto;
-    width: 100%;
+    width: auto;
     border-radius: 8px;
     padding: 15px;
     text-align: center;
-}
-
-#hero-color h3 {
-    font-size: 26px;
 }
 
 /* ------------------------------------------------------------- Home Page - Dog Preview Section */
@@ -170,8 +168,9 @@ footer {
 /* --------------------------------------- Dog Card */
 
 #dog-preview {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
 
 .dog-content {
@@ -191,12 +190,18 @@ footer {
 }
 
 .dog-card {
-    padding: 2px;
-    margin: auto;
+    display: inline-block;
+    width: 304px;
+    padding: 1px;
     margin-top: 25px;
     border: 1px solid var(--border);
     border-radius: 12px;
     background-color: var(--background);
+}
+
+#penny-card {
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .meet-dogs-home {
@@ -218,6 +223,7 @@ footer {
     margin-left: 10px;
 }
 
+
 /* --------------------------------------- See more Dogs button */
 
 .meet-dogs-link {
@@ -225,7 +231,7 @@ footer {
     background-color: var(--blue);
     border: 2px solid var(--blue);
     color: #fafafa;
-    width: 25%;
+    width: 300px;
     text-align: center;
     margin: auto;
     margin-bottom: 75px;
@@ -249,7 +255,7 @@ footer {
 .grid-container {
     display: grid;
     border-radius: 15px;
-    margin: 0 30px 50px 30px;
+    margin: 0 100px 50px 100px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
         "about-us-top about-us-top about-us-top about-div-top about-div-top"
@@ -266,10 +272,12 @@ footer {
 
 #about-div-top {
     grid-area: about-div-top;
+    margin-right: 0;
 }
 
 #about-div-bottom {
     grid-area: about-div-bottom;
+    margin-left: 0;
 }
 
 .about-us {
@@ -631,13 +639,23 @@ footer {
 
 /* ---------------------------------------------------------------------------------- MQ - GENERAL STYLING */
 
+@media screen and (min-width: 1450px) {
+    #logo {
+        margin-left: 150px;
+    }
+
+    .navbar {
+        margin-right: 150px;
+    }
+}
+
+
 /* ---------------------------------------------------- MQ - General Styling - Header - Desktop */
 
 @media screen and (min-width: 992px) {
 
     .nav-link {
         margin-left: 50px;
-        margin-right: 50px;
         font-size: 25px;
         font-weight: 600;
     }
@@ -743,33 +761,52 @@ footer {
 
 /* ---------------------------------------------------------------------------------- MQ - HOME PAGE */
 
+/* ------------------------------------------------------------- MQ - Home Page - Extra Large Desktop */
+@media screen and (min-width: 1650px) {
+    #penny-card {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+}
+
 /* ------------------------------------------------------------- MQ - Home Page - Large Desktop */
 @media screen and (min-width: 1450px) {
 
+    /* #dog-preview {
+        margin: 0 150px;
+    } */
+
+    .grid-container {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    #penny-card {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+}
+
+/* ------------------------------------------------------------- MQ - Home Page -  Desktop */
+
+@media screen and (max-width: 1200px) {
+
+    #hugh-card {
+        display: none;
+    }
+
     .dog-card {
-        padding: 5px;
+        margin: 25px auto 0 auto;
     }
 
-
-    .dog-image {
-        height: 350px;
-        width: 350px;
-    }
-
-    .dog-content h2 {
-        font-size: 2.1rem;
-    }
-
-    .dog-content p {
-        font-size: 18px;
+    #penny-card {
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #dog-preview {
-        margin: 0 10%;
-    }
-
-    .about-us p {
-        font-size: 18px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
 
 }
@@ -778,12 +815,22 @@ footer {
 
 @media screen and (max-width: 991px) {
 
+    /* ------------------------------------ About Us */
+
     .grid-container {
         grid-template-columns: 1fr;
         grid-template-areas: "about-us-top"
             "about-div-top"
             "about-us-bottom"
             "about-div-bottom";
+    }
+
+    #about-div-top {
+        margin-right: auto;
+    }
+
+    #about-div-bottom {
+        margin-left: auto;
     }
 
     .about-us h2 {
@@ -803,22 +850,11 @@ footer {
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
-    /* ------------------------------------ Hero Image */
-
-    #hero-color h3 {
-        font-size: 22px;
-    }
-
-    #hero-image {
-        padding: 250px 0 0 500px;
-    }
-
     /* ------------------------------------ See more Dogs button */
 
     .meet-dogs-link {
         margin-top: 50px;
         margin-bottom: 50px;
-        width: 30%;
     }
 
     /* ------------------------------------ About Us Section */
@@ -837,43 +873,26 @@ footer {
     #hero-image {
         height: 250px;
         background: url("../images/dog-bubbles-tablet.jpg") no-repeat center center;
-        padding: 170px 0 0 0;
     }
 
     #hero-outer {
         height: 250px;
     }
 
-    #hero-border {
-        width: 90%;
-        margin: 0 5% 0 5%;
-    }
-
-    #hero-color {
-        padding: 5px;
-        height: auto;
-    }
-
-    /* ------------------------------------ Hero Text Box */
-
-    #hero-color h3 {
-        font-size: 18px;
-    }
-
     /* ------------------------------------ Dog Preview Section */
 
-    #dog-preview {
-        grid-template-columns: 1fr;
-    }
-
     .meet-dogs-link {
-        width: 70%;
+        width: 200px;
         margin-top: 50px;
         margin-bottom: 50px;
     }
 
     .about-image {
         max-width: 450px;
+    }
+
+    #dog-preview {
+        flex-direction: column;
     }
 
 }
@@ -1009,6 +1028,8 @@ footer {
 
     }
 }
+
+
 
 /* ------------------------------------------------------------- MQ - Contact Page - Tablet and Phone */
 
