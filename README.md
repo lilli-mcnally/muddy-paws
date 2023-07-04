@@ -553,11 +553,14 @@ All manual testing has been completed and can be accessed using the link below:
 
 ## Digital Testing
 
-| Validator                                                          | Results |
-| ------------------------------------------------------------------ | :-----: |
-| [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) |    ✓    |
-| [W3C Markup Validation Service](https://validator.w3.org/)         |         |
-|                                                                    |         |
+| Validator                                                          |                    File                     | Results |
+| ------------------------------------------------------------------ | :-----------------------------------------: | :-----: |
+| [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) |                  style.css                  |    ✓    |
+| [W3C Markup Validation Service](https://validator.w3.org/)         |                 index.html                  |         |
+| [W3C Markup Validation Service](https://validator.w3.org/)         |                  dogs.html                  |    ✓    |
+| [W3C Markup Validation Service](https://validator.w3.org/)         |                contact.html                 |    ✓    |
+| [W3C Markup Validation Service](https://validator.w3.org/)         |               thank-you.html                |    ✓    |
+| [W3 Spellchecker](https://www.w3.org/2002/01/spellchecker)         | https://lilli-mcnally.github.io/muddy-paws/ |    ✓    |
 
 <p>
 <a href="http://jigsaw.w3.org/css-validator/check/referer">
@@ -566,6 +569,15 @@ All manual testing has been completed and can be accessed using the link below:
         alt="Valid CSS!" />
     </a>
 </p>
+
+### **Validator Errors**
+
+For the Home Page, I've had four Validator Errors come up.
+![Home Page validator errors](/assets/images/html-validation-home-page.PNG "Home Page validator errors")
+
+On my contact page, I've had an error come up because the href version of the phone number has spaces in. I've removed the spaces, and now the validation for this page come back with no errors.
+
+![Contact Page validator errors](/assets/images/html-validation-contact-page.PNG "Contact Page validator errors")
 
 ### **Lighthouse**
 
@@ -579,6 +591,15 @@ All manual testing has been completed and can be accessed using the link below:
 |  Contact Page  |   Mobile    |     ![Contact Page Lighthouse result on mobile](/assets/images/lighthouse/contact-page-mobile.png "Contact Page Lighthouse result on mobile")      |
 | Thank you Page |   Desktop   | ![Thank You Page Lighthouse result on desktop](/assets/images/lighthouse/thank-you-page-desktop.png "Thank You Page Lighthouse result on desktop") |
 | Thank you Page |   Mobile    |     ![Thank You Lighthouse result on mobile](/assets/images/lighthouse/thank-you-page-mobile.png "Thank You Page Lighthouse result on mobile")     |
+
+### **Spell Check**
+
+I used [W3 Spellchecker](https://www.w3.org/2002/01/spellchecker) to spell check my website, and it found four errors:
+
+- Benji - W3 doesn't recognise this as a name
+- Centre - the UK spelling, W3 is based on American spelling
+- Rehoming - Spelling has been amended to "Re-homing"
+- Socialise - the UK spelling, W3 is based on American spelling
 
 ---
 
