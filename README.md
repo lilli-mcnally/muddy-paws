@@ -4,20 +4,84 @@ _Muddy Paws Rescue Centre is a small organisation that rescues and rehomes dogs 
 
 ---
 
+![Responsive screen sizes](/assets/images/responsive-screen-sizes.PNG "Responsive screen sizes")
+
+- [Muddy Paws Rescue Centre](#muddy-paws-rescue-centre)
+  - [Purpose and Value](#purpose-and-value)
+    - [User goals](#user-goals)
+    - [Why us](#why-us)
+    - [Business goals](#business-goals)
+  - [User Stories](#user-stories)
+    - [Families with Kids](#families-with-kids)
+    - [Couples](#couples)
+  - [Competitor Review](#competitor-review)
+    - [Pros](#pros)
+    - [Cons](#cons)
+  - [Objectives](#objectives)
+  - [Structure](#structure)
+  - [Wireframes and Prototypes](#wireframes-and-prototypes)
+  - [Features](#features)
+    - [Header and Footer](#header-and-footer)
+    - [Home Page](#home-page)
+    - [Meet the Dogs Page](#meet-the-dogs-page)
+    - [Contact Page](#contact-page)
+    - [Thank You Page](#thank-you-page)
+    - [Future Features](#future-features)
+  - [Design](#design)
+    - [Colours](#colours)
+    - [Typography](#typography)
+    - [Imagery](#imagery)
+    - [Styling](#styling)
+    - [Backgrounds](#backgrounds)
+  - [Responsiveness](#responsiveness)
+    - [Header and Footer](#header-and-footer-1)
+    - [Home Page](#home-page-1)
+    - [Dogs Page](#dogs-page)
+    - [Contact Page](#contact-page-1)
+    - [Thank You Page](#thank-you-page-1)
+  - [Fixed Bugs](#fixed-bugs)
+    - [Navigation Element](#navigation-element)
+    - [Dog Preview](#dog-preview)
+    - [About Us](#about-us)
+    - [Dog Information](#dog-information)
+    - [Bootstrap Input box](#bootstrap-input-box)
+    - [Submit](#submit)
+    - [Navigation Toggler](#navigation-toggler)
+    - [Hero Image](#hero-image)
+  - [Unfixed Bugs](#unfixed-bugs)
+  - [Deployment](#deployment)
+  - [Manual Testing](#manual-testing)
+  - [Digital Testing](#digital-testing)
+    - [Validator Errors](#validator-errors)
+    - [Lighthouse](#lighthouse)
+    - [Spell Check](#spell-check)
+  - [Credits](#credits)
+    - [Research](#research)
+    - [Frameworks, Libraries \& Programs](#frameworks-libraries--programs)
+      - [Planning and Development](#planning-and-development)
+      - [Styling and Code](#styling-and-code)
+      - [Colours](#colours-1)
+      - [Images](#images)
+      - [Validators](#validators)
+      - [Media](#media)
+  - [Acknowledgements](#acknowledgements)
+
+---
+
 ## Purpose and Value
 
-### **User goals**
+### User goals
 
 - Find a dog they want to adopt
 - Find out information about contacting / visiting the rescue centre
 - Find out information about owning a dog
 
-### **Why us**
+### Why us
 
 - We nurse dogs back to health
 - We're committed to making sure the home is right for the dog
 
-### **Business goals**
+### Business goals
 
 - To get users to visit our Rescue Centre, and adopt a dog
 - To inform users of our location
@@ -38,11 +102,11 @@ _Muddy Paws Rescue Centre is a small organisation that rescues and rehomes dogs 
 
 My target audience for Muddy Paws Rescue Centre is going to be families with children, and couples.
 
-### **Families with Kids**
+### Families with Kids
 
 > A family of four is looking to adopt a dog that is good with young children. To do this, they will need to look at the different types and breeds of dogs available on the website before they visit. They will have to bring the children to the Rescue Centre, so they want to make sure there is a dog they want to see before they go. They'd like to find out how to adopt, and what age the dogs are, as they want one that is quite young, but doesn't need long walks in the week.
 
-### **Couples**
+### Couples
 
 > A couple in their mid-30s are looking for an active dog. They have a caravan and enjoy travelling the country, so need a dog that likes lots of exercise and isn't likely to run away when nervous. They have plenty of room and would prefer a medium or large sized dog. They live in the countryside and the centre is a 40 minute drive from them, so they want to secure an appointment before making the journey. Because of distance, they also want to be sure there is a dog they'd like to see before making the drive, and will need to check directions and the centre's exact location.
 
@@ -52,7 +116,7 @@ My target audience for Muddy Paws Rescue Centre is going to be families with chi
 
 I have assessed three different type of competitors for this project. First, [Dogs Trust](https://www.dogstrust.org.uk/) which is a large organisation with several rescue centres around the country. The second is [Birmingham Dogs Home](https://birminghamdogshome.org.uk/), a medium sized local dogs home in Birmingham with two centres. Lastly is the [Freedom of Spirit Trust for Border Collies (FOSTBC)](https://www.fostbc.org.uk/) which is an independent dogs home specifically for Border Collies based in Leeds.
 
-### **Pros**
+### Pros
 
 - Dogs Trust
   - Great use of spacing with text and images. Video on landing page draws the user in
@@ -63,7 +127,7 @@ I have assessed three different type of competitors for this project. First, [Do
   - Lots of pictures to draw the user in
   - Great use of colours - green and white makes the text clear and easy to read
 
-### **Cons**
+### Cons
 
 - Dogs Trust
   - Contact us page - user has to scroll to nearly to bottom for contact information
@@ -76,7 +140,7 @@ I have assessed three different type of competitors for this project. First, [Do
 
 ## Objectives
 
-**Using the table and scatter graph below, I have decided that the Muddy Paws Rescue Centre's website will focus on the following three objectives:**
+Using the table and scatter graph below, I have decided that the Muddy Paws Rescue Centre's website will focus on the following three objectives:
 
 - _Advertise the dogs so users can view before the visit_
 - _Give information about the adoption process_
@@ -141,7 +205,7 @@ As planned in my [structure](#structure) section, I kept the website to four pag
 - Contact Page
 - Thank You page (previously called the Submit page)
 
-### **Header and Footer**
+### Header and Footer
 
 The Header consists of the Muddy Paws logo, and links to the three pages.This gives an easy to use Hamburger menu for the user. I also added the [Font Awesome](https://fontawesome.com/) icons to each of the menu items:
 
@@ -155,7 +219,7 @@ The Footer has useful links, including the Meet the Dogs page and Contact Page. 
 
 ![Footer](/assets/images/features/features-footer.PNG "Footer")
 
-### **Home Page**
+### Home Page
 
 This page is divided into several sections: the Hero image, the Dog preview, and the About us Section.
 
@@ -171,17 +235,17 @@ The final section is the About Us section. This gives the user information about
 
 ![About Us](/assets/images/features/features-about-us.PNG "About Us")
 
-### **Meet the Dogs Page**
+### Meet the Dogs Page
 
 The "Meet the Dogs page" is seperated into the Dog Card section, and the Adoption section.
 
 The Dog Card section was created to showcase all the dogs currently available for adoption. Each card has well-sized photograph, the dog's name, their basic information such as age and breed, and a tickbox of whether they're suitable for home that already have children, other dogs, or cats. This section also meets the needs of both [user stories](#user-stories):
 
-**Families with Kids**
+Families with Kids
 
 > ...They will have to bring the children to the Rescue Centre, so they want to make sure there is a dog they want to see before they go...
 
-**Couples**
+Couples
 
 > ...Because of distance, they also want to be sure there is a dog they'd like to see before making the drive...
 
@@ -193,7 +257,7 @@ The section also achieves the first of my three [objectives](#objectives)
 
 The second half of the Meet the Dogs page gives information about how the user can adopt a dog, and how the process works. There's a link to the Contact page once a user is happy to start the process, and information about support following adoption. This meets needs of the [user story](#user-stories) for Families with Kids.
 
-**Families with Kids**
+Families with Kids
 
 > ...They'd like to find out how to adopt...
 
@@ -203,13 +267,13 @@ It also meets my second [objective](#objectives)
 
 ![Adoption](/assets/images/features/features-adoption.PNG "Adoption")
 
-### **Contact Page**
+### Contact Page
 
 The third page is split into the "Contact form" section and the "Find us" section.
 
 The "Contact form" is an opportunity for users to get in contact with the centre outside of opening hours. It gives the user the chance to give a date that suits them to visit, but also a tickbox section so they can inform the centre of which dogs they'd be interested in meeting. This will be particularly useful to the user story for Couples, so they can check the dog is still available before they make the long drive.
 
-**Couples**
+Couples
 
 > ...the centre is a 40 minute drive from them...
 
@@ -219,7 +283,7 @@ I've made the "Name", "Phone Number" and "Email Address" boxes mandatory to help
 
 The "Find Us" section contains a Google Maps iframe, so users can see the exact location of the Rescue Centre. There's also the address, phone number, email address, social media links and opening hours. The phone number and email address are anchor elements so the user doesn't have to copy and paste this information. This section meets the [user story](#user-stories) needs for Couples:
 
-**Couples**
+Couples
 
 > ...and will need to check directions and the centre's exact location.
 
@@ -229,13 +293,13 @@ This section meets my third and final [objective](#objectives)
 
 ![Find Us](/assets/images/features/features-find-us.PNG "Find Us")
 
-### **Thank You Page**
+### Thank You Page
 
 The Submit button from the "Contact Page" sends the user through to the "Thank You Page". This page isn't accessible any other way from the website, and it has a small box with feedback that the completed form has been sent to the Rescue Centre. It also has a link back to the Home Page.
 
 ![Thank You Page](/assets/images/features/features-thank-you.png "Thank You Page")
 
-### **Future Features**
+### Future Features
 
 When I began working on this project, I looked at five potential [objectives](#objectives), but was unable to implement the following two:
 
@@ -248,7 +312,7 @@ In the future, I would I would like to add a "Donate" page to this website, and 
 
 ## Design
 
-### **Colours**
+### Colours
 
 I decided to keep the colouring for this website quite simple. I knew there would be a lot of images of the dogs, and I wanted to make sure the user wasn't overloaded with content and colour, as well as the large images.
 
@@ -275,13 +339,13 @@ I chose the yellow colour the heading of the Dogs Page and Contact Page. I also 
 
 ![Yellow hover selector](/assets/images/design/design-yellow-hover.png "Yellow hover selector")
 
-### **Typography**
+### Typography
 
 I decided I wanted to pick a sans-serif font for the typography. I found "Dosis" on [Google Fonts](https://fonts.google.com/) and felt this was a great choice as it's friendly and welcoming to the user.
 
 ![Dosis](/assets/images/design/design-font.PNG "Dosis")
 
-### **Imagery**
+### Imagery
 
 The Dogs page and Home page both have information about the dogs currently homed at the Rescue Centre, so I added images of each dog happy and sitting in the sun to go with the information.
 
@@ -292,7 +356,7 @@ For my Hero Image, I decided to use an image of puppies running on a field. In t
 ![Woman walking dogs](/assets/images/design/design-about-walk.PNG "Woman walking dogs")
 ![Dog being looked at by vets](/assets/images/design/design-about-vet.PNG "Dog being looked at by vets")
 
-### **Styling**
+### Styling
 
 With a lot of images and information about the dogs across the site, I chose to make the website quite spacious.
 
@@ -310,7 +374,7 @@ I kept the bordering on the text box on the Hero Image consistent with the Conta
 
 ![Hero Image text](/assets/images/design/design-hero-text.png "Hero Image text")
 
-### **Backgrounds**
+### Backgrounds
 
 Most of the website background is an off-white colour. Each of the dog cards have a slight blue colour, not only to group the information together, but also to tie the dogs to the connotations of the blue: loyalty, stability, safety.
 
@@ -320,9 +384,9 @@ I chose to use an image for the background of the "How do I Adopt" section, whic
 
 ---
 
-## **Responsiveness**
+## Responsiveness
 
-### **Header and Footer**
+### Header and Footer
 
 - In the Header, I added and adapted the [Bootstrap Navigation](https://getbootstrap.com/docs/4.1/components/card/#navigation) feature for tablet and mobile devices. This gives an easy to use Hamburger menu for the user.
 - For the Footer, I had the four internal links change to two columns on tablet sized screen, and one column for mobile.
@@ -331,7 +395,7 @@ I chose to use an image for the background of the "How do I Adopt" section, whic
 
 ![Footer for mobile devices](/assets/images/responsiveness/footer-mobile.PNG "Footer on  mobile devices")
 
-### **Home Page**
+### Home Page
 
 - The Hero Image width adjusts to the width of the screen for Desktop and tablet, and on mobile there's a smaller image so more of the puppies are showing.
 - The Hero Text div adjusts in width for Desktop and tablet, and for mobile takes up most of the width of the screen so the wording is across two or less lines.
@@ -340,7 +404,7 @@ I chose to use an image for the background of the "How do I Adopt" section, whic
 
 ![About us on mobile devices](/assets/images/responsiveness/about-mobile.PNG "About us on mobile devices")
 
-### **Dogs Page**
+### Dogs Page
 
 - The Heading adjusts to screen size, with the font size set to 5vw, but at mobile size becomes set at 40px in width to maintain a good size.
 - At Desktop size, there are two rows with three dogs on. At tablet size screen, this changes to three columns, with two dogs. Once below tablet size, the dog cards change to six rows, with one dog per row.
@@ -349,7 +413,7 @@ I chose to use an image for the background of the "How do I Adopt" section, whic
 
 ![Dog cards on tablet devices](/assets/images/responsiveness/cards-tablet.PNG "Dog cards on tablet devices")
 
-### **Contact Page**
+### Contact Page
 
 - The Contact Heading adjusts for smaller screens in the exact same way as the Dogs Page heading, as they're both part of the same class.
 - The sentence at the top stays central and adjusts in width as screen size becomes smaller.
@@ -363,7 +427,7 @@ I chose to use an image for the background of the "How do I Adopt" section, whic
 ![Find us on tablet devices](/assets/images/responsiveness/find-us-tablet.PNG "Find us on tablet devices")
 ![Find us on mobile devices](/assets/images/responsiveness/find-us-mobile.png "Find us on mobile devices")
 
-### **Thank You Page**
+### Thank You Page
 
 - The Thank You box is a percentage width that adjusts to the screen width, and the text inside stays centrally aligned whilst also adjusting.
 
@@ -375,7 +439,7 @@ I chose to use an image for the background of the "How do I Adopt" section, whic
 
 ## Fixed Bugs
 
-### **Navigation Element**
+### Navigation Element
 
 I created an unordered list of my navigation elements, and changed the list items' display to “inline-block”. However, the navigation elements were sitting underneath the Logo.
 
@@ -395,7 +459,7 @@ I amended the width to 80%, and added a margin to the left and right of 10% to t
 
 <br>
   
-### **Dog Preview**
+### Dog Preview
 
 The dog preview section on the home page was particularly difficult to layout. I added the images and text, giving them percentage margins so they would be more responsive, but the text and images were slightly off center with one another.
 
@@ -407,7 +471,7 @@ I did some research on [W3 Schools](https://www.w3schools.com/css/css_grid.asp) 
 
 <br>
 
-### **About Us**
+### About Us
 
 I added two images to my About Us section, but the full image wasn't showing unless I set the dimensions to take up the whole page. I had created two div elements and given them background images of the two images I wanted to display.
 
@@ -419,7 +483,7 @@ Instead, I tried removing the div element and replacing it with an img element i
 
 <br>
 
-### **Dog Information**
+### Dog Information
 
 I initially added the information about each dog into a paragram element, but found this only wrote the individual points as one long string of text.
 
@@ -441,7 +505,7 @@ I added the float property to both unordered lists, one with the value of left, 
 
 ![Dog information no longer aligned](/assets/images/bugs/dog-info-solution.PNG "Dog information no longer aligned")
 
-### **Bootstrap Input box**
+### Bootstrap Input box
 
 I decided to use Bootstrap to format my form, particularly so that when users input information to the "Name", "Phone number" and "Email Address" input boxes, the form would feedback that the box was complete by outlining green while that box is being written in.
 
@@ -463,7 +527,7 @@ Finally, I created two more styles but with "valid" instead of "invalid" which a
 
 ![Completed boxs showing green border and shadow on focus box](/assets/images/bugs/bootstrap-input-solution-2.PNG "Completed boxs showing green border and shadow on focus box")
 
-### **Submit**
+### Submit
 
 On my contact page, I would have liked to have had a message that displayed to let the user know the form has been submitted.
 
@@ -481,7 +545,7 @@ to:
 
 This gave the ability to display the thank you page to the user once they've submitted the contact form, but unfortunately doesn't post the form's information anywhere.
 
-### **Navigation Toggler**
+### Navigation Toggler
 
 I added a Boostrap Navigation bar to my website, which included a Hamburger Toggler menu for tablet and mobile. However, I had an issue with the toggler and the position of the Navigation drop-down menu. When closed, the Toggler was aligned to the right.
 
@@ -503,7 +567,7 @@ I fixed this issue by giving the Toggler a top property of 15px, and a right pro
 
 ![Toggler at top right of Navigation Menu](/assets/images/bugs/nav-toggler-solution-1.PNG "Toggler at top right of Navigation Menu")
 
-### **Hero Image**
+### Hero Image
 
 My Hero Image seemed to be adjusting to the width of the screen for responsive design, but as I made the screens smaller, you could see less and less of the dogs in the image.
 
@@ -570,7 +634,7 @@ All manual testing has been completed and can be accessed using the link below:
     </a>
 </p>
 
-### **Validator Errors**
+### Validator Errors
 
 For the Home Page, I've had four Validator Errors come up.
 ![Home Page validator errors](/assets/images/html-validation-home-page.PNG "Home Page validator errors")
@@ -579,7 +643,7 @@ On my contact page, I've had an error come up because the href version of the ph
 
 ![Contact Page validator errors](/assets/images/html-validation-contact-page.PNG "Contact Page validator errors")
 
-### **Lighthouse**
+### Lighthouse
 
 |      Page      | Screen Size |                                                                      Results                                                                       |
 | :------------: | :---------: | :------------------------------------------------------------------------------------------------------------------------------------------------: |
@@ -592,7 +656,7 @@ On my contact page, I've had an error come up because the href version of the ph
 | Thank you Page |   Desktop   | ![Thank You Page Lighthouse result on desktop](/assets/images/lighthouse/thank-you-page-desktop.png "Thank You Page Lighthouse result on desktop") |
 | Thank you Page |   Mobile    |     ![Thank You Lighthouse result on mobile](/assets/images/lighthouse/thank-you-page-mobile.png "Thank You Page Lighthouse result on mobile")     |
 
-### **Spell Check**
+### Spell Check
 
 I used [W3 Spellchecker](https://www.w3.org/2002/01/spellchecker) to spell check my website, and it found four errors:
 
@@ -605,7 +669,7 @@ I used [W3 Spellchecker](https://www.w3.org/2002/01/spellchecker) to spell check
 
 ## Credits
 
-### **Research**
+### Research
 
 - [Dogs Trust](https://www.dogstrust.org.uk/)
   - Researched for competitor review.
@@ -616,7 +680,7 @@ I used [W3 Spellchecker](https://www.w3.org/2002/01/spellchecker) to spell check
 - [Medium](https://medium.com/), [The Good Trade](https://www.thegoodtrade.com/) and [Color Psychology](https://www.colorpsychology.org/)
   - I used Medium, The Good Trade and Color Psychology to research the connotations around the colours blue and yellow.
 
-### **Frameworks, Libraries & Programs**
+### Frameworks, Libraries & Programs
 
 #### Planning and Development
 
@@ -645,6 +709,8 @@ I used [W3 Spellchecker](https://www.w3.org/2002/01/spellchecker) to spell check
   - I used W3 Schools to learn how to add grids to my project, for the Dog Cards and the About Us section.
   - I also learned about Variables, and used these to call my four colours across my CSS.
   - I was able to learn how to add the tel: and mailto: attributes to an anchor, so that these open directly into the users phone or mail app.
+- [GitHub Wiki TOC generator](http://ecotrust-canada.github.io/markdown-toc/')
+  - Table of contents generated with markdown-toc
 
 #### Colours
 
@@ -667,6 +733,8 @@ I used [W3 Spellchecker](https://www.w3.org/2002/01/spellchecker) to spell check
   - I used Convertio to change some of my larger images, such as the two About Us images, into .WEBP files, to ensure my site would run as fast as possible.
 - [XConvert](https://www.xconvert.com/compress-webp)
   - I used XConvert to compress my images before uploading them to my website, so the pages would run faster.
+- [Am I Responsive](https://ui.dev/amiresponsive)
+  - I used Am I Responsive for the images of my website on different screen sizes at the top of my README
 
 #### Validators
 
@@ -675,7 +743,7 @@ I used [W3 Spellchecker](https://www.w3.org/2002/01/spellchecker) to spell check
 - [WebAIM](https://webaim.org/resources/contrastchecker/)
   - I used WebAIM to ensure the contrasts of my colours were readable and valid.
 
-### **Media**
+#### Media
 
 - [Julissa Helmuth](https://www.pexels.com/@jhelmuth/) - "dog-bubbles"
 - [Mikhail Nilov](https://www.pexels.com/@mikhail-nilov/) - "dog-vet"
@@ -689,7 +757,9 @@ I used [W3 Spellchecker](https://www.w3.org/2002/01/spellchecker) to spell check
 - [Magda Ehlers](https://www.pexels.com/@magda-ehlers-pexels/) - "adopt-dog"
 - [Helen](https://www.pexels.com/@helen-50264342/) - "dog-paw-prints"
 
-### **Acknowledgements**
+---
+
+## Acknowledgements
 
 - My tutors, Manu and Pasquale at Bristol College for their feedback and support
 - My mentor, Mitko Bachvarov for your feedback and for motivating me to fix my thank you page
