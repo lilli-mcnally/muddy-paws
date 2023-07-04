@@ -202,7 +202,7 @@ footer {
     display: inline-block;
     width: 304px;
     padding: 1px;
-    margin-top: 25px;
+    margin-top: 50px;
     border: 1px solid var(--border);
     border-radius: 12px;
     background-color: var(--background);
@@ -233,7 +233,7 @@ footer {
 }
 
 .meet-dog-card {
-    margin: 25px auto 0 auto;
+    margin: 50px auto 0 auto;
 }
 
 
@@ -247,8 +247,8 @@ footer {
     width: 300px;
     text-align: center;
     margin: auto;
-    margin-bottom: 75px;
-    margin-top: 75px;
+    margin-bottom: 50px;
+    margin-top: 50px;
     border-radius: 15px;
     padding: 10px 0 10px 0;
     display: block;
@@ -270,6 +270,7 @@ footer {
     border-radius: 15px;
     margin: 0 100px 50px 100px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 30px;
     grid-template-areas:
         "about-us-top about-us-top about-us-top about-div-top about-div-top"
         "about-div-bottom about-div-bottom about-us-bottom about-us-bottom about-us-bottom";
@@ -294,7 +295,7 @@ footer {
 }
 
 .about-us {
-    padding: 3vw;
+    padding: 0 25px;
     border-radius: 15px;
     margin: auto auto;
     max-width: 800px;
@@ -333,7 +334,7 @@ footer {
     background-color: var(--yellow);
     height: auto;
     padding: 5px;
-    margin: 0 0 20px 0;
+    margin: 0;
 }
 
 .meet-dog-heading h1 {
@@ -350,7 +351,7 @@ footer {
 
 .meet-dog-grid {
     display: grid;
-    grid-row-gap: 75px;
+    grid-row-gap: 0;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
@@ -417,7 +418,12 @@ footer {
 /* ------------------------- Back to Top link */
 
 #back-to-top {
-    visibility: hidden;
+    text-align: right;
+}
+
+#back-to-top a {
+    color: #000;
+    text-decoration: none;
 }
 
 /* ------------------------------------------------------------- Dogs Page - Adoption Information */
@@ -427,7 +433,7 @@ footer {
     background: url("../images/adopt-dog.jpg") no-repeat center center;
     width: 100%;
     height: auto;
-    margin-top: 70px;
+    margin-top: 0px;
 }
 
 #adoption-color {
@@ -466,7 +472,7 @@ footer {
 
 #contact-text {
     text-align: center;
-    margin: 30px 5%;
+    margin: 25px 5%;
 }
 
 /* ------------------------------------------------------------- Contact Page - Contact Form */
@@ -584,7 +590,7 @@ footer {
 /* ------------------------------------------------------------- Contact Page - Find Us Section */
 
 #find-us-section {
-    height: 450px;
+    margin-bottom: 50px;
 }
 
 #find-us {
@@ -809,10 +815,6 @@ footer {
 /* ------------------------------------------------------------- MQ - Home Page - Large Desktop */
 @media screen and (min-width: 1450px) {
 
-    /* #dog-preview {
-        margin: 0 150px;
-    } */
-
     .grid-container {
         margin-left: 150px;
         margin-right: 150px;
@@ -833,7 +835,7 @@ footer {
     }
 
     .dog-card {
-        margin: 25px auto 0 auto;
+        margin: 50px auto 0 auto;
     }
 
     #penny-card {
@@ -893,13 +895,6 @@ footer {
 /* ------------------------------------------------------------- MQ - Home Page - Tablet */
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-
-    /* ------------------------------------ See more Dogs button */
-
-    .meet-dogs-link {
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
 
     /* ------------------------------------ About Us Section */
 
@@ -979,35 +974,38 @@ footer {
 
 /* ---------------------------------------------------------------------------------- MQ - DOGS PAGE */
 
+
+/* ------------------------------------------------------------- MQ - Home Page -  Desktop */
+
+@media screen and (min-width: 992px) {
+    #back-to-top {
+        display: none;
+    }
+
+    #adoption-image {
+        margin-top: 50px;
+    }
+
+}
+
 /* ------------------------------------------------------------- MQ - Dogs Page - Tablet and Phone */
 
 @media screen and (max-width: 991px) {
-
-    #back-to-top {
-        visibility: visible;
-        margin: 20px;
-        text-align: right;
-    }
-
-    #back-to-top a {
-        color: #000;
-        text-decoration: none;
-    }
 
     #back-to-top a:hover {
         text-decoration: underline;
     }
 
-    #adoption-image {
-        margin-top: 25px;
+    #back-to-top {
+        margin: 25px 50px;
     }
+
 }
 
 /* ------------------------------------------------------------- MQ - Dogs Page - Tablet */
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .meet-dog-grid {
-        grid-row-gap: 50px;
         grid-template-columns: 1fr 1fr;
     }
 }
@@ -1020,8 +1018,11 @@ footer {
     }
 
     .meet-dog-grid {
-        grid-row-gap: 30px;
         grid-template-columns: 1fr;
+    }
+
+    #back-to-top {
+        margin-right: 30px;
     }
 
     /* ------------------------------------ Adoption Section */
@@ -1051,6 +1052,10 @@ footer {
 /* ------------------------------------------------------------- MQ - Dogs Page - Smallest Phones */
 
 @media screen and (max-width: 450px) {
+
+    #back-to-top {
+        margin-right: 20px;
+    }
 
     #adoption-box {
         width: 90%;

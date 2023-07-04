@@ -152,8 +152,8 @@
 | --------------------- | ------------------------------------------------- | ------------------------------------------------------- | --------------------------------------------- |
 | Date input            | Cursor:pointer                                    | Pointer only showing for some of the input box, not all |                                               |
 | Checkbox input        | Cursor:pointer, change border colour to dark grey | Pointer only showing for checkbox, not label            |                                               |
-| Find us phone number  | Cursor:pointer, underline                         | Bootstrap is changing the colour slightly as well       |
-| Find us email address | Cursor:pointer, underline                         | Bootstrap is changing the colour slightly as well       |
+| Find us phone number  | Cursor:pointer, underline                         | Bootstrap is changing the colour slightly as well       |                                               |
+| Find us email address | Cursor:pointer, underline                         | Bootstrap is changing the colour slightly as well       |                                               |
 
 ---
 
