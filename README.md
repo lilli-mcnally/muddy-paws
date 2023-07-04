@@ -132,6 +132,247 @@ Finally, I created a prototype of the Home Page using [Figma](https://www.figma.
 
 ---
 
+## Features
+
+As planned in my [structure](#structure) section, I kept the website to four pages:
+
+- Home Page
+- Meet the Dogs page
+- Contact Page
+- Thank You page (previously called the Submit page)
+
+### **Header and Footer**
+
+The Header consists of the Muddy Paws logo, and links to the three pages.This gives an easy to use Hamburger menu for the user. I also added the [Font Awesome](https://fontawesome.com/) icons to each of the menu items:
+
+- A house icon for the "Home Page"
+- A pawprint icon for the "Meet the Dogs page"
+- A phone icon for the "Contact page"
+
+![Header](/assets/images/features/features-header.png "Header")
+
+The Footer has useful links, including the Meet the Dogs page and Contact Page. It also has links to the "About Us" section on the Home Page, and another to the "How to Adopt" section on the Dogs page. I added links to each of the four social media websites, and a copyright notice at the bottom.
+
+![Footer](/assets/images/features/features-footer.PNG "Footer")
+
+### **Home Page**
+
+This page is divided into several sections: the Hero image, the Dog preview, and the About us Section.
+
+The Hero image sets the tone for the website from when the user clicks on to the website: it's about dogs. I also added a text box to give the user some context that the Rescue Centre is for rehoming all types of dogs.
+
+![Hero Image](/assets/images/features/features-hero-image.PNG "Hero Image")
+
+The Dog Preview has two "Dog Cards" with an image of each dog and some basic information about them. There's also a link to the "Meet the Dogs" page on each card, and underneath the two cards. I wanted this to be near the top of the webpage as this will likely be the first thing people are looking for when they access the website.
+
+![Dog Preview](/assets/images/features/features-dog-preview.PNG "Dog Preview")
+
+The final section is the About Us section. This gives the user information about how the dogs have been looked after since they got to the centre, and about the centre itself.
+
+![About Us](/assets/images/features/features-about-us.PNG "About Us")
+
+### **Meet the Dogs Page**
+
+The "Meet the Dogs page" is seperated into the Dog Card section, and the Adoption section.
+
+The Dog Card section was created to showcase all the dogs currently available for adoption. Each card has well-sized photograph, the dog's name, their basic information such as age and breed, and a tickbox of whether they're suitable for home that already have children, other dogs, or cats. This section also meets the needs of both [user stories](#user-stories):
+
+**Families with Kids**
+
+> ...They will have to bring the children to the Rescue Centre, so they want to make sure there is a dog they want to see before they go...
+
+**Couples**
+
+> ...Because of distance, they also want to be sure there is a dog they'd like to see before making the drive...
+
+The section also achieves the first of my three [objectives](#objectives)
+
+- _Advertise the dogs so users can view before the visit_
+
+![Dog Cards](/assets/images/features/features-dog-card.PNG "Dog Cards")
+
+The second half of the Meet the Dogs page gives information about how the user can adopt a dog, and how the process works. There's a link to the Contact page once a user is happy to start the process, and information about support following adoption. This meets needs of the [user story](#user-stories) for Families with Kids.
+
+**Families with Kids**
+
+> ...They'd like to find out how to adopt...
+
+It also meets my second [objective](#objectives)
+
+- _Give information about the adoption process_
+
+![Adoption](/assets/images/features/features-adoption.PNG "Adoption")
+
+### **Contact Page**
+
+The third page is split into the "Contact form" section and the "Find us" section.
+
+The "Contact form" is an opportunity for users to get in contact with the centre outside of opening hours. It gives the user the chance to give a date that suits them to visit, but also a tickbox section so they can inform the centre of which dogs they'd be interested in meeting. This will be particularly useful to the user story for Couples, so they can check the dog is still available before they make the long drive.
+
+**Couples**
+
+> ...the centre is a 40 minute drive from them...
+
+I've made the "Name", "Phone Number" and "Email Address" boxes mandatory to help the centre get it touch with the user. To make this easier to use for the user, I've added a blue shadow around the box for when it's clicked on, and a green shadow and border once the box is completed. The "Submit" button is a link to the "Thank You Page"
+
+![Contact Form](/assets/images/features/features-contact-form.PNG "Contact Form")
+
+The "Find Us" section contains a Google Maps iframe, so users can see the exact location of the Rescue Centre. There's also the address, phone number, email address, social media links and opening hours. The phone number and email address are anchor elements so the user doesn't have to copy and paste this information. This section meets the [user story](#user-stories) needs for Couples:
+
+**Couples**
+
+> ...and will need to check directions and the centre's exact location.
+
+This section meets my third and final [objective](#objectives)
+
+- _Show users where the Rescue Centre is located and it's contact details_
+
+![Find Us](/assets/images/features/features-find-us.PNG "Find Us")
+
+### **Thank You Page**
+
+The Submit button from the "Contact Page" sends the user through to the "Thank You Page". This page isn't accessible any other way from the website, and it has a small box with feedback that the completed form has been sent to the Rescue Centre. It also has a link back to the Home Page.
+
+![Thank You Page](/assets/images/features/features-thank-you.png "Thank You Page")
+
+### **Future Features**
+
+When I began working on this project, I looked at five potential [objectives](#objectives), but was unable to implement the following two:
+
+- Give advice about owning and training a dog
+- Ask users to donate to the Rescue Centre
+
+In the future, I would I would like to add a "Donate" page to this website, and include mention of this on the Home Page. I'd also like to have a page just for FAQs and helpful guides about adopting, owning and training a dog.
+
+---
+
+## Design
+
+### **Colours**
+
+I decided to keep the colouring for this website quite simple. I knew there would be a lot of images of the dogs, and I wanted to make sure the user wasn't overloaded with content and colour, as well as the large images.
+
+The main two colours used are blue and yellow.
+
+![Colours](/assets/images/design/design-colours.png "Colours")
+
+I liked the idea of using green at first to represent grass, for all the walks a user would have with their new pet. However, looking further into the psychology of colours I noticed on [Colour Psychology](https://www.colorpsychology.org/blue/), [The Good Trade](https://www.thegoodtrade.com/features/clothing-color-psychology/#:~:text=For%20this%20reason%2C%20wearing%20blue,for%20work%20or%20school%20presentations.) and [Medium](https://medium.com/@bloominari/color-psychology-in-web-design-f60656b8f313#:~:text=Blue,security%2C%20intelligence%2C%20and%20reliability.) that blue may be a more effective colour. These websites say blue is a colour for calmness, but also for loyalty, stability and safety. I liked the connotation of loyalty, to tie in with the natural loyalty most dogs have. I also liked the idea of the user providing the stability and safety a rescue dog needs after a difficult life.
+
+[Colour Psychology](https://www.colorpsychology.org/yellow/) and [The Good Trade](https://www.thegoodtrade.com/features/clothing-color-psychology/#:~:text=For%20this%20reason%2C%20wearing%20blue,for%20work%20or%20school%20presentations.)
+also said yellow provokes feelings of hope, positivity and energy. These all fit with the experience of getting a dog, and also ties to the dogs hope of finding a forever home. I also found the happiness from yellow ties well to the happiness we experience when doing something good, such as rescuing an animal.
+
+I decided to use the darkest blue for the boldest features: the Footer, the "See More Dogs" button and the social media links on the contact page.
+
+![See More Dogs button](/assets/images/design/design-blue-button.png "See More Dogs button")
+
+I used the middle blue and lightest blue to create boxes around parts of the website, such as the dog cards, contact form and thank you box.
+
+![Thank you box](/assets/images/features/features-thank-you.png "Thank you box")
+
+I chose the yellow colour the heading of the Dogs Page and Contact Page. I also used it for the hover selected in the footer.
+
+![Yellow heading](/assets/images/design/design-yellow-heading.png "Yellow Heading")
+
+![Yellow hover selector](/assets/images/design/design-yellow-hover.png "Yellow hover selector")
+
+### **Typography**
+
+I decided I wanted to pick a sans-serif font for the typography. I found "Dosis" on [Google Fonts](https://fonts.google.com/) and felt this was a great choice as it's friendly and welcoming to the user.
+
+![Dosis](/assets/images/design/design-font.PNG "Dosis")
+
+### **Imagery**
+
+The Dogs page and Home page both have information about the dogs currently homed at the Rescue Centre, so I added images of each dog happy and sitting in the sun to go with the information.
+
+![Dog image](/assets/images/design/design-dog.PNG "Dog image")
+
+For my Hero Image, I decided to use an image of puppies running on a field. In the "About Us" section, I chose two images for this section; one of a woman walking several dogs in a grassy field, and the other of two vets looking at a dog to see how they could help. I wanted images that showed we've really looked after the dogs up to this point, and that we intend for the user to be the same by making sure the dog they adopt is both healthy and happy.
+
+![Woman walking dogs](/assets/images/design/design-about-walk.PNG "Woman walking dogs")
+![Dog being looked at by vets](/assets/images/design/design-about-vet.PNG "Dog being looked at by vets")
+
+### **Styling**
+
+With a lot of images and information about the dogs across the site, I chose to make the website quite spacious.
+
+As the "About Us" section on the Home Page is quite large, the layout of this changes for tablet and mobile screen size. The text also has smaller margins on small mobiles, so it can take up more of the phone screen.
+
+I wanted to make sure the dog cards had plenty of space around them, so I designed the Dogs Page to be in a grid which changes for different screen sizes.
+
+On the contact page, I created the contact form with plenty of spacing around it, and added a background colour and border to contain the form questions and submit button.
+
+![Contact form spacing](/assets/images/design/design-contact-form.PNG "Contact form spacing")
+
+On the second half of the page, I styled the map to take up a large percentage of the screen to give the user as much room as possible to check where the Farm is located, as it's out in the countryside. I gave lots of line spacing to the "How to find us" section, whilst making sure all the information in the box can be seen at once.
+
+I kept the bordering on the text box on the Hero Image consistent with the Contact and Dogs page Headings with a gap inbetween, and which also ties to the logo. Throughout the website I've also added a small border radius to most elements to make the site more welcoming to users.
+
+![Hero Image text](/assets/images/design/design-hero-text.png "Hero Image text")
+
+### **Backgrounds**
+
+Most of the website background is an off-white colour. Each of the dog cards have a slight blue colour, not only to group the information together, but also to tie the dogs to the connotations of the blue: loyalty, stability, safety.
+
+I chose to use an image for the background of the "How do I Adopt" section, which is either a puppy lay on grass, or sandy paw prints depending on the screen width. I partly wanted a background image here to break up the page from the dog card section, and wanted to keep the imagery around dogs. However, I also wanted the footprints to symbolise a potential future for the user with their new best friend.
+
+![Adoption sandy paws image](/assets/images/design/design-adoption.PNG "Adoption sandy paws image")
+
+---
+
+## **Responsiveness**
+
+### **Header and Footer**
+
+- In the Header, I added and adapted the [Bootstrap Navigation](https://getbootstrap.com/docs/4.1/components/card/#navigation) feature for tablet and mobile devices. This gives an easy to use Hamburger menu for the user.
+- For the Footer, I had the four internal links change to two columns on tablet sized screen, and one column for mobile.
+
+![Header for tablet and mobile devices](/assets/images/responsiveness/header-tablet-mobile.png "Header for tablet and mobile devices")
+
+![Footer for mobile devices](/assets/images/responsiveness/footer-mobile.PNG "Footer on  mobile devices")
+
+### **Home Page**
+
+- The Hero Image width adjusts to the width of the screen for Desktop and tablet, and on mobile there's a smaller image so more of the puppies are showing.
+- The Hero Text div adjusts in width for Desktop and tablet, and for mobile takes up most of the width of the screen so the wording is across two or less lines.
+- The Dog Cards stack on top of one another at mobile screen size to give plenty of space for each dog's picture and information
+- The About Us section changes to stacked for tablet and mobile. At smallest mobile size, I made the text margins smaller to give the wording more screen space.
+
+![About us on mobile devices](/assets/images/responsiveness/about-mobile.PNG "About us on mobile devices")
+
+### **Dogs Page**
+
+- The Heading adjusts to screen size, with the font size set to 5vw, but at mobile size becomes set at 40px in width to maintain a good size.
+- At Desktop size, there are two rows with three dogs on. At tablet size screen, this changes to three columns, with two dogs. Once below tablet size, the dog cards change to six rows, with one dog per row.
+  - I kept the sizing of the dog cards consistent, because being able to see the dog is really important to the user. I did feel that having 6 rows in the grid for mobile made the webpage a lot longer. I went back to my [competitors websites](#competitor-review) and used Developer Tools to see how they adjusted their webpages. I found that for mobile devices, all three only showed one dog at a time
+- In the "How to Adopt" section, the image for Desktop was quite wide horizontally, so I changed the background image to pawprint in the sand for mobile devices.
+
+![Dog cards on tablet devices](/assets/images/responsiveness/cards-tablet.PNG "Dog cards on tablet devices")
+
+### **Contact Page**
+
+- The Contact Heading adjusts for smaller screens in the exact same way as the Dogs Page heading, as they're both part of the same class.
+- The sentence at the top stays central and adjusts in width as screen size becomes smaller.
+- The Contact form adjusts width to suit the screen size.
+  - Each checkbox and label stays together. Once the screen is smaller than 549px, each dog name and their corresponding checkbox move to the line below as the screen gets smaller.
+  - I listed the submit button width as a percentage so it gets smaller with the screen size, but I adjusted the percentage for mobile in comparison to tablet and desktop.
+  - I also amended the percentage width of the form itself for largest screens over 1450px as 50% width was excessively big.
+- For the Find Us section, I kept the address and contact details together with the opening hours, so that smaller screens didn't lose the ability to have these two important sections together.
+
+![Find us on desktop devices](/assets/images/responsiveness/find-us-desktop.PNG "Find us on desktop devices")
+![Find us on tablet devices](/assets/images/responsiveness/find-us-tablet.PNG "Find us on tablet devices")
+![Find us on mobile devices](/assets/images/responsiveness/find-us-mobile.png "Find us on mobile devices")
+
+### **Thank You Page**
+
+- The Thank You box is a percentage width that adjusts to the screen width, and the text inside stays centrally aligned whilst also adjusting.
+
+![Thank you message on mobile devices](/assets/images/responsiveness/thank-you-mobile.png "Thank you message on mobile devices")
+
+---
+
+---
+
 ## Fixed Bugs
 
 ### **Navigation Element**
@@ -292,245 +533,6 @@ There are no unfixed bugs to my knowledge.
 
 ---
 
-## Features
-
-As planned in my [structure](#structure) section, I kept the website to four pages:
-
-- Home Page
-- Meet the Dogs page
-- Contact Page
-- Thank You page (previously called the Submit page)
-
-### **Header and Footer**
-
-The Header consists of the Muddy Paws logo, and links to the three pages.This gives an easy to use Hamburger menu for the user. I also added the [Font Awesome](https://fontawesome.com/) icons to each of the menu items:
-
-- A house icon for the "Home Page"
-- A pawprint icon for the "Meet the Dogs page"
-- A phone icon for the "Contact page"
-
-![Header](/assets/images/features/features-header.png "Header")
-
-The Footer has useful links, including the Meet the Dogs page and Contact Page. It also has links to the "About Us" section on the Home Page, and another to the "How to Adopt" section on the Dogs page. I added links to each of the four social media websites, and a copyright notice at the bottom.
-
-![Footer](/assets/images/features/features-footer.PNG "Footer")
-
-### **Home Page**
-
-This page is divided into several sections: the Hero image, the Dog preview, and the About us Section.
-
-The Hero image sets the tone for the website from when the user clicks on to the website: it's about dogs. I also added a text box to give the user some context that the Rescue Centre is for rehoming all types of dogs.
-
-![Hero Image](/assets/images/features/features-hero-image.PNG "Hero Image")
-
-The Dog Preview has two "Dog Cards" with an image of each dog and some basic information about them. There's also a link to the "Meet the Dogs" page on each card, and underneath the two cards. I wanted this to be near the top of the webpage as this will likely be the first thing people are looking for when they access the website.
-
-![Dog Preview](/assets/images/features/features-dog-preview.PNG "Dog Preview")
-
-The final section is the About Us section. This gives the user information about how the dogs have been looked after since they got to the centre, and about the centre itself.
-
-![About Us](/assets/images/features/features-about-us.PNG "About Us")
-
-### **Meet the Dogs Page**
-
-The "Meet the Dogs page" is seperated into the Dog Card section, and the Adoption section.
-
-The Dog Card section was created to showcase all the dogs currently available for adoption. Each card has well-sized photograph, the dog's name, their basic information such as age and breed, and a tickbox of whether they're suitable for home that already have children, other dogs, or cats. This section also meets the needs of both [user stories](#user-stories):
-
-**Families with Kids**
-
-> ...They will have to bring the children to the Rescue Centre, so they want to make sure there is a dog they want to see before they go...
-
-**Couples**
-
-> ...Because of distance, they also want to be sure there is a dog they'd like to see before making the drive...
-
-The section also achieves the first of my three [objectives](#objectives)
-
-- _Advertise the dogs so users can view before the visit_
-
-![Dog Cards](/assets/images/features/features-dog-card.PNG "Dog Cards")
-
-The second half of the Meet the Dogs page gives information about how the user can adopt a dog, and how the process works. There's a link to the Contact page once a user is happy to start the process, and information about support following adoption. This meets needs of the [user story](#user-stories) for Families with Kids.
-
-**Families with Kids**
-
-> ...They'd like to find out how to adopt...
-
-It also meets my second [objective](#objectives)
-
-- _Give information about the adoption process_
-
-![Adoption](/assets/images/features/features-adoption.PNG "Adoption")
-
-### **Contact Page**
-
-The third page is split into the "Contact form" section and the "Find us" section.
-
-The "Contact form" is an opportunity for users to get in contact with the centre outside of opening hours. It gives the user the chance to give a date that suits them to visit, but also a tickbox section so they can inform the centre of which dogs they'd be interested in meeting. This will be particularly useful to the user story for Couples, so they can check the dog is still available before they make the long drive.
-
-**Couples**
-
-> ...the centre is a 40 minute drive from them...
-
-I've made the "Name", "Phone Number" and "Email Address" boxes mandatory to help the centre get it touch with the user. To make this easier to use for the user, I've added a blue shadow around the box for when it's clicked on, and a green shadow and border once the box is completed. The "Submit" button is a link to the "Thank You Page"
-
-![Contact Form](/assets/images/features/features-contact-form.PNG "Contact Form")
-
-The "Find Us" section contains a Google Maps iframe, so users can see the exact location of the Rescue Centre. There's also the address, phone number, email address, social media links and opening hours. The phone number and email address are anchor elements so the user doesn't have to copy and paste this information. This section meets the [user story](#user-stories) needs for Couples:
-
-**Couples**
-
-> ...and will need to check directions and the centre's exact location.
-
-This section meets my third and final [objective](#objectives)
-
-- _Show users where the Rescue Centre is located and it's contact details_
-
-![Find Us](/assets/images/features/features-find-us.PNG "Find Us")
-
-### **Thank You Page**
-
-The Submit button from the "Contact Page" sends the user through to the "Thank You Page". This page isn't accessible any other way from the website, and it has a small box with feedback that the completed form has been sent to the Rescue Centre. It also has a link back to the Home Page.
-
-![Thank You Page](/assets/images/features/features-thank-you.png "Thank You Page")
-
-### **Future Features**
-
-When I began working on this project, I looked at five potential [objectives](#objectives), but was unable to implement the following two:
-
-- Give advice about owning and training a dog
-- Ask users to donate to the Rescue Centre
-
-In the future, I would I would like to add a "Donate" page to this website, and include mention of this on the Home Page. I'd also like to have a page just for FAQs and helpful guides about adopting, owning and training a dog.
-
----
-
-## Design
-
-### **Colours**
-
-I decided to keep the colouring for this website quite simple. I knew there would be a lot of images of the dogs, and I wanted to make sure the user wasn't overloaded with content and colour, as well as the large images.
-
-The main two colours used are blue and yellow.
-
-![Colours](/assets/images/design/design-colours_50.png "Colours")
-
-I liked the idea of using green at first to represent grass, for all the walks a user would have with their new pet. However, looking further into the psychology of colours I noticed on [Colour Psychology](https://www.colorpsychology.org/blue/), [The Good Trade](https://www.thegoodtrade.com/features/clothing-color-psychology/#:~:text=For%20this%20reason%2C%20wearing%20blue,for%20work%20or%20school%20presentations.) and [Medium](https://medium.com/@bloominari/color-psychology-in-web-design-f60656b8f313#:~:text=Blue,security%2C%20intelligence%2C%20and%20reliability.) that blue may be a more effective colour. These websites say blue is a colour for calmness, but also for loyalty, stability and safety. I liked the connotation of loyalty, to tie in with the natural loyalty most dogs have. I also liked the idea of the user providing the stability and safety a rescue dog needs after a difficult life.
-
-[Colour Psychology](https://www.colorpsychology.org/yellow/) and [The Good Trade](https://www.thegoodtrade.com/features/clothing-color-psychology/#:~:text=For%20this%20reason%2C%20wearing%20blue,for%20work%20or%20school%20presentations.)
-also said yellow provokes feelings of hope, positivity and energy. These all fit with the experience of getting a dog, and also ties to the dogs hope of finding a forever home. I also found the happiness from yellow ties well to the happiness we experience when doing something good, such as rescuing an animal.
-
-I decided to use the darkest blue for the boldest features: the Footer, the "See More Dogs" button and the social media links on the contact page.
-
-![See More Dogs button](/assets/images/design/design-blue-button.png "See More Dogs button")
-
-I used the middle blue and lightest blue to create boxes around parts of the website, such as the dog cards, contact form and thank you box.
-
-![Thank you box](/assets/images/features/features-thank-you.png "Thank you box")
-
-I chose the yellow colour the heading of the Dogs Page and Contact Page. I also used it for the hover selected in the footer.
-
-![Yellow heading](/assets/images/design/design-yellow-heading.png "Yellow Heading")
-
-![Yellow hover selector](/assets/images/design/design-yellow-hover.png "Yellow hover selector")
-
-### **Typography**
-
-I decided I wanted to pick a sans-serif font for the typography. I found "Dosis" on [Google Fonts](https://fonts.google.com/) and felt this was a great choice as it's friendly and welcoming to the user.
-
-![Dosis](/assets/images/design/design-font.PNG "Dosis")
-
-### **Imagery**
-
-The Dogs page and Home page both have information about the dogs currently homed at the Rescue Centre, so I added images of each dog happy and sitting in the sun to go with the information.
-
-![Dog image](/assets/images/design/design-dog.PNG "Dog image")
-
-For my Hero Image, I decided to use an image of puppies running on a field. In the "About Us" section, I chose two images for this section; one of a woman walking several dogs in a grassy field, and the other of two vets looking at a dog to see how they could help. I wanted images that showed we've really looked after the dogs up to this point, and that we intend for the user to be the same by making sure the dog they adopt is both healthy and happy.
-
-![Woman walking dogs](/assets/images/design/design-about-walk.PNG "Woman walking dogs")
-![Dog being looked at by vets](/assets/images/design/design-about-vet.PNG "Dog being looked at by vets")
-
-### **Styling**
-
-With a lot of images and information about the dogs across the site, I chose to make the website quite spacious.
-
-As the "About Us" section on the Home Page is quite large, the layout of this changes for tablet and mobile screen size. The text also has smaller margins on small mobiles, so it can take up more of the phone screen.
-
-I wanted to make sure the dog cards had plenty of space around them, so I designed the Dogs Page to be in a grid which changes for different screen sizes.
-
-On the contact page, I created the contact form with plenty of spacing around it, and added a background colour and border to contain the form questions and submit button.
-
-![Contact form spacing](/assets/images/design/design-contact-form.PNG "Contact form spacing")
-
-On the second half of the page, I styled the map to take up a large percentage of the screen to give the user as much room as possible to check where the Farm is located, as it's out in the countryside. I gave lots of line spacing to the "How to find us" section, whilst making sure all the information in the box can be seen at once.
-
-I kept the bordering on the text box on the Hero Image consistent with the Contact and Dogs page Headings with a gap inbetween, and which also ties to the logo. Throughout the website I've also added a small border radius to most elements to make the site more welcoming to users.
-
-![Hero Image text](/assets/images/design/design-hero-text.png "Hero Image text")
-
-### **Backgrounds**
-
-Most of the website background is an off-white colour. Each of the dog cards have a slight blue colour, not only to group the information together, but also to tie the dogs to the connotations of the blue: loyalty, stability, safety.
-
-I chose to use an image for the background of the "How do I Adopt" section, which is either a puppy lay on grass, or sandy paw prints depending on the screen width. I partly wanted a background image here to break up the page from the dog card section, and wanted to keep the imagery around dogs. However, I also wanted the footprints to symbolise a potential future for the user with their new best friend.
-
-![Adoption sandy paws image](/assets/images/design/design-adoption.PNG "Adoption sandy paws image")
-
----
-
-## **Responsiveness**
-
-### **Header and Footer**
-
-- In the Header, I added and adapted the [Bootstrap Navigation](https://getbootstrap.com/docs/4.1/components/card/#navigation) feature for tablet and mobile devices. This gives an easy to use Hamburger menu for the user.
-- For the Footer, I had the four internal links change to two columns on tablet sized screen, and one column for mobile.
-
-![Header for tablet and mobile devices](/assets/images/responsiveness/header-tablet-mobile.png "Header for tablet and mobile devices")
-
-![Footer for mobile devices](/assets/images/responsiveness/footer-mobile.PNG "Footer on  mobile devices")
-
-### **Home Page**
-
-- The Hero Image width adjusts to the width of the screen for Desktop and tablet, and on mobile there's a smaller image so more of the puppies are showing.
-- The Hero Text div adjusts in width for Desktop and tablet, and for mobile takes up most of the width of the screen so the wording is across two or less lines.
-- The Dog Cards stack on top of one another at mobile screen size to give plenty of space for each dog's picture and information
-- The About Us section changes to stacked for tablet and mobile. At smallest mobile size, I made the text margins smaller to give the wording more screen space.
-
-![About us on mobile devices](/assets/images/responsiveness/about-mobile.PNG "About us on mobile devices")
-
-### **Dogs Page**
-
-- The Heading adjusts to screen size, with the font size set to 5vw, but at mobile size becomes set at 40px in width to maintain a good size.
-- At Desktop size, there are two rows with three dogs on. At tablet size screen, this changes to three columns, with two dogs. Once below tablet size, the dog cards change to six rows, with one dog per row.
-  - I kept the sizing of the dog cards consistent, because being able to see the dog is really important to the user. I did feel that having 6 rows in the grid for mobile made the webpage a lot longer. I went back to my [competitors websites](#competitor-review) and used Developer Tools to see how they adjusted their webpages. I found that for mobile devices, all three only showed one dog at a time
-- In the "How to Adopt" section, the image for Desktop was quite wide horizontally, so I changed the background image to pawprint in the sand for mobile devices.
-
-![Dog cards on tablet devices](/assets/images/responsiveness/cards-tablet.PNG "Dog cards on tablet devices")
-
-### **Contact Page**
-
-- The Contact Heading adjusts for smaller screens in the exact same way as the Dogs Page heading, as they're both part of the same class.
-- The sentence at the top stays central and adjusts in width as screen size becomes smaller.
-- The Contact form adjusts width to suit the screen size.
-  - Each checkbox and label stays together. Once the screen is smaller than 549px, each dog name and their corresponding checkbox move to the line below as the screen gets smaller.
-  - I listed the submit button width as a percentage so it gets smaller with the screen size, but I adjusted the percentage for mobile in comparison to tablet and desktop.
-  - I also amended the percentage width of the form itself for largest screens over 1450px as 50% width was excessively big.
-- For the Find Us section, I kept the address and contact details together with the opening hours, so that smaller screens didn't lose the ability to have these two important sections together.
-
-![Find us on desktop devices](/assets/images/responsiveness/find-us-desktop.PNG "Find us on desktop devices")
-![Find us on tablet devices](/assets/images/responsiveness/find-us-tablet.PNG "Find us on tablet devices")
-![Find us on mobile devices](/assets/images/responsiveness/find-us-mobile.png "Find us on mobile devices")
-
-### **Thank You Page**
-
-- The Thank You box is a percentage width that adjusts to the screen width, and the text inside stays centrally aligned whilst also adjusting.
-
-![Thank you message on mobile devices](/assets/images/responsiveness/thank-you-mobile.png "Thank you message on mobile devices")
-
----
-
 ## Deployment
 
 This site was built on Codeanywhere. I've used git add, commit and push to publish it on Github.
@@ -551,10 +553,11 @@ All manual testing has been completed and can be accessed using the link below:
 
 ## Digital Testing
 
-| Validators                                                         | Results |
+| Validator                                                          | Results |
 | ------------------------------------------------------------------ | :-----: |
 | [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) |    ✓    |
 | [W3C Markup Validation Service](https://validator.w3.org/)         |         |
+|                                                                    |         |
 
 <p>
 <a href="http://jigsaw.w3.org/css-validator/check/referer">
@@ -563,6 +566,19 @@ All manual testing has been completed and can be accessed using the link below:
         alt="Valid CSS!" />
     </a>
 </p>
+
+### **Lighthouse**
+
+|      Page      | Screen Size |                                                                      Results                                                                       |
+| :------------: | :---------: | :------------------------------------------------------------------------------------------------------------------------------------------------: |
+|   Home Page    |   Desktop   |        ![Home Page Lighthouse result on desktop](/assets/images/lighthouse/home-page-desktop.png "Home Page Lighthouse result on desktop")         |
+|   Home Page    |   Mobile    |          ![Home Page Lighthouse result on mobile](/assets/images/lighthouse/home-page-mobile.png "Home Page Lighthouse result on mobile")          |
+|   Dogs Page    |   Desktop   |        ![Dogs Page Lighthouse result on desktop](/assets/images/lighthouse/dogs-page-desktop.png "Dogs Page Lighthouse result on desktop")         |
+|   Dogs Page    |   Mobile    |          ![Dogs Page Lighthouse result on mobile](/assets/images/lighthouse/dogs-page-mobile.png "Dogs Page Lighthouse result on mobile")          |
+|  Contact Page  |   Desktop   |    ![Contact Page Lighthouse result on desktop](/assets/images/lighthouse/contact-page-desktop.png "Contact Page Lighthouse result on desktop")    |
+|  Contact Page  |   Mobile    |     ![Contact Page Lighthouse result on mobile](/assets/images/lighthouse/contact-page-mobile.png "Contact Page Lighthouse result on mobile")      |
+| Thank you Page |   Desktop   | ![Thank You Page Lighthouse result on desktop](/assets/images/lighthouse/thank-you-page-desktop.png "Thank You Page Lighthouse result on desktop") |
+| Thank you Page |   Mobile    |     ![Thank You Lighthouse result on mobile](/assets/images/lighthouse/thank-you-page-mobile.png "Thank You Page Lighthouse result on mobile")     |
 
 ---
 
