@@ -262,6 +262,28 @@ I fixed this issue by giving the Toggler a top property of 15px, and a right pro
 
 ![Toggler at top right of Navigation Menu](/assets/images/bugs/nav-toggler-solution-1.PNG "Toggler at top right of Navigation Menu")
 
+### **Hero Image**
+
+My Hero Image seemed to be adjusting to the width of the screen for responsive design, but as I made the screens smaller, you could see less and less of the dogs in the image.
+
+![X](/assets/images/bugs/hero-issue-1.png "X")
+
+I tried to fix this by adding a smaller version of the same image for mobile, so tablet sized looked like this:
+
+![X](/assets/images/bugs/hero-solution-1.png "X")
+
+and mobile looked like this:
+
+![X](/assets/images/bugs/hero-solution-2.png "X")
+
+However, swapping between the two meant the image would suddenly jump down in size. I looked into Background Image sizing and found a helpful section on [W3 Schools](https://www.w3schools.com/html/html_images_background.asp) which mentioned using "background-size: cover;". I added this to my Hero Image, and deleted the smaller version for mobile and was able to fix the issue for all screen sizes.
+
+![Fixed Hero Image on mobile](/assets/images/bugs/hero-solution-3-mobile.PNG "Fixed Hero Image on mobile")
+
+![Fixed Hero Image on tablet](/assets/images/bugs/hero-solution-3-tablet.PNG "Fixed Hero Image on tablet")
+
+![Fixed Hero Image on desktop](/assets/images/bugs/hero-solution-3-desktop.PNG "Fixed Hero Image on desktop")
+
 ---
 
 ## Unfixed Bugs
@@ -631,3 +653,7 @@ All manual testing has been completed and can be accessed using the link below:
 - [Helen](https://www.pexels.com/@helen-50264342/) - "dog-paw-prints"
 
 ### **Acknowledgements**
+
+- My tutors, Manu and Pasquale at Bristol College for their feedback and support
+- My mentor, Mitko Bachvarov for your feedback and for motivating me to fix my thank you page
+- The Code Institute team, particularly the Tutor Support Team and everyone on Slack

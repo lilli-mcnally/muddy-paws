@@ -553,7 +553,8 @@ footer {
     margin: 0;
 }
 
-.checkbox input {
+.checkbox input,
+.checkbox label {
     cursor: pointer;
 }
 
@@ -620,6 +621,7 @@ footer {
 
 .contact-link:hover {
     text-decoration: underline;
+    color: var(--blue);
 }
 
 /* --------------------------------------- Opening Hours */

@@ -24,6 +24,8 @@
 | Youtube logo in Footer               | Directed to Youtube Website in new tab            |  Pass  |
 | Twitter logo in Footer               | Directed to Twitter Website in new tab            |  Pass  |
 
+<br>
+
 | Element Hovered                      | Expected Result                                    | Result |
 | ------------------------------------ | -------------------------------------------------- | :----: |
 | Muddy Paws Logo                      | Cursor:pointer                                     |  Pass  |
@@ -61,6 +63,8 @@
 | Instagram logo in Footer             | Directed to Instagram Website in new tab          |  Pass  |
 | Youtube logo in Footer               | Directed to Youtube Website in new tab            |  Pass  |
 | Twitter logo in Footer               | Directed to Twitter Website in new tab            |  Pass  |
+
+<br>
 
 | Element Hovered                      | Expected Result                                    | Result |
 | ------------------------------------ | -------------------------------------------------- | :----: |
@@ -108,6 +112,8 @@
 | Youtube logo in Footer            | Directed to Youtube Website in new tab            |  Pass  |
 | Twitter logo in Footer            | Directed to Twitter Website in new tab            |  Pass  |
 
+<br>
+
 | Element Hovered                   | Expected Result                                    | Result |
 | --------------------------------- | -------------------------------------------------- | :----: |
 | Muddy Paws Logo                   | Cursor:pointer                                     |  Pass  |
@@ -117,7 +123,7 @@
 | Name input                        | Cursor:text                                        |  Pass  |
 | Phone input                       | Cursor:text                                        |  Pass  |
 | Email input                       | Cursor:text                                        |  Pass  |
-| Date input                        | Cursor:pointer                                     |  Fail  |
+| Date input                        | Cursor:pointer                                     |  Pass  |
 | Checkbox input                    | Cursor:pointer, change border colour to dark grey  |  Fail  |
 | Submit input                      | Cursor:pointer, change colour to yellow            |  Pass  |
 | Map                               | Cursor: Google Maps own grab hand                  |  Pass  |
@@ -142,18 +148,19 @@
 | -------------------- | :-------------------: | :----: |
 | Return to Muddy Paws | Directed to Home Page |  Pass  |
 
+<br>
+
 | Element Hovered      |                 Expected Result                  | Result |
 | -------------------- | :----------------------------------------------: | :----: |
 | Return to Muddy Paws | Cursor:pointer, underline, change colour to blue |  Pass  |
 
 ### **Failed Tests**
 
-| What was the test?    | What was the expected result?                     | What was the actual results?                            | What actions have been carried out to fix it? |
-| --------------------- | ------------------------------------------------- | ------------------------------------------------------- | --------------------------------------------- |
-| Date input            | Cursor:pointer                                    | Pointer only showing for some of the input box, not all |                                               |
-| Checkbox input        | Cursor:pointer, change border colour to dark grey | Pointer only showing for checkbox, not label            |                                               |
-| Find us phone number  | Cursor:pointer, underline                         | Bootstrap is changing the colour slightly as well       |                                               |
-| Find us email address | Cursor:pointer, underline                         | Bootstrap is changing the colour slightly as well       |                                               |
+| What was the test?               | What was the expected result?                     | What was the actual results?                      | What actions have been carried out to fix it?                                                                                                                                            | Bug fixed? |     |
+| -------------------------------- | ------------------------------------------------- | ------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --- |
+| Hover over Checkbox input        | Cursor:pointer, change border colour to dark grey | Pointer only showing for checkbox, not label      | I had only added the "cursor: pointer;" to the ".checkbox input". I added this styling to the ".checkbox label" and now the pointer shows when hovering over both the checkbox and label | ✓          |
+| Hover over Find us phone number  | Cursor:pointer, underline                         | Bootstrap is changing the colour slightly as well | I've already created a pseudo class for the phone and email anchors to underline when the mouse hovers over, so I added "color: var(--blue);" to this pseudo class                       | ✓          |
+| Hover over Find us email address | Cursor:pointer, underline                         | Bootstrap is changing the colour slightly as well | I've already created a pseudo class for the phone and email anchors to underline when the mouse hovers over, so I added "color: var(--blue);" to this pseudo class                       | ✓          |
 
 ---
 
@@ -170,6 +177,6 @@ On a scale of 1 to 5, where 1 is very difficult, and 5 is very easy, how easy di
 | Find the phone number for Muddy Paws                                   |   5    |   5    |   5    |
 | Find out what time Muddy Paws is open on Sundays                       |   5    |   5    |   5    |
 | Find out whether Luna is suitable for a home with other dogs           |   5    |   5    |   5    |
-| Find a link to Youtube.com                                             |   5    |   5    |   5    |
+| Find a link to Youtube                                                 |   5    |   5    |   5    |
 | Find out whether the dogs are microchipped                             |   3    |   5    |   4    |
 | Find out whether Muddy Paws offer support after adoption for 3 years   |   3    |   4    |   5    |
