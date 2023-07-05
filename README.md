@@ -4,7 +4,7 @@ _Muddy Paws Rescue Centre is a small organisation that rescues and rehomes dogs 
 
 ---
 
-![Responsive screen sizes](/assets/images/responsive-screen-sizes.PNG "Responsive screen sizes")
+![Responsive screen sizes](/assets/images/readme/responsive-screen-sizes.PNG "Responsive screen sizes")
 
 - [Muddy Paws Rescue Centre](#muddy-paws-rescue-centre)
   - [Purpose and Value](#purpose-and-value)
@@ -157,7 +157,7 @@ Using the table and scatter graph below, I have decided that the Muddy Paws Resc
 
 <br>
 
-![Scattergraph of the Objectives, Importance and Viability/Feasibility table](/assets/images/objectives-scatter-graph.PNG "Objectives, Importance and Viability/Feasibility table")
+![Scattergraph of the Objectives, Importance and Viability/Feasibility table](/assets/images/readme/objectives-scatter-graph.PNG "Objectives, Importance and Viability/Feasibility table")
 
 ---
 
@@ -177,22 +177,22 @@ In order to structure this information in the most user-friendly way, the websit
 
 I started by creating a basic site map on [Figma](https://www.figma.com/), to get an idea of what pages I wanted to include:
 
-- [Figma Site Map](/assets/images/site-map.png)
+- [Figma Site Map](/assets/images/readme/site-map.png)
 
 Next, I started drafting an idea on [Figma](https://www.figma.com/) of what I wanted on my pages to achieve the [three objectives](#objectives) in the form of a mind map
 
-- [Figma Mind Map](/assets/images/mind-map.PNG)
+- [Figma Mind Map](/assets/images/readme/mind-map.PNG)
 
 I created Wireframes using [Balsamiq](https://balsamiq.com/) to get an idea of the best layout for all screen sizes
 
 - [Home Page](/assets/images/readme/home-page.PNG)
-- [Meet the Dogs Page](/assets/images/meet-dogs-page.PNG)
-- [Contact Page](/assets/images/contact-page.PNG)
-- [Submit Page](/assets/images/submit-page.PNG)
+- [Meet the Dogs Page](/assets/images/readme/meet-dogs-page.PNG)
+- [Contact Page](/assets/images/readme/contact-page.PNG)
+- [Submit Page](/assets/images/readme/submit-page.PNG)
 
 Finally, I created a prototype of the Home Page using [Figma](https://www.figma.com/)
 
-- [Prototype Home Page](/assets/images/prototype.PNG)
+- [Prototype Home Page](/assets/images/readme/prototype.PNG)
 
 ---
 
@@ -640,11 +640,11 @@ For the Home Page, I've had four Validator Errors come up because of inline styl
 
 However, as this has come up as a validation error, I have removed the inline styling and run my Lighthouse score again, and it's the same. I put my index.html code through the W3C Markup Validation Service again, without the inline styling, and it now returns with no errors.
 
-![Home Page validator errors](/assets/images/html-validation-home-page.PNG "Home Page validator errors")
+![Home Page validator errors](/assets/images/readme/html-validation-home-page.PNG "Home Page validator errors")
 
 On my contact page, I've had an error come up because the href version of the phone number has spaces in. I've removed the spaces, and now the validation for this page come back with no errors.
 
-![Contact Page validator errors](/assets/images/html-validation-contact-page.PNG "Contact Page validator errors")
+![Contact Page validator errors](/assets/images/readme/html-validation-contact-page.PNG "Contact Page validator errors")
 
 ### Lighthouse
 
