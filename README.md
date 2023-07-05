@@ -620,7 +620,7 @@ All manual testing has been completed and can be accessed using the link below:
 | Validator                                                          |                    File                     | Results |
 | ------------------------------------------------------------------ | :-----------------------------------------: | :-----: |
 | [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) |                  style.css                  |    ✓    |
-| [W3C Markup Validation Service](https://validator.w3.org/)         |                 index.html                  |         |
+| [W3C Markup Validation Service](https://validator.w3.org/)         |                 index.html                  |    ✓    |
 | [W3C Markup Validation Service](https://validator.w3.org/)         |                  dogs.html                  |    ✓    |
 | [W3C Markup Validation Service](https://validator.w3.org/)         |                contact.html                 |    ✓    |
 | [W3C Markup Validation Service](https://validator.w3.org/)         |               thank-you.html                |    ✓    |
@@ -636,7 +636,10 @@ All manual testing has been completed and can be accessed using the link below:
 
 ### Validator Errors
 
-For the Home Page, I've had four Validator Errors come up.
+For the Home Page, I've had four Validator Errors come up because of inline styling I'd added to the index.html page. I added this styling because I had poor Lighthouse scores, and when I spoke to Code Institute Tutor support, the tutor told me to add height and width attributes to help my lighthouse scores. However, this didn't affect the score much.
+
+However, as this has come up as a validation error, I have removed the inline styling and run my Lighthouse score again, and it's the same. I put my index.html code through the W3C Markup Validation Service again, without the inline styling, and it now returns with no errors.
+
 ![Home Page validator errors](/assets/images/html-validation-home-page.PNG "Home Page validator errors")
 
 On my contact page, I've had an error come up because the href version of the phone number has spaces in. I've removed the spaces, and now the validation for this page come back with no errors.
@@ -745,17 +748,19 @@ I used [W3 Spellchecker](https://www.w3.org/2002/01/spellchecker) to spell check
 
 #### Media
 
-- [Julissa Helmuth](https://www.pexels.com/@jhelmuth/) - "dog-bubbles"
-- [Mikhail Nilov](https://www.pexels.com/@mikhail-nilov/) - "dog-vet"
-- [Blue Bird](https://www.pexels.com/@blue-bird/) - "dog-walk-group"
-- [TheOtherKev](https://www.pexels.com/@theotherkev/) - "border-collie"
-- [Valeria Boltneva](https://www.pexels.com/@valeriya/) - "beagle"
-- [Mithul Varshan](https://www.pexels.com/@mithulvarshan/) - "golden-retriever"
-- [Jan Kopczyński](https://www.pexels.com/@jan-kopczynski-358682506/) - "husky"
-- [Steshka Willems](https://www.pexels.com/@steshkawillems/) - "pug"
-- [Tatiana LM](https://www.pexels.com/@tatiana-lm-360892/) - "corgi"
-- [Magda Ehlers](https://www.pexels.com/@magda-ehlers-pexels/) - "adopt-dog"
-- [Helen](https://www.pexels.com/@helen-50264342/) - "dog-paw-prints"
+All Media images were found on [Pexels](https://www.pexels.com/)
+
+- [Julissa Helmuth](https://www.pexels.com/@jhelmuth/) - [dog-bubbles](/assets/images/dog-bubbles.webp)
+- [Mikhail Nilov](https://www.pexels.com/@mikhail-nilov/) - [dog-vet](/assets/images/dog-vet.webp)
+- [Blue Bird](https://www.pexels.com/@blue-bird/) - [dog-walk-group](/assets/images/dog-walk-group.webp)
+- [TheOtherKev](https://www.pexels.com/@theotherkev/) - [border-collie](/assets/images/border-collie.webp)
+- [Valeria Boltneva](https://www.pexels.com/@valeriya/) - [beagle](/assets/images/beagle.webp)
+- [Mithul Varshan](https://www.pexels.com/@mithulvarshan/) - [golden-retriever](/assets/images/golden-retriever.webp)
+- [Jan Kopczyński](https://www.pexels.com/@jan-kopczynski-358682506/) - [husky](/assets/images/husky.webp)
+- [Steshka Willems](https://www.pexels.com/@steshkawillems/) - [pug](/assets/images/pug.webp)
+- [Tatiana LM](https://www.pexels.com/@tatiana-lm-360892/) - [corgi](/assets/images/corgi.webp)
+- [Magda Ehlers](https://www.pexels.com/@magda-ehlers-pexels/) - [adopt-dog](/assets/images/adopt-dog.jpg)
+- [Helen](https://www.pexels.com/@helen-50264342/) - [dog-paw-prints](/assets/images/dog-paw-prints.jpg)
 
 ---
 

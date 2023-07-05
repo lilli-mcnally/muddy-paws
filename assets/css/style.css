@@ -143,6 +143,8 @@ footer {
     background: url("../images/dog-bubbles.webp") no-repeat center center;
     background-size: cover;
     padding-top: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 #hero-outer {
@@ -201,7 +203,7 @@ footer {
     width: 304px;
     padding: 1px;
     margin-top: 50px;
-    border: 1px solid var(--border);
+    border: 1px solid var(--blue);
     border-radius: 12px;
     background-color: var(--background);
 }
@@ -479,7 +481,7 @@ footer {
     width: 50%;
     margin: 0 25% 50px 25%;
     padding: 2vw;
-    border: 1px solid var(--border);
+    border: 1px solid var(--blue);
     border-radius: 12px;
     background-color: var(--background);
     text-align: center;
@@ -695,7 +697,7 @@ footer {
         width: 200px;
         font-size: 1.1rem;
         background-color: var(--background);
-        border: 1px solid var(--border);
+        border: 1px solid var(--blue);
         border-radius: 5px;
     }
 
@@ -738,7 +740,7 @@ footer {
 @media screen and (max-width: 767px) {
 
     header {
-        height: 120px;
+        height: 110px;
     }
 
     #logo {
@@ -874,6 +876,10 @@ footer {
         margin-left: auto;
     }
 
+    .about-us {
+        padding: 0;
+    }
+
     .about-us h2 {
         font-size: 22px;
     }
@@ -949,10 +955,6 @@ footer {
         font-size: 18px;
     }
 
-    .about-us {
-        padding: 0vw;
-    }
-
     .grid-container {
         margin-left: 20px;
         margin-right: 20px;
@@ -1007,6 +1009,12 @@ footer {
 /* ------------------------------------------------------------- MQ - Dogs Page - Phone */
 
 @media screen and (max-width: 767px) {
+
+    .meet-dog-heading {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
     .meet-dog-heading h1 {
         font-size: 40px;
     }
@@ -1052,9 +1060,12 @@ footer {
     }
 
     #adoption-box {
-        width: 90%;
+        width: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
     }
-
 }
 
 
@@ -1191,4 +1202,15 @@ footer {
         margin-left: 5%;
         margin-right: 5%;
     }
+
+    #contact-text {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #find-us {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
 }
