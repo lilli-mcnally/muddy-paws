@@ -185,7 +185,7 @@ Next, I started drafting an idea on [Figma](https://www.figma.com/) of what I wa
 
 I created Wireframes using [Balsamiq](https://balsamiq.com/) to get an idea of the best layout for all screen sizes
 
-- [Home Page](/assets/images/home-page.PNG)
+- [Home Page](/assets/images/readme/home-page.PNG)
 - [Meet the Dogs Page](/assets/images/meet-dogs-page.PNG)
 - [Contact Page](/assets/images/contact-page.PNG)
 - [Submit Page](/assets/images/submit-page.PNG)
